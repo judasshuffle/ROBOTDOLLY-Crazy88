@@ -5,7 +5,7 @@
   "passed": true,
   "limitations": "Pattern-based review is not a proof of absence. Original project paths without personal user names may remain in authoring metadata.",
   "file_sha256": {
-    ".gitattributes": "a1363c071cca8c8be414aad219e12895a4f01f32e930c2d8d58bcf7a3623d36e",
+    ".gitattributes": "363a29a4bbfc8edc436ef325a46ba829d86d88a299a800a4e2611f5aa44df88c",
     ".gitignore": "ad200cdf289ace12001cb9c90ac586ab9cceb1666fc057eb5221ef6bf6115de1",
     "approved_pilot/blender/__pycache__/validate.cpython-311.pyc": "b0c0703af1edcd9025a2a34254bb4c655077c3b0c3e79e6a1d851cb8d42e8d41",
     "approved_pilot/blender/crazy88.blend": "8f8a332370c3498bcad9ff20d83d27e6559be5b7e0ee408f89863bff8c09a61b",

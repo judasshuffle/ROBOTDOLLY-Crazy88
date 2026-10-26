@@ -1,4 +1,4 @@
-* text=auto
+* -text
 *.fbx binary
 *.blend binary
 *.png binary
