@@ -1,0 +1,4648 @@
+{
+  "scope": "88_assets_plus_one_stair_variation",
+  "blender_version": "4.5.0",
+  "inventory_pass": true,
+  "unique_geometry_pass": true,
+  "assets": {
+    "WALL_Flat_2x2": {
+      "passed": true,
+      "checks": {
+        "nonempty": true,
+        "finite_geometry": true,
+        "degenerate_triangles": true,
+        "duplicate_faces": true,
+        "normals_consistent": true,
+        "positive_closed_volume": true,
+        "topology": true,
+        "uv_present": true,
+        "uv_density": true,
+        "manifest_bounds": true,
+        "material_slots": true,
+        "identity_transform": true,
+        "fingerprint": true,
+        "base_tile_exact_uv": true
+      },
+      "triangles": 2,
+      "quads": 1,
+      "ngons": 0,
+      "boundary_edges": 4,
+      "nonmanifold_edges": 0,
+      "inconsistent_edges": 0,
+      "signed_volume": 0.0,
+      "degenerate_triangles": 0,
+      "uv_scale_range": [
+        0.4999999982277591,
+        0.5000000103293766
+      ],
+      "max_uv_scale_error_percent": 2.065875315260257e-06
+    },
+    "WALL_Flat_4x2": {
+      "passed": true,
+      "checks": {
+        "nonempty": true,
+        "finite_geometry": true,
+        "degenerate_triangles": true,
+        "duplicate_faces": true,
+        "normals_consistent": true,
+        "positive_closed_volume": true,
+        "topology": true,
+        "uv_present": true,
+        "uv_density": true,
+        "manifest_bounds": true,
+        "material_slots": true,
+        "identity_transform": true,
+        "fingerprint": true,
+        "large_wall_repeat": true
+      },
+      "triangles": 2,
+      "quads": 1,
+      "ngons": 0,
+      "boundary_edges": 4,
+      "nonmanifold_edges": 0,
+      "inconsistent_edges": 0,
+      "signed_volume": 0.0,
+      "degenerate_triangles": 0,
+      "uv_scale_range": [
+        0.4999999996466711,
+        0.5000000063402298
+      ],
+      "max_uv_scale_error_percent": 1.2680459571257074e-06
+    },
+    "WALL_Thick_2x2": {
+      "passed": true,
+      "checks": {
+        "nonempty": true,
+        "finite_geometry": true,
+        "degenerate_triangles": true,
+        "duplicate_faces": true,
+        "normals_consistent": true,
+        "positive_closed_volume": true,
+        "topology": true,
+        "uv_present": true,
+        "uv_density": true,
+        "manifest_bounds": true,
+        "material_slots": true,
+        "identity_transform": true,
+        "fingerprint": true
+      },
+      "triangles": 12,
+      "quads": 6,
+      "ngons": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_edges": 0,
+      "signed_volume": 0.800000011920929,
+      "degenerate_triangles": 0,
+      "uv_scale_range": [
+        0.49999987513770006,
+        0.5000001356775018
+      ],
+      "max_uv_scale_error_percent": 2.7135500357822195e-05
+    },
+    "WALL_InsideCorner": {
+      "passed": true,
+      "checks": {
+        "nonempty": true,
+        "finite_geometry": true,
+        "degenerate_triangles": true,
+        "duplicate_faces": true,
+        "normals_consistent": true,
+        "positive_closed_volume": true,
+        "topology": true,
+        "uv_present": true,
+        "uv_density": true,
+        "manifest_bounds": true,
+        "material_slots": true,
+        "identity_transform": true,
+        "fingerprint": true
+      },
+      "triangles": 28,
+      "quads": 14,
+      "ngons": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_edges": 0,
+      "signed_volume": 1.520000021457672,
+      "degenerate_triangles": 0,
+      "uv_scale_range": [
+        0.49999987513770017,
+        0.5000001356775018
+      ],
+      "max_uv_scale_error_percent": 2.7135500357822195e-05
+    },
+    "WALL_OutsideCorner": {
+      "passed": true,
+      "checks": {
+        "nonempty": true,
+        "finite_geometry": true,
+        "degenerate_triangles": true,
+        "duplicate_faces": true,
+        "normals_consistent": true,
+        "positive_closed_volume": true,
+        "topology": true,
+        "uv_present": true,
+        "uv_density": true,
+        "manifest_bounds": true,
+        "material_slots": true,
+        "identity_transform": true,
+        "fingerprint": true
+      },
+      "triangles": 40,
+      "quads": 10,
+      "ngons": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_edges": 0,
+      "signed_volume": 1.6000000238418577,
+      "degenerate_triangles": 0,
+      "uv_scale_range": [
+        0.4999975877936469,
+        0.5000028403574324
+      ],
+      "max_uv_scale_error_percent": 0.0005680714864730874
+    },
+    "WALL_RecessedPanel": {
+      "passed": true,
+      "checks": {
+        "nonempty": true,
+        "finite_geometry": true,
+        "degenerate_triangles": true,
+        "duplicate_faces": true,
+        "normals_consistent": true,
+        "positive_closed_volume": true,
+        "topology": true,
+        "uv_present": true,
+        "uv_density": true,
+        "manifest_bounds": true,
+        "material_slots": true,
+        "identity_transform": true,
+        "fingerprint": true
+      },
+      "triangles": 28,
+      "quads": 11,
+      "ngons": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_edges": 0,
+      "signed_volume": 0.6928000263214106,
+      "degenerate_triangles": 0,
+      "uv_scale_range": [
+        0.4999998391739751,
+        0.5000003694625749
+      ],
+      "max_uv_scale_error_percent": 7.38925149734726e-05
+    },
+    "WALL_LowPartition": {
+      "passed": true,
+      "checks": {
+        "nonempty": true,
+        "finite_geometry": true,
+        "degenerate_triangles": true,
+        "duplicate_faces": true,
+        "normals_consistent": true,
+        "positive_closed_volume": true,
+        "topology": true,
+        "uv_present": true,
+        "uv_density": true,
+        "manifest_bounds": true,
+        "material_slots": true,
+        "identity_transform": true,
+        "fingerprint": true
+      },
+      "triangles": 12,
+      "quads": 6,
+      "ngons": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_edges": 0,
+      "signed_volume": 0.4000000059604645,
+      "degenerate_triangles": 0,
+      "uv_scale_range": [
+        0.49999987513770006,
+        0.5000001356775018
+      ],
+      "max_uv_scale_error_percent": 2.7135500357822195e-05
+    },
+    "WALL_Curved90": {
+      "passed": true,
+      "checks": {
+        "nonempty": true,
+        "finite_geometry": true,
+        "degenerate_triangles": true,
+        "duplicate_faces": true,
+        "normals_consistent": true,
+        "positive_closed_volume": true,
+        "topology": true,
+        "uv_present": true,
+        "uv_density": true,
+        "manifest_bounds": true,
+        "material_slots": true,
+        "identity_transform": true,
+        "fingerprint": true
+      },
+      "triangles": 100,
+      "quads": 50,
+      "ngons": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_edges": 0,
+      "signed_volume": 1.315704211348418,
+      "degenerate_triangles": 0,
+      "uv_scale_range": [
+        0.4999995613846185,
+        0.5000004045231463
+      ],
+      "max_uv_scale_error_percent": 8.772307630300347e-05
+    },
+    "FLOOR_Tile_2x2": {
+      "passed": true,
+      "checks": {
+        "nonempty": true,
+        "finite_geometry": true,
+        "degenerate_triangles": true,
+        "duplicate_faces": true,
+        "normals_consistent": true,
+        "positive_closed_volume": true,
+        "topology": true,
+        "uv_present": true,
+        "uv_density": true,
+        "manifest_bounds": true,
+        "material_slots": true,
+        "identity_transform": true,
+        "fingerprint": true,
+        "base_tile_exact_uv": true
+      },
+      "triangles": 2,
+      "quads": 1,
+      "ngons": 0,
+      "boundary_edges": 4,
+      "nonmanifold_edges": 0,
+      "inconsistent_edges": 0,
+      "signed_volume": 0.0,
+      "degenerate_triangles": 0,
+      "uv_scale_range": [
+        0.4999999982277591,
+        0.5000000103293766
+      ],
+      "max_uv_scale_error_percent": 2.065875315260257e-06
+    },
+    "FLOOR_Tile_4x4": {
+      "passed": true,
+      "checks": {
+        "nonempty": true,
+        "finite_geometry": true,
+        "degenerate_triangles": true,
+        "duplicate_faces": true,
+        "normals_consistent": true,
+        "positive_closed_volume": true,
+        "topology": true,
+        "uv_present": true,
+        "uv_density": true,
+        "manifest_bounds": true,
+        "material_slots": true,
+        "identity_transform": true,
+        "fingerprint": true
+      },
+      "triangles": 2,
+      "quads": 1,
+      "ngons": 0,
+      "boundary_edges": 4,
+      "nonmanifold_edges": 0,
+      "inconsistent_edges": 0,
+      "signed_volume": 0.0,
+      "degenerate_triangles": 0,
+      "uv_scale_range": [
+        0.4999999982277591,
+        0.5000000103293766
+      ],
+      "max_uv_scale_error_percent": 2.065875315260257e-06
+    },
+    "FLOOR_RaisedPlatform": {
+      "passed": true,
+      "checks": {
+        "nonempty": true,
+        "finite_geometry": true,
+        "degenerate_triangles": true,
+        "duplicate_faces": true,
+        "normals_consistent": true,
+        "positive_closed_volume": true,
+        "topology": true,
+        "uv_present": true,
+        "uv_density": true,
+        "manifest_bounds": true,
+        "material_slots": true,
+        "identity_transform": true,
+        "fingerprint": true
+      },
+      "triangles": 12,
+      "quads": 6,
+      "ngons": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_edges": 0,
+      "signed_volume": 1.600000023841858,
+      "degenerate_triangles": 0,
+      "uv_scale_range": [
+        0.4999999982277591,
+        0.5000000103293766
+      ],
+      "max_uv_scale_error_percent": 2.065875315260257e-06
+    },
+    "FLOOR_Ramp": {
+      "passed": true,
+      "checks": {
+        "nonempty": true,
+        "finite_geometry": true,
+        "degenerate_triangles": true,
+        "duplicate_faces": true,
+        "normals_consistent": true,
+        "positive_closed_volume": true,
+        "topology": true,
+        "uv_present": true,
+        "uv_density": true,
+        "manifest_bounds": true,
+        "material_slots": true,
+        "identity_transform": true,
+        "fingerprint": true
+      },
+      "triangles": 12,
+      "quads": 6,
+      "ngons": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_edges": 0,
+      "signed_volume": 5.600000023841858,
+      "degenerate_triangles": 0,
+      "uv_scale_range": [
+        0.4999999593792254,
+        0.5000000277275571
+      ],
+      "max_uv_scale_error_percent": 8.124154915467585e-06
+    },
+    "CEILING_Flat_2x2": {
+      "passed": true,
+      "checks": {
+        "nonempty": true,
+        "finite_geometry": true,
+        "degenerate_triangles": true,
+        "duplicate_faces": true,
+        "normals_consistent": true,
+        "positive_closed_volume": true,
+        "topology": true,
+        "uv_present": true,
+        "uv_density": true,
+        "manifest_bounds": true,
+        "material_slots": true,
+        "identity_transform": true,
+        "fingerprint": true,
+        "base_tile_exact_uv": true
+      },
+      "triangles": 2,
+      "quads": 1,
+      "ngons": 0,
+      "boundary_edges": 4,
+      "nonmanifold_edges": 0,
+      "inconsistent_edges": 0,
+      "signed_volume": 0.0,
+      "degenerate_triangles": 0,
+      "uv_scale_range": [
+        0.4999999982277591,
+        0.5000000103293766
+      ],
+      "max_uv_scale_error_percent": 2.065875315260257e-06
+    },
+    "CEILING_Grid_2x2": {
+      "passed": true,
+      "checks": {
+        "nonempty": true,
+        "finite_geometry": true,
+        "degenerate_triangles": true,
+        "duplicate_faces": true,
+        "normals_consistent": true,
+        "positive_closed_volume": true,
+        "topology": true,
+        "uv_present": true,
+        "uv_density": true,
+        "manifest_bounds": true,
+        "material_slots": true,
+        "identity_transform": true,
+        "fingerprint": true
+      },
+      "triangles": 76,
+      "quads": 26,
+      "ngons": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_edges": 0,
+      "signed_volume": 0.25319996746480394,
+      "degenerate_triangles": 0,
+      "uv_scale_range": [
+        0.499979622921447,
+        0.5000066621216633
+      ],
+      "max_uv_scale_error_percent": 0.004075415710602659
+    },
+    "CEILING_Vaulted": {
+      "passed": true,
+      "checks": {
+        "nonempty": true,
+        "finite_geometry": true,
+        "degenerate_triangles": true,
+        "duplicate_faces": true,
+        "normals_consistent": true,
+        "positive_closed_volume": true,
+        "topology": true,
+        "uv_present": true,
+        "uv_density": true,
+        "manifest_bounds": true,
+        "material_slots": true,
+        "identity_transform": true,
+        "fingerprint": true
+      },
+      "triangles": 132,
+      "quads": 66,
+      "ngons": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_edges": 0,
+      "signed_volume": 1.9430998775450814,
+      "degenerate_triangles": 0,
+      "uv_scale_range": [
+        0.49999917658779514,
+        0.5000005245599659
+      ],
+      "max_uv_scale_error_percent": 0.00016468244097289642
+    },
+    "CEILING_Recessed": {
+      "passed": true,
+      "checks": {
+        "nonempty": true,
+        "finite_geometry": true,
+        "degenerate_triangles": true,
+        "duplicate_faces": true,
+        "normals_consistent": true,
+        "positive_closed_volume": true,
+        "topology": true,
+        "uv_present": true,
+        "uv_density": true,
+        "manifest_bounds": true,
+        "material_slots": true,
+        "identity_transform": true,
+        "fingerprint": true
+      },
+      "triangles": 28,
+      "quads": 11,
+      "ngons": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_edges": 0,
+      "signed_volume": 0.6880000724792482,
+      "degenerate_triangles": 0,
+      "uv_scale_range": [
+        0.49999982898962947,
+        0.5000003694625749
+      ],
+      "max_uv_scale_error_percent": 7.38925149734726e-05
+    },
+    "ARCH_Round": {
+      "passed": true,
+      "checks": {
+        "nonempty": true,
+        "finite_geometry": true,
+        "degenerate_triangles": true,
+        "duplicate_faces": true,
+        "normals_consistent": true,
+        "positive_closed_volume": true,
+        "topology": true,
+        "uv_present": true,
+        "uv_density": true,
+        "manifest_bounds": true,
+        "material_slots": true,
+        "identity_transform": true,
+        "fingerprint": true
+      },
+      "triangles": 276,
+      "quads": 138,
+      "ngons": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_edges": 0,
+      "signed_volume": 0.6846327248792481,
+      "degenerate_triangles": 0,
+      "uv_scale_range": [
+        0.49999791103198243,
+        0.5000014617364179
+      ],
+      "max_uv_scale_error_percent": 0.000417793603513239
+    },
+    "ARCH_Point": {
+      "passed": true,
+      "checks": {
+        "nonempty": true,
+        "finite_geometry": true,
+        "degenerate_triangles": true,
+        "duplicate_faces": true,
+        "normals_consistent": true,
+        "positive_closed_volume": true,
+        "topology": true,
+        "uv_present": true,
+        "uv_density": true,
+        "manifest_bounds": true,
+        "material_slots": true,
+        "identity_transform": true,
+        "fingerprint": true
+      },
+      "triangles": 148,
+      "quads": 74,
+      "ngons": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_edges": 0,
+      "signed_volume": 1.1000709996746378,
+      "degenerate_triangles": 0,
+      "uv_scale_range": [
+        0.49999927512807457,
+        0.5000007596436695
+      ],
+      "max_uv_scale_error_percent": 0.00015192873390468264
+    },
+    "ARCH_Segmental": {
+      "passed": true,
+      "checks": {
+        "nonempty": true,
+        "finite_geometry": true,
+        "degenerate_triangles": true,
+        "duplicate_faces": true,
+        "normals_consistent": true,
+        "positive_closed_volume": true,
+        "topology": true,
+        "uv_present": true,
+        "uv_density": true,
+        "manifest_bounds": true,
+        "material_slots": true,
+        "identity_transform": true,
+        "fingerprint": true
+      },
+      "triangles": 148,
+      "quads": 74,
+      "ngons": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_edges": 0,
+      "signed_volume": 0.7555347799838767,
+      "degenerate_triangles": 0,
+      "uv_scale_range": [
+        0.49999923865398,
+        0.5000009320747901
+      ],
+      "max_uv_scale_error_percent": 0.0001864149580255159
+    },
+    "ARCH_WideSpan": {
+      "passed": true,
+      "checks": {
+        "nonempty": true,
+        "finite_geometry": true,
+        "degenerate_triangles": true,
+        "duplicate_faces": true,
+        "normals_consistent": true,
+        "positive_closed_volume": true,
+        "topology": true,
+        "uv_present": true,
+        "uv_density": true,
+        "manifest_bounds": true,
+        "material_slots": true,
+        "identity_transform": true,
+        "fingerprint": true
+      },
+      "triangles": 148,
+      "quads": 74,
+      "ngons": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_edges": 0,
+      "signed_volume": 1.377999614145907,
+      "degenerate_triangles": 0,
+      "uv_scale_range": [
+        0.49999959063646143,
+        0.5000004810507589
+      ],
+      "max_uv_scale_error_percent": 9.62101517787417e-05
+    },
+    "ARCH_Double": {
+      "passed": true,
+      "checks": {
+        "nonempty": true,
+        "finite_geometry": true,
+        "degenerate_triangles": true,
+        "duplicate_faces": true,
+        "normals_consistent": true,
+        "positive_closed_volume": true,
+        "topology": true,
+        "uv_present": true,
+        "uv_density": true,
+        "manifest_bounds": true,
+        "material_slots": true,
+        "identity_transform": true,
+        "fingerprint": true
+      },
+      "triangles": 296,
+      "quads": 148,
+      "ngons": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_edges": 0,
+      "signed_volume": 1.0571158191425092,
+      "degenerate_triangles": 0,
+      "uv_scale_range": [
+        0.4999989072316115,
+        0.5000008559068163
+      ],
+      "max_uv_scale_error_percent": 0.00021855367769996192
+    },
+    "COLUMN_Round": {
+      "passed": true,
+      "checks": {
+        "nonempty": true,
+        "finite_geometry": true,
+        "degenerate_triangles": true,
+        "duplicate_faces": true,
+        "normals_consistent": true,
+        "positive_closed_volume": true,
+        "topology": true,
+        "uv_present": true,
+        "uv_density": true,
+        "manifest_bounds": true,
+        "material_slots": true,
+        "identity_transform": true,
+        "fingerprint": true
+      },
+      "triangles": 124,
+      "quads": 32,
+      "ngons": 2,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_edges": 0,
+      "signed_volume": 0.3901806379307997,
+      "degenerate_triangles": 0,
+      "uv_scale_range": [
+        0.49999781941347665,
+        0.5000006725149627
+      ],
+      "max_uv_scale_error_percent": 0.0004361173046696365
+    },
+    "COLUMN_Square": {
+      "passed": true,
+      "checks": {
+        "nonempty": true,
+        "finite_geometry": true,
+        "degenerate_triangles": true,
+        "duplicate_faces": true,
+        "normals_consistent": true,
+        "positive_closed_volume": true,
+        "topology": true,
+        "uv_present": true,
+        "uv_density": true,
+        "manifest_bounds": true,
+        "material_slots": true,
+        "identity_transform": true,
+        "fingerprint": true
+      },
+      "triangles": 12,
+      "quads": 6,
+      "ngons": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_edges": 0,
+      "signed_volume": 0.49999999999999994,
+      "degenerate_triangles": 0,
+      "uv_scale_range": [
+        0.49999994300649175,
+        0.5000000347439181
+      ],
+      "max_uv_scale_error_percent": 1.139870164923451e-05
+    },
+    "COLUMN_Fluted": {
+      "passed": true,
+      "checks": {
+        "nonempty": true,
+        "finite_geometry": true,
+        "degenerate_triangles": true,
+        "duplicate_faces": true,
+        "normals_consistent": true,
+        "positive_closed_volume": true,
+        "topology": true,
+        "uv_present": true,
+        "uv_density": true,
+        "manifest_bounds": true,
+        "material_slots": true,
+        "identity_transform": true,
+        "fingerprint": true
+      },
+      "triangles": 124,
+      "quads": 32,
+      "ngons": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_edges": 0,
+      "signed_volume": 0.32775177436445385,
+      "degenerate_triangles": 0,
+      "uv_scale_range": [
+        0.4999990720746074,
+        0.5000009405994744
+      ],
+      "max_uv_scale_error_percent": 0.00018811989488387582
+    },
+    "PILASTER_Wall": {
+      "passed": true,
+      "checks": {
+        "nonempty": true,
+        "finite_geometry": true,
+        "degenerate_triangles": true,
+        "duplicate_faces": true,
+        "normals_consistent": true,
+        "positive_closed_volume": true,
+        "topology": true,
+        "uv_present": true,
+        "uv_density": true,
+        "manifest_bounds": true,
+        "material_slots": true,
+        "identity_transform": true,
+        "fingerprint": true
+      },
+      "triangles": 12,
+      "quads": 6,
+      "ngons": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_edges": 0,
+      "signed_volume": 0.12000000655651097,
+      "degenerate_triangles": 0,
+      "uv_scale_range": [
+        0.49999996526103185,
+        0.5000000510763604
+      ],
+      "max_uv_scale_error_percent": 1.0215272072677806e-05
+    },
+    "BEAM_Straight": {
+      "passed": true,
+      "checks": {
+        "nonempty": true,
+        "finite_geometry": true,
+        "degenerate_triangles": true,
+        "duplicate_faces": true,
+        "normals_consistent": true,
+        "positive_closed_volume": true,
+        "topology": true,
+        "uv_present": true,
+        "uv_density": true,
+        "manifest_bounds": true,
+        "material_slots": true,
+        "identity_transform": true,
+        "fingerprint": true
+      },
+      "triangles": 12,
+      "quads": 6,
+      "ngons": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_edges": 0,
+      "signed_volume": 0.36000002861023006,
+      "degenerate_triangles": 0,
+      "uv_scale_range": [
+        0.49999996526103174,
+        0.5000000510763605
+      ],
+      "max_uv_scale_error_percent": 1.0215272094882266e-05
+    },
+    "BEAM_Curved": {
+      "passed": true,
+      "checks": {
+        "nonempty": true,
+        "finite_geometry": true,
+        "degenerate_triangles": true,
+        "duplicate_faces": true,
+        "normals_consistent": true,
+        "positive_closed_volume": true,
+        "topology": true,
+        "uv_present": true,
+        "uv_density": true,
+        "manifest_bounds": true,
+        "material_slots": true,
+        "identity_transform": true,
+        "fingerprint": true
+      },
+      "triangles": 100,
+      "quads": 50,
+      "ngons": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_edges": 0,
+      "signed_volume": 0.30308184521344517,
+      "degenerate_triangles": 0,
+      "uv_scale_range": [
+        0.4999995899655943,
+        0.5000003175900276
+      ],
+      "max_uv_scale_error_percent": 8.200688114134991e-05
+    },
+    "CORNICE_Straight": {
+      "passed": true,
+      "checks": {
+        "nonempty": true,
+        "finite_geometry": true,
+        "degenerate_triangles": true,
+        "duplicate_faces": true,
+        "normals_consistent": true,
+        "positive_closed_volume": true,
+        "topology": true,
+        "uv_present": true,
+        "uv_density": true,
+        "manifest_bounds": true,
+        "material_slots": true,
+        "identity_transform": true,
+        "fingerprint": true
+      },
+      "triangles": 20,
+      "quads": 6,
+      "ngons": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_edges": 0,
+      "signed_volume": 0.06160000151793163,
+      "degenerate_triangles": 0,
+      "uv_scale_range": [
+        0.4999998562034874,
+        0.5000000769211035
+      ],
+      "max_uv_scale_error_percent": 2.8759302517222807e-05
+    },
+    "SKIRTING_Straight": {
+      "passed": true,
+      "checks": {
+        "nonempty": true,
+        "finite_geometry": true,
+        "degenerate_triangles": true,
+        "duplicate_faces": true,
+        "normals_consistent": true,
+        "positive_closed_volume": true,
+        "topology": true,
+        "uv_present": true,
+        "uv_density": true,
+        "manifest_bounds": true,
+        "material_slots": true,
+        "identity_transform": true,
+        "fingerprint": true
+      },
+      "triangles": 16,
+      "quads": 5,
+      "ngons": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_edges": 0,
+      "signed_volume": 0.018399999674161272,
+      "degenerate_triangles": 0,
+      "uv_scale_range": [
+        0.4999998988319713,
+        0.5000000551200653
+      ],
+      "max_uv_scale_error_percent": 2.0233605735331395e-05
+    },
+    "TRIM_PanelFrame": {
+      "passed": true,
+      "checks": {
+        "nonempty": true,
+        "finite_geometry": true,
+        "degenerate_triangles": true,
+        "duplicate_faces": true,
+        "normals_consistent": true,
+        "positive_closed_volume": true,
+        "topology": true,
+        "uv_present": true,
+        "uv_density": true,
+        "manifest_bounds": true,
+        "material_slots": true,
+        "identity_transform": true,
+        "fingerprint": true
+      },
+      "triangles": 32,
+      "quads": 16,
+      "ngons": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_edges": 0,
+      "signed_volume": 0.036863995096206956,
+      "degenerate_triangles": 0,
+      "uv_scale_range": [
+        0.4999995825052699,
+        0.5000004778053044
+      ],
+      "max_uv_scale_error_percent": 9.556106088659533e-05
+    },
+    "DOORWAY_Standard": {
+      "passed": true,
+      "checks": {
+        "nonempty": true,
+        "finite_geometry": true,
+        "degenerate_triangles": true,
+        "duplicate_faces": true,
+        "normals_consistent": true,
+        "positive_closed_volume": true,
+        "topology": true,
+        "uv_present": true,
+        "uv_density": true,
+        "manifest_bounds": true,
+        "material_slots": true,
+        "identity_transform": true,
+        "fingerprint": true
+      },
+      "triangles": 28,
+      "quads": 14,
+      "ngons": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_edges": 0,
+      "signed_volume": 0.480000038146973,
+      "degenerate_triangles": 0,
+      "uv_scale_range": [
+        0.49999983672293014,
+        0.5000001356775018
+      ],
+      "max_uv_scale_error_percent": 3.265541397290406e-05
+    },
+    "DOORWAY_Wide": {
+      "passed": true,
+      "checks": {
+        "nonempty": true,
+        "finite_geometry": true,
+        "degenerate_triangles": true,
+        "duplicate_faces": true,
+        "normals_consistent": true,
+        "positive_closed_volume": true,
+        "topology": true,
+        "uv_present": true,
+        "uv_density": true,
+        "manifest_bounds": true,
+        "material_slots": true,
+        "identity_transform": true,
+        "fingerprint": true
+      },
+      "triangles": 28,
+      "quads": 14,
+      "ngons": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_edges": 0,
+      "signed_volume": 0.960000076293946,
+      "degenerate_triangles": 0,
+      "uv_scale_range": [
+        0.49999987513770006,
+        0.5000001356775018
+      ],
+      "max_uv_scale_error_percent": 2.7135500357822195e-05
+    },
+    "DOORWAY_Arched": {
+      "passed": true,
+      "checks": {
+        "nonempty": true,
+        "finite_geometry": true,
+        "degenerate_triangles": true,
+        "duplicate_faces": true,
+        "normals_consistent": true,
+        "positive_closed_volume": true,
+        "topology": true,
+        "uv_present": true,
+        "uv_density": true,
+        "manifest_bounds": true,
+        "material_slots": true,
+        "identity_transform": true,
+        "fingerprint": true
+      },
+      "triangles": 148,
+      "quads": 74,
+      "ngons": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_edges": 0,
+      "signed_volume": 0.6157725007030109,
+      "degenerate_triangles": 0,
+      "uv_scale_range": [
+        0.4999993023127308,
+        0.5000005765000481
+      ],
+      "max_uv_scale_error_percent": 0.0001395374538359917
+    },
+    "DOOR_Leaf_Plain": {
+      "passed": true,
+      "checks": {
+        "nonempty": true,
+        "finite_geometry": true,
+        "degenerate_triangles": true,
+        "duplicate_faces": true,
+        "normals_consistent": true,
+        "positive_closed_volume": true,
+        "topology": true,
+        "uv_present": true,
+        "uv_density": true,
+        "manifest_bounds": true,
+        "material_slots": true,
+        "identity_transform": true,
+        "fingerprint": true
+      },
+      "triangles": 12,
+      "quads": 6,
+      "ngons": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_edges": 0,
+      "signed_volume": 0.12000000655651097,
+      "degenerate_triangles": 0,
+      "uv_scale_range": [
+        0.4999993929070159,
+        0.5000005537725348
+      ],
+      "max_uv_scale_error_percent": 0.00012141859682124334
+    },
+    "DOOR_Leaf_Industrial": {
+      "passed": true,
+      "checks": {
+        "nonempty": true,
+        "finite_geometry": true,
+        "degenerate_triangles": true,
+        "duplicate_faces": true,
+        "normals_consistent": true,
+        "positive_closed_volume": true,
+        "topology": true,
+        "uv_present": true,
+        "uv_density": true,
+        "manifest_bounds": true,
+        "material_slots": true,
+        "identity_transform": true,
+        "fingerprint": true
+      },
+      "triangles": 60,
+      "quads": 23,
+      "ngons": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_edges": 0,
+      "signed_volume": 0.1770000045299528,
+      "degenerate_triangles": 0,
+      "uv_scale_range": [
+        0.49999809265261774,
+        0.5000016774017285
+      ],
+      "max_uv_scale_error_percent": 0.000381469476451457
+    },
+    "DOOR_Frame": {
+      "passed": true,
+      "checks": {
+        "nonempty": true,
+        "finite_geometry": true,
+        "degenerate_triangles": true,
+        "duplicate_faces": true,
+        "normals_consistent": true,
+        "positive_closed_volume": true,
+        "topology": true,
+        "uv_present": true,
+        "uv_density": true,
+        "manifest_bounds": true,
+        "material_slots": true,
+        "identity_transform": true,
+        "fingerprint": true
+      },
+      "triangles": 28,
+      "quads": 14,
+      "ngons": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_edges": 0,
+      "signed_volume": 0.08099999043345435,
+      "degenerate_triangles": 0,
+      "uv_scale_range": [
+        0.49999969200515,
+        0.5000002120473904
+      ],
+      "max_uv_scale_error_percent": 6.15989700025743e-05
+    },
+    "DOOR_DoubleLeaf": {
+      "passed": true,
+      "checks": {
+        "nonempty": true,
+        "finite_geometry": true,
+        "degenerate_triangles": true,
+        "duplicate_faces": true,
+        "normals_consistent": true,
+        "positive_closed_volume": true,
+        "topology": true,
+        "uv_present": true,
+        "uv_density": true,
+        "manifest_bounds": true,
+        "material_slots": true,
+        "identity_transform": true,
+        "fingerprint": true
+      },
+      "triangles": 24,
+      "quads": 12,
+      "ngons": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_edges": 0,
+      "signed_volume": 0.28680000617802115,
+      "degenerate_triangles": 0,
+      "uv_scale_range": [
+        0.49999983028952066,
+        0.5000001737960426
+      ],
+      "max_uv_scale_error_percent": 3.475920851148118e-05
+    },
+    "WINDOW_Rectangular": {
+      "passed": true,
+      "checks": {
+        "nonempty": true,
+        "finite_geometry": true,
+        "degenerate_triangles": true,
+        "duplicate_faces": true,
+        "normals_consistent": true,
+        "positive_closed_volume": true,
+        "topology": true,
+        "uv_present": true,
+        "uv_density": true,
+        "manifest_bounds": true,
+        "material_slots": true,
+        "identity_transform": true,
+        "fingerprint": true
+      },
+      "triangles": 44,
+      "quads": 22,
+      "ngons": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_edges": 0,
+      "signed_volume": 0.13186562014137582,
+      "degenerate_triangles": 0,
+      "uv_scale_range": [
+        0.4999984145355983,
+        0.5000015905268559
+      ],
+      "max_uv_scale_error_percent": 0.0003181053711776016
+    },
+    "WINDOW_Tall": {
+      "passed": true,
+      "checks": {
+        "nonempty": true,
+        "finite_geometry": true,
+        "degenerate_triangles": true,
+        "duplicate_faces": true,
+        "normals_consistent": true,
+        "positive_closed_volume": true,
+        "topology": true,
+        "uv_present": true,
+        "uv_density": true,
+        "manifest_bounds": true,
+        "material_slots": true,
+        "identity_transform": true,
+        "fingerprint": true
+      },
+      "triangles": 44,
+      "quads": 22,
+      "ngons": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_edges": 0,
+      "signed_volume": 0.11732160196982624,
+      "degenerate_triangles": 0,
+      "uv_scale_range": [
+        0.4999984166777446,
+        0.5000015925704288
+      ],
+      "max_uv_scale_error_percent": 0.00031851408575089835
+    },
+    "WINDOW_Arched": {
+      "passed": true,
+      "checks": {
+        "nonempty": true,
+        "finite_geometry": true,
+        "degenerate_triangles": true,
+        "duplicate_faces": true,
+        "normals_consistent": true,
+        "positive_closed_volume": true,
+        "topology": true,
+        "uv_present": true,
+        "uv_density": true,
+        "manifest_bounds": true,
+        "material_slots": true,
+        "identity_transform": true,
+        "fingerprint": true
+      },
+      "triangles": 120,
+      "quads": 60,
+      "ngons": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_edges": 0,
+      "signed_volume": 0.16785738692557398,
+      "degenerate_triangles": 0,
+      "uv_scale_range": [
+        0.49999961601274706,
+        0.5000004392260682
+      ],
+      "max_uv_scale_error_percent": 8.784521363658371e-05
+    },
+    "WINDOW_InteriorObservation": {
+      "passed": true,
+      "checks": {
+        "nonempty": true,
+        "finite_geometry": true,
+        "degenerate_triangles": true,
+        "duplicate_faces": true,
+        "normals_consistent": true,
+        "positive_closed_volume": true,
+        "topology": true,
+        "uv_present": true,
+        "uv_density": true,
+        "manifest_bounds": true,
+        "material_slots": true,
+        "identity_transform": true,
+        "fingerprint": true
+      },
+      "triangles": 44,
+      "quads": 22,
+      "ngons": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_edges": 0,
+      "signed_volume": 0.23890563216482516,
+      "degenerate_triangles": 0,
+      "uv_scale_range": [
+        0.49999850439856036,
+        0.5000015086612493
+      ],
+      "max_uv_scale_error_percent": 0.0003017322498521935
+    },
+    "WINDOW_FrameAndSill": {
+      "passed": true,
+      "checks": {
+        "nonempty": true,
+        "finite_geometry": true,
+        "degenerate_triangles": true,
+        "duplicate_faces": true,
+        "normals_consistent": true,
+        "positive_closed_volume": true,
+        "topology": true,
+        "uv_present": true,
+        "uv_density": true,
+        "manifest_bounds": true,
+        "material_slots": true,
+        "identity_transform": true,
+        "fingerprint": true
+      },
+      "triangles": 56,
+      "quads": 16,
+      "ngons": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_edges": 0,
+      "signed_volume": 0.20970002755746345,
+      "degenerate_triangles": 0,
+      "uv_scale_range": [
+        0.4999664337951424,
+        0.5000351236991399
+      ],
+      "max_uv_scale_error_percent": 0.0070247398279876805
+    },
+    "PIPE_Straight_1m": {
+      "passed": true,
+      "checks": {
+        "nonempty": true,
+        "finite_geometry": true,
+        "degenerate_triangles": true,
+        "duplicate_faces": true,
+        "normals_consistent": true,
+        "positive_closed_volume": true,
+        "topology": true,
+        "uv_present": true,
+        "uv_density": true,
+        "manifest_bounds": true,
+        "material_slots": true,
+        "identity_transform": true,
+        "fingerprint": true
+      },
+      "triangles": 256,
+      "quads": 128,
+      "ngons": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_edges": 0,
+      "signed_volume": 0.011237205043148348,
+      "degenerate_triangles": 0,
+      "uv_scale_range": [
+        0.49999721215808435,
+        0.5000022229084352
+      ],
+      "max_uv_scale_error_percent": 0.0005575683831304801
+    },
+    "PIPE_Straight_2m": {
+      "passed": true,
+      "checks": {
+        "nonempty": true,
+        "finite_geometry": true,
+        "degenerate_triangles": true,
+        "duplicate_faces": true,
+        "normals_consistent": true,
+        "positive_closed_volume": true,
+        "topology": true,
+        "uv_present": true,
+        "uv_density": true,
+        "manifest_bounds": true,
+        "material_slots": true,
+        "identity_transform": true,
+        "fingerprint": true
+      },
+      "triangles": 256,
+      "quads": 128,
+      "ngons": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_edges": 0,
+      "signed_volume": 0.02247440551945943,
+      "degenerate_triangles": 0,
+      "uv_scale_range": [
+        0.49999847108136636,
+        0.5000009647007382
+      ],
+      "max_uv_scale_error_percent": 0.0003057837267284036
+    },
+    "PIPE_Straight_4m": {
+      "passed": true,
+      "checks": {
+        "nonempty": true,
+        "finite_geometry": true,
+        "degenerate_triangles": true,
+        "duplicate_faces": true,
+        "normals_consistent": true,
+        "positive_closed_volume": true,
+        "topology": true,
+        "uv_present": true,
+        "uv_density": true,
+        "manifest_bounds": true,
+        "material_slots": true,
+        "identity_transform": true,
+        "fingerprint": true
+      },
+      "triangles": 256,
+      "quads": 128,
+      "ngons": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_edges": 0,
+      "signed_volume": 0.04494882017259339,
+      "degenerate_triangles": 0,
+      "uv_scale_range": [
+        0.4999967294129465,
+        0.5000026061258672
+      ],
+      "max_uv_scale_error_percent": 0.0006541174107033143
+    },
+    "PIPE_Elbow45": {
+      "passed": true,
+      "checks": {
+        "nonempty": true,
+        "finite_geometry": true,
+        "degenerate_triangles": true,
+        "duplicate_faces": true,
+        "normals_consistent": true,
+        "positive_closed_volume": true,
+        "topology": true,
+        "uv_present": true,
+        "uv_density": true,
+        "manifest_bounds": true,
+        "material_slots": true,
+        "identity_transform": true,
+        "fingerprint": true
+      },
+      "triangles": 1152,
+      "quads": 576,
+      "ngons": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_edges": 0,
+      "signed_volume": 0.02662030527491459,
+      "degenerate_triangles": 0,
+      "uv_scale_range": [
+        0.4545008913680379,
+        0.5556160290900405
+      ],
+      "max_uv_scale_error_percent": 11.123205818008097
+    },
+    "PIPE_Elbow90": {
+      "passed": true,
+      "checks": {
+        "nonempty": true,
+        "finite_geometry": true,
+        "degenerate_triangles": true,
+        "duplicate_faces": true,
+        "normals_consistent": true,
+        "positive_closed_volume": true,
+        "topology": true,
+        "uv_present": true,
+        "uv_density": true,
+        "manifest_bounds": true,
+        "material_slots": true,
+        "identity_transform": true,
+        "fingerprint": true
+      },
+      "triangles": 3200,
+      "quads": 1600,
+      "ngons": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_edges": 0,
+      "signed_volume": 0.017638757863801226,
+      "degenerate_triangles": 0,
+      "uv_scale_range": [
+        0.45461515690036597,
+        0.5556708311591232
+      ],
+      "max_uv_scale_error_percent": 11.134166231824638
+    },
+    "PIPE_Tee": {
+      "passed": true,
+      "checks": {
+        "nonempty": true,
+        "finite_geometry": true,
+        "degenerate_triangles": true,
+        "duplicate_faces": true,
+        "normals_consistent": true,
+        "positive_closed_volume": true,
+        "topology": true,
+        "uv_present": true,
+        "uv_density": true,
+        "manifest_bounds": true,
+        "material_slots": true,
+        "identity_transform": true,
+        "fingerprint": true
+      },
+      "triangles": 516,
+      "quads": 156,
+      "ngons": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_edges": 0,
+      "signed_volume": 0.03242278401435485,
+      "degenerate_triangles": 0,
+      "uv_scale_range": [
+        0.4999853616144983,
+        0.5000193646358829
+      ],
+      "max_uv_scale_error_percent": 0.0038729271765847173
+    },
+    "PIPE_Cross": {
+      "passed": true,
+      "checks": {
+        "nonempty": true,
+        "finite_geometry": true,
+        "degenerate_triangles": true,
+        "duplicate_faces": true,
+        "normals_consistent": true,
+        "positive_closed_volume": true,
+        "topology": true,
+        "uv_present": true,
+        "uv_density": true,
+        "manifest_bounds": true,
+        "material_slots": true,
+        "identity_transform": true,
+        "fingerprint": true
+      },
+      "triangles": 768,
+      "quads": 256,
+      "ngons": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_edges": 0,
+      "signed_volume": 0.042371155043779175,
+      "degenerate_triangles": 0,
+      "uv_scale_range": [
+        0.49998838926694195,
+        0.5000152855681219
+      ],
+      "max_uv_scale_error_percent": 0.003057113624382879
+    },
+    "PIPE_Reducer": {
+      "passed": true,
+      "checks": {
+        "nonempty": true,
+        "finite_geometry": true,
+        "degenerate_triangles": true,
+        "duplicate_faces": true,
+        "normals_consistent": true,
+        "positive_closed_volume": true,
+        "topology": true,
+        "uv_present": true,
+        "uv_density": true,
+        "manifest_bounds": true,
+        "material_slots": true,
+        "identity_transform": true,
+        "fingerprint": true
+      },
+      "triangles": 256,
+      "quads": 128,
+      "ngons": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_edges": 0,
+      "signed_volume": 0.006555037439868067,
+      "degenerate_triangles": 0,
+      "uv_scale_range": [
+        0.4999949718051617,
+        0.5000053321677952
+      ],
+      "max_uv_scale_error_percent": 0.0010664335590382379
+    },
+    "PIPE_Flange": {
+      "passed": true,
+      "checks": {
+        "nonempty": true,
+        "finite_geometry": true,
+        "degenerate_triangles": true,
+        "duplicate_faces": true,
+        "normals_consistent": true,
+        "positive_closed_volume": true,
+        "topology": true,
+        "uv_present": true,
+        "uv_density": true,
+        "manifest_bounds": true,
+        "material_slots": true,
+        "identity_transform": true,
+        "fingerprint": true
+      },
+      "triangles": 256,
+      "quads": 128,
+      "ngons": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_edges": 0,
+      "signed_volume": 0.010488057015259249,
+      "degenerate_triangles": 0,
+      "uv_scale_range": [
+        0.49999790180563525,
+        0.5000016066877861
+      ],
+      "max_uv_scale_error_percent": 0.00041963887295048963
+    },
+    "PIPE_EndCap": {
+      "passed": true,
+      "checks": {
+        "nonempty": true,
+        "finite_geometry": true,
+        "degenerate_triangles": true,
+        "duplicate_faces": true,
+        "normals_consistent": true,
+        "positive_closed_volume": true,
+        "topology": true,
+        "uv_present": true,
+        "uv_density": true,
+        "manifest_bounds": true,
+        "material_slots": true,
+        "identity_transform": true,
+        "fingerprint": true
+      },
+      "triangles": 124,
+      "quads": 32,
+      "ngons": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_edges": 0,
+      "signed_volume": 0.0031214454842802388,
+      "degenerate_triangles": 0,
+      "uv_scale_range": [
+        0.49999034026107686,
+        0.5000028233567163
+      ],
+      "max_uv_scale_error_percent": 0.0019319477846280186
+    },
+    "PIPE_ValveWheel": {
+      "passed": true,
+      "checks": {
+        "nonempty": true,
+        "finite_geometry": true,
+        "degenerate_triangles": true,
+        "duplicate_faces": true,
+        "normals_consistent": true,
+        "positive_closed_volume": true,
+        "topology": true,
+        "uv_present": true,
+        "uv_density": true,
+        "manifest_bounds": true,
+        "material_slots": true,
+        "identity_transform": true,
+        "fingerprint": true
+      },
+      "triangles": 404,
+      "quads": 136,
+      "ngons": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_edges": 0,
+      "signed_volume": 0.0066546755155100865,
+      "degenerate_triangles": 0,
+      "uv_scale_range": [
+        0.4998102212710969,
+        0.5000972621109412
+      ],
+      "max_uv_scale_error_percent": 0.03795574578061567
+    },
+    "PIPE_ValveBody": {
+      "passed": true,
+      "checks": {
+        "nonempty": true,
+        "finite_geometry": true,
+        "degenerate_triangles": true,
+        "duplicate_faces": true,
+        "normals_consistent": true,
+        "positive_closed_volume": true,
+        "topology": true,
+        "uv_present": true,
+        "uv_density": true,
+        "manifest_bounds": true,
+        "material_slots": true,
+        "identity_transform": true,
+        "fingerprint": true
+      },
+      "triangles": 648,
+      "quads": 152,
+      "ngons": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_edges": 0,
+      "signed_volume": 0.04975167883739867,
+      "degenerate_triangles": 0,
+      "uv_scale_range": [
+        0.49969076887192226,
+        0.5001101730982322
+      ],
+      "max_uv_scale_error_percent": 0.0618462256155472
+    },
+    "PIPE_Bracket": {
+      "passed": true,
+      "checks": {
+        "nonempty": true,
+        "finite_geometry": true,
+        "degenerate_triangles": true,
+        "duplicate_faces": true,
+        "normals_consistent": true,
+        "positive_closed_volume": true,
+        "topology": true,
+        "uv_present": true,
+        "uv_density": true,
+        "manifest_bounds": true,
+        "material_slots": true,
+        "identity_transform": true,
+        "fingerprint": true
+      },
+      "triangles": 92,
+      "quads": 40,
+      "ngons": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_edges": 0,
+      "signed_volume": 0.003412603955768102,
+      "degenerate_triangles": 0,
+      "uv_scale_range": [
+        0.4999970809621025,
+        0.5000027973562635
+      ],
+      "max_uv_scale_error_percent": 0.0005838075795017161
+    },
+    "PIPE_Ubend": {
+      "passed": true,
+      "checks": {
+        "nonempty": true,
+        "finite_geometry": true,
+        "degenerate_triangles": true,
+        "duplicate_faces": true,
+        "normals_consistent": true,
+        "positive_closed_volume": true,
+        "topology": true,
+        "uv_present": true,
+        "uv_density": true,
+        "manifest_bounds": true,
+        "material_slots": true,
+        "identity_transform": true,
+        "fingerprint": true
+      },
+      "triangles": 3200,
+      "quads": 1600,
+      "ngons": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_edges": 0,
+      "signed_volume": 0.03520198856638871,
+      "degenerate_triangles": 0,
+      "uv_scale_range": [
+        0.4545005825947103,
+        0.5556164438274114
+      ],
+      "max_uv_scale_error_percent": 11.123288765482275
+    },
+    "PIPE_Riser": {
+      "passed": true,
+      "checks": {
+        "nonempty": true,
+        "finite_geometry": true,
+        "degenerate_triangles": true,
+        "duplicate_faces": true,
+        "normals_consistent": true,
+        "positive_closed_volume": true,
+        "topology": true,
+        "uv_present": true,
+        "uv_density": true,
+        "manifest_bounds": true,
+        "material_slots": true,
+        "identity_transform": true,
+        "fingerprint": true
+      },
+      "triangles": 256,
+      "quads": 128,
+      "ngons": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_edges": 0,
+      "signed_volume": 0.022474402841818005,
+      "degenerate_triangles": 0,
+      "uv_scale_range": [
+        0.4999961997912936,
+        0.5000030735646979
+      ],
+      "max_uv_scale_error_percent": 0.0007600417412767513
+    },
+    "PIPE_Manifold": {
+      "passed": true,
+      "checks": {
+        "nonempty": true,
+        "finite_geometry": true,
+        "degenerate_triangles": true,
+        "duplicate_faces": true,
+        "normals_consistent": true,
+        "positive_closed_volume": true,
+        "topology": true,
+        "uv_present": true,
+        "uv_density": true,
+        "manifest_bounds": true,
+        "material_slots": true,
+        "identity_transform": true,
+        "fingerprint": true
+      },
+      "triangles": 1036,
+      "quads": 348,
+      "ngons": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_edges": 0,
+      "signed_volume": 0.07479392211262707,
+      "degenerate_triangles": 0,
+      "uv_scale_range": [
+        0.49995348077705,
+        0.5000245497141218
+      ],
+      "max_uv_scale_error_percent": 0.009303844590002885
+    },
+    "DUCT_Square_1m": {
+      "passed": true,
+      "checks": {
+        "nonempty": true,
+        "finite_geometry": true,
+        "degenerate_triangles": true,
+        "duplicate_faces": true,
+        "normals_consistent": true,
+        "positive_closed_volume": true,
+        "topology": true,
+        "uv_present": true,
+        "uv_density": true,
+        "manifest_bounds": true,
+        "material_slots": true,
+        "identity_transform": true,
+        "fingerprint": true
+      },
+      "triangles": 32,
+      "quads": 16,
+      "ngons": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_edges": 0,
+      "signed_volume": 0.05640000209808351,
+      "degenerate_triangles": 0,
+      "uv_scale_range": [
+        0.4999998924169208,
+        0.5000001367573881
+      ],
+      "max_uv_scale_error_percent": 2.735147761612211e-05
+    },
+    "DUCT_Square_2m": {
+      "passed": true,
+      "checks": {
+        "nonempty": true,
+        "finite_geometry": true,
+        "degenerate_triangles": true,
+        "duplicate_faces": true,
+        "normals_consistent": true,
+        "positive_closed_volume": true,
+        "topology": true,
+        "uv_present": true,
+        "uv_density": true,
+        "manifest_bounds": true,
+        "material_slots": true,
+        "identity_transform": true,
+        "fingerprint": true
+      },
+      "triangles": 32,
+      "quads": 16,
+      "ngons": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_edges": 0,
+      "signed_volume": 0.11280000419616702,
+      "degenerate_triangles": 0,
+      "uv_scale_range": [
+        0.4999998924169208,
+        0.5000001367573881
+      ],
+      "max_uv_scale_error_percent": 2.735147761612211e-05
+    },
+    "DUCT_Elbow90": {
+      "passed": true,
+      "checks": {
+        "nonempty": true,
+        "finite_geometry": true,
+        "degenerate_triangles": true,
+        "duplicate_faces": true,
+        "normals_consistent": true,
+        "positive_closed_volume": true,
+        "topology": true,
+        "uv_present": true,
+        "uv_density": true,
+        "manifest_bounds": true,
+        "material_slots": true,
+        "identity_transform": true,
+        "fingerprint": true
+      },
+      "triangles": 208,
+      "quads": 104,
+      "ngons": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_edges": 0,
+      "signed_volume": 0.08834012084509621,
+      "degenerate_triangles": 0,
+      "uv_scale_range": [
+        0.4999995708423596,
+        0.5000005195652014
+      ],
+      "max_uv_scale_error_percent": 0.0001039130402835653
+    },
+    "DUCT_Tee": {
+      "passed": true,
+      "checks": {
+        "nonempty": true,
+        "finite_geometry": true,
+        "degenerate_triangles": true,
+        "duplicate_faces": true,
+        "normals_consistent": true,
+        "positive_closed_volume": true,
+        "topology": true,
+        "uv_present": true,
+        "uv_density": true,
+        "manifest_bounds": true,
+        "material_slots": true,
+        "identity_transform": true,
+        "fingerprint": true
+      },
+      "triangles": 88,
+      "quads": 19,
+      "ngons": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_edges": 0,
+      "signed_volume": 0.149292005601883,
+      "degenerate_triangles": 0,
+      "uv_scale_range": [
+        0.4999985536762761,
+        0.5000003041572477
+      ],
+      "max_uv_scale_error_percent": 0.0002892647447794161
+    },
+    "DUCT_Reducer": {
+      "passed": true,
+      "checks": {
+        "nonempty": true,
+        "finite_geometry": true,
+        "degenerate_triangles": true,
+        "duplicate_faces": true,
+        "normals_consistent": true,
+        "positive_closed_volume": true,
+        "topology": true,
+        "uv_present": true,
+        "uv_density": true,
+        "manifest_bounds": true,
+        "material_slots": true,
+        "identity_transform": true,
+        "fingerprint": true
+      },
+      "triangles": 32,
+      "quads": 16,
+      "ngons": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_edges": 0,
+      "signed_volume": 0.04440000690619156,
+      "degenerate_triangles": 0,
+      "uv_scale_range": [
+        0.49999989805998907,
+        0.500000111874141
+      ],
+      "max_uv_scale_error_percent": 2.237482819023029e-05
+    },
+    "DUCT_EndCap": {
+      "passed": true,
+      "checks": {
+        "nonempty": true,
+        "finite_geometry": true,
+        "degenerate_triangles": true,
+        "duplicate_faces": true,
+        "normals_consistent": true,
+        "positive_closed_volume": true,
+        "topology": true,
+        "uv_present": true,
+        "uv_density": true,
+        "manifest_bounds": true,
+        "material_slots": true,
+        "identity_transform": true,
+        "fingerprint": true
+      },
+      "triangles": 12,
+      "quads": 6,
+      "ngons": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_edges": 0,
+      "signed_volume": 0.012500000186264513,
+      "degenerate_triangles": 0,
+      "uv_scale_range": [
+        0.49999987513770017,
+        0.5000001356775018
+      ],
+      "max_uv_scale_error_percent": 2.7135500357822195e-05
+    },
+    "VENT_WallGrille": {
+      "passed": true,
+      "checks": {
+        "nonempty": true,
+        "finite_geometry": true,
+        "degenerate_triangles": true,
+        "duplicate_faces": true,
+        "normals_consistent": true,
+        "positive_closed_volume": true,
+        "topology": true,
+        "uv_present": true,
+        "uv_density": true,
+        "manifest_bounds": true,
+        "material_slots": true,
+        "identity_transform": true,
+        "fingerprint": true
+      },
+      "triangles": 216,
+      "quads": 67,
+      "ngons": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_edges": 0,
+      "signed_volume": 0.025651199467277563,
+      "degenerate_triangles": 0,
+      "uv_scale_range": [
+        0.4998644676391893,
+        0.50012500725692
+      ],
+      "max_uv_scale_error_percent": 0.02710647216214168
+    },
+    "VENT_CeilingGrille": {
+      "passed": true,
+      "checks": {
+        "nonempty": true,
+        "finite_geometry": true,
+        "degenerate_triangles": true,
+        "duplicate_faces": true,
+        "normals_consistent": true,
+        "positive_closed_volume": true,
+        "topology": true,
+        "uv_present": true,
+        "uv_density": true,
+        "manifest_bounds": true,
+        "material_slots": true,
+        "identity_transform": true,
+        "fingerprint": true
+      },
+      "triangles": 216,
+      "quads": 71,
+      "ngons": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_edges": 0,
+      "signed_volume": 0.025651199998354694,
+      "degenerate_triangles": 0,
+      "uv_scale_range": [
+        0.4779218037792173,
+        0.5230982097315735
+      ],
+      "max_uv_scale_error_percent": 4.619641946314701
+    },
+    "VENT_FanHousing": {
+      "passed": true,
+      "checks": {
+        "nonempty": true,
+        "finite_geometry": true,
+        "degenerate_triangles": true,
+        "duplicate_faces": true,
+        "normals_consistent": true,
+        "positive_closed_volume": true,
+        "topology": true,
+        "uv_present": true,
+        "uv_density": true,
+        "manifest_bounds": true,
+        "material_slots": true,
+        "identity_transform": true,
+        "fingerprint": true
+      },
+      "triangles": 480,
+      "quads": 149,
+      "ngons": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_edges": 0,
+      "signed_volume": 0.07825474348580176,
+      "degenerate_triangles": 0,
+      "uv_scale_range": [
+        0.4999879427075605,
+        0.5000152316170896
+      ],
+      "max_uv_scale_error_percent": 0.003046323417921215
+    },
+    "DUCT_Hanger": {
+      "passed": true,
+      "checks": {
+        "nonempty": true,
+        "finite_geometry": true,
+        "degenerate_triangles": true,
+        "duplicate_faces": true,
+        "normals_consistent": true,
+        "positive_closed_volume": true,
+        "topology": true,
+        "uv_present": true,
+        "uv_density": true,
+        "manifest_bounds": true,
+        "material_slots": true,
+        "identity_transform": true,
+        "fingerprint": true
+      },
+      "triangles": 52,
+      "quads": 15,
+      "ngons": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_edges": 0,
+      "signed_volume": 0.008499998331069923,
+      "degenerate_triangles": 0,
+      "uv_scale_range": [
+        0.4999971676197767,
+        0.5000017090482902
+      ],
+      "max_uv_scale_error_percent": 0.0005664760446610906
+    },
+    "STAIR_Straight": {
+      "passed": true,
+      "checks": {
+        "nonempty": true,
+        "finite_geometry": true,
+        "degenerate_triangles": true,
+        "duplicate_faces": true,
+        "normals_consistent": true,
+        "positive_closed_volume": true,
+        "topology": true,
+        "uv_present": true,
+        "uv_density": true,
+        "manifest_bounds": true,
+        "material_slots": true,
+        "identity_transform": true,
+        "fingerprint": true,
+        "approved_stair_area": true
+      },
+      "triangles": 120,
+      "quads": 31,
+      "ngons": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_edges": 0,
+      "signed_volume": 8.800000000000034,
+      "degenerate_triangles": 0,
+      "uv_scale_range": [
+        0.49999986724930534,
+        0.5000001463391152
+      ],
+      "max_uv_scale_error_percent": 2.926782303180886e-05
+    },
+    "STAIR_Switchback": {
+      "passed": true,
+      "checks": {
+        "nonempty": true,
+        "finite_geometry": true,
+        "degenerate_triangles": true,
+        "duplicate_faces": true,
+        "normals_consistent": true,
+        "positive_closed_volume": true,
+        "topology": true,
+        "uv_present": true,
+        "uv_density": true,
+        "manifest_bounds": true,
+        "material_slots": true,
+        "identity_transform": true,
+        "fingerprint": true
+      },
+      "triangles": 148,
+      "quads": 64,
+      "ngons": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_edges": 0,
+      "signed_volume": 4.399999820833974,
+      "degenerate_triangles": 0,
+      "uv_scale_range": [
+        0.49999974209987796,
+        0.5000002556977358
+      ],
+      "max_uv_scale_error_percent": 5.1580024407194e-05
+    },
+    "STAIR_Spiral": {
+      "passed": true,
+      "checks": {
+        "nonempty": true,
+        "finite_geometry": true,
+        "degenerate_triangles": true,
+        "duplicate_faces": true,
+        "normals_consistent": true,
+        "positive_closed_volume": true,
+        "topology": true,
+        "uv_present": true,
+        "uv_density": true,
+        "manifest_bounds": true,
+        "material_slots": true,
+        "identity_transform": true,
+        "fingerprint": true
+      },
+      "triangles": 244,
+      "quads": 82,
+      "ngons": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_edges": 0,
+      "signed_volume": 3.7082039912624527,
+      "degenerate_triangles": 0,
+      "uv_scale_range": [
+        0.49999918270494165,
+        0.5000004208247355
+      ],
+      "max_uv_scale_error_percent": 0.00016345901167058585
+    },
+    "STAIR_Landing": {
+      "passed": true,
+      "checks": {
+        "nonempty": true,
+        "finite_geometry": true,
+        "degenerate_triangles": true,
+        "duplicate_faces": true,
+        "normals_consistent": true,
+        "positive_closed_volume": true,
+        "topology": true,
+        "uv_present": true,
+        "uv_density": true,
+        "manifest_bounds": true,
+        "material_slots": true,
+        "identity_transform": true,
+        "fingerprint": true
+      },
+      "triangles": 12,
+      "quads": 6,
+      "ngons": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_edges": 0,
+      "signed_volume": 0.8000000119209288,
+      "degenerate_triangles": 0,
+      "uv_scale_range": [
+        0.4999999982277591,
+        0.5000000109375162
+      ],
+      "max_uv_scale_error_percent": 2.1875032452101095e-06
+    },
+    "STAIR_Railing": {
+      "passed": true,
+      "checks": {
+        "nonempty": true,
+        "finite_geometry": true,
+        "degenerate_triangles": true,
+        "duplicate_faces": true,
+        "normals_consistent": true,
+        "positive_closed_volume": true,
+        "topology": true,
+        "uv_present": true,
+        "uv_density": true,
+        "manifest_bounds": true,
+        "material_slots": true,
+        "identity_transform": true,
+        "fingerprint": true
+      },
+      "triangles": 212,
+      "quads": 106,
+      "ngons": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_edges": 0,
+      "signed_volume": 0.06092799415165294,
+      "degenerate_triangles": 0,
+      "uv_scale_range": [
+        0.4999974443047389,
+        0.5000028744998342
+      ],
+      "max_uv_scale_error_percent": 0.0005748999668320209
+    },
+    "BRIDGE_Flat_4m": {
+      "passed": true,
+      "checks": {
+        "nonempty": true,
+        "finite_geometry": true,
+        "degenerate_triangles": true,
+        "duplicate_faces": true,
+        "normals_consistent": true,
+        "positive_closed_volume": true,
+        "topology": true,
+        "uv_present": true,
+        "uv_density": true,
+        "manifest_bounds": true,
+        "material_slots": true,
+        "identity_transform": true,
+        "fingerprint": true
+      },
+      "triangles": 12,
+      "quads": 6,
+      "ngons": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_edges": 0,
+      "signed_volume": 1.6000000238418577,
+      "degenerate_triangles": 0,
+      "uv_scale_range": [
+        0.4999999962998918,
+        0.5000000109375162
+      ],
+      "max_uv_scale_error_percent": 2.1875032452101095e-06
+    },
+    "BRIDGE_Arched": {
+      "passed": true,
+      "checks": {
+        "nonempty": true,
+        "finite_geometry": true,
+        "degenerate_triangles": true,
+        "duplicate_faces": true,
+        "normals_consistent": true,
+        "positive_closed_volume": true,
+        "topology": true,
+        "uv_present": true,
+        "uv_density": true,
+        "manifest_bounds": true,
+        "material_slots": true,
+        "identity_transform": true,
+        "fingerprint": true
+      },
+      "triangles": 68,
+      "quads": 18,
+      "ngons": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_edges": 0,
+      "signed_volume": 1.5999999716877928,
+      "degenerate_triangles": 0,
+      "uv_scale_range": [
+        0.49999787615803426,
+        0.5000022571453971
+      ],
+      "max_uv_scale_error_percent": 0.0004514290794288556
+    },
+    "BRIDGE_Catwalk": {
+      "passed": true,
+      "checks": {
+        "nonempty": true,
+        "finite_geometry": true,
+        "degenerate_triangles": true,
+        "duplicate_faces": true,
+        "normals_consistent": true,
+        "positive_closed_volume": true,
+        "topology": true,
+        "uv_present": true,
+        "uv_density": true,
+        "manifest_bounds": true,
+        "material_slots": true,
+        "identity_transform": true,
+        "fingerprint": true
+      },
+      "triangles": 468,
+      "quads": 203,
+      "ngons": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_edges": 0,
+      "signed_volume": 1.7218559589271638,
+      "degenerate_triangles": 0,
+      "uv_scale_range": [
+        0.499988176982486,
+        0.5000105811043111
+      ],
+      "max_uv_scale_error_percent": 0.0023646035028024315
+    },
+    "ELEVATOR_ShaftSegment": {
+      "passed": true,
+      "checks": {
+        "nonempty": true,
+        "finite_geometry": true,
+        "degenerate_triangles": true,
+        "duplicate_faces": true,
+        "normals_consistent": true,
+        "positive_closed_volume": true,
+        "topology": true,
+        "uv_present": true,
+        "uv_density": true,
+        "manifest_bounds": true,
+        "material_slots": true,
+        "identity_transform": true,
+        "fingerprint": true
+      },
+      "triangles": 48,
+      "quads": 10,
+      "ngons": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_edges": 0,
+      "signed_volume": 11.544002596855133,
+      "degenerate_triangles": 0,
+      "uv_scale_range": [
+        0.49999969347566053,
+        0.5000003709035782
+      ],
+      "max_uv_scale_error_percent": 7.418071563680684e-05
+    },
+    "ELEVATOR_CabShell": {
+      "passed": true,
+      "checks": {
+        "nonempty": true,
+        "finite_geometry": true,
+        "degenerate_triangles": true,
+        "duplicate_faces": true,
+        "normals_consistent": true,
+        "positive_closed_volume": true,
+        "topology": true,
+        "uv_present": true,
+        "uv_density": true,
+        "manifest_bounds": true,
+        "material_slots": true,
+        "identity_transform": true,
+        "fingerprint": true
+      },
+      "triangles": 48,
+      "quads": 15,
+      "ngons": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_edges": 0,
+      "signed_volume": 2.1780008468925796,
+      "degenerate_triangles": 0,
+      "uv_scale_range": [
+        0.49999292521433575,
+        0.5000013722709579
+      ],
+      "max_uv_scale_error_percent": 0.0014149571328503363
+    },
+    "LIGHT_FluorescentHousing": {
+      "passed": true,
+      "checks": {
+        "nonempty": true,
+        "finite_geometry": true,
+        "degenerate_triangles": true,
+        "duplicate_faces": true,
+        "normals_consistent": true,
+        "positive_closed_volume": true,
+        "topology": true,
+        "uv_present": true,
+        "uv_density": true,
+        "manifest_bounds": true,
+        "material_slots": true,
+        "identity_transform": true,
+        "fingerprint": true
+      },
+      "triangles": 40,
+      "quads": 17,
+      "ngons": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_edges": 0,
+      "signed_volume": 0.04911200241504603,
+      "degenerate_triangles": 0,
+      "uv_scale_range": [
+        0.4999994549015756,
+        0.5000005407375194
+      ],
+      "max_uv_scale_error_percent": 0.00010901968487964098
+    },
+    "LIGHT_RecessedPanel": {
+      "passed": true,
+      "checks": {
+        "nonempty": true,
+        "finite_geometry": true,
+        "degenerate_triangles": true,
+        "duplicate_faces": true,
+        "normals_consistent": true,
+        "positive_closed_volume": true,
+        "topology": true,
+        "uv_present": true,
+        "uv_density": true,
+        "manifest_bounds": true,
+        "material_slots": true,
+        "identity_transform": true,
+        "fingerprint": true
+      },
+      "triangles": 40,
+      "quads": 17,
+      "ngons": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_edges": 0,
+      "signed_volume": 0.06688800356143709,
+      "degenerate_triangles": 0,
+      "uv_scale_range": [
+        0.4999996694108917,
+        0.5000006052183928
+      ],
+      "max_uv_scale_error_percent": 0.0001210436785692437
+    },
+    "LIGHT_WallSconce": {
+      "passed": true,
+      "checks": {
+        "nonempty": true,
+        "finite_geometry": true,
+        "degenerate_triangles": true,
+        "duplicate_faces": true,
+        "normals_consistent": true,
+        "positive_closed_volume": true,
+        "topology": true,
+        "uv_present": true,
+        "uv_density": true,
+        "manifest_bounds": true,
+        "material_slots": true,
+        "identity_transform": true,
+        "fingerprint": true
+      },
+      "triangles": 24,
+      "quads": 12,
+      "ngons": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_edges": 0,
+      "signed_volume": 0.017580000109374525,
+      "degenerate_triangles": 0,
+      "uv_scale_range": [
+        0.49999987513770017,
+        0.5000001356775018
+      ],
+      "max_uv_scale_error_percent": 2.7135500357822195e-05
+    },
+    "LIGHT_IndustrialCage": {
+      "passed": true,
+      "checks": {
+        "nonempty": true,
+        "finite_geometry": true,
+        "degenerate_triangles": true,
+        "duplicate_faces": true,
+        "normals_consistent": true,
+        "positive_closed_volume": true,
+        "topology": true,
+        "uv_present": true,
+        "uv_density": true,
+        "manifest_bounds": true,
+        "material_slots": true,
+        "identity_transform": true,
+        "fingerprint": true
+      },
+      "triangles": 544,
+      "quads": 113,
+      "ngons": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_edges": 0,
+      "signed_volume": 0.03912731326886616,
+      "degenerate_triangles": 0,
+      "uv_scale_range": [
+        0.4999462442707631,
+        0.500264807939226
+      ],
+      "max_uv_scale_error_percent": 0.05296158784520166
+    },
+    "LIGHT_ExitSignHousing": {
+      "passed": true,
+      "checks": {
+        "nonempty": true,
+        "finite_geometry": true,
+        "degenerate_triangles": true,
+        "duplicate_faces": true,
+        "normals_consistent": true,
+        "positive_closed_volume": true,
+        "topology": true,
+        "uv_present": true,
+        "uv_density": true,
+        "manifest_bounds": true,
+        "material_slots": true,
+        "identity_transform": true,
+        "fingerprint": true
+      },
+      "triangles": 44,
+      "quads": 22,
+      "ngons": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_edges": 0,
+      "signed_volume": 0.02285600200790168,
+      "degenerate_triangles": 0,
+      "uv_scale_range": [
+        0.49999980829098084,
+        0.5000002218100879
+      ],
+      "max_uv_scale_error_percent": 4.4362017570520607e-05
+    },
+    "DETAIL_CableTray": {
+      "passed": true,
+      "checks": {
+        "nonempty": true,
+        "finite_geometry": true,
+        "degenerate_triangles": true,
+        "duplicate_faces": true,
+        "normals_consistent": true,
+        "positive_closed_volume": true,
+        "topology": true,
+        "uv_present": true,
+        "uv_density": true,
+        "manifest_bounds": true,
+        "material_slots": true,
+        "identity_transform": true,
+        "fingerprint": true
+      },
+      "triangles": 62,
+      "quads": 14,
+      "ngons": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_edges": 0,
+      "signed_volume": 0.044400000697374375,
+      "degenerate_triangles": 0,
+      "uv_scale_range": [
+        0.4999344672834936,
+        0.5000687246754525
+      ],
+      "max_uv_scale_error_percent": 0.013744935090498345
+    },
+    "DETAIL_WallConduit": {
+      "passed": true,
+      "checks": {
+        "nonempty": true,
+        "finite_geometry": true,
+        "degenerate_triangles": true,
+        "duplicate_faces": true,
+        "normals_consistent": true,
+        "positive_closed_volume": true,
+        "topology": true,
+        "uv_present": true,
+        "uv_density": true,
+        "manifest_bounds": true,
+        "material_slots": true,
+        "identity_transform": true,
+        "fingerprint": true
+      },
+      "triangles": 64,
+      "quads": 32,
+      "ngons": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_edges": 0,
+      "signed_volume": 0.0017027225022069607,
+      "degenerate_triangles": 0,
+      "uv_scale_range": [
+        0.4999943618248402,
+        0.500001017066515
+      ],
+      "max_uv_scale_error_percent": 0.0011276350319611161
+    },
+    "DETAIL_ServiceHatch": {
+      "passed": true,
+      "checks": {
+        "nonempty": true,
+        "finite_geometry": true,
+        "degenerate_triangles": true,
+        "duplicate_faces": true,
+        "normals_consistent": true,
+        "positive_closed_volume": true,
+        "topology": true,
+        "uv_present": true,
+        "uv_density": true,
+        "manifest_bounds": true,
+        "material_slots": true,
+        "identity_transform": true,
+        "fingerprint": true
+      },
+      "triangles": 44,
+      "quads": 22,
+      "ngons": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_edges": 0,
+      "signed_volume": 0.043723999924629935,
+      "degenerate_triangles": 0,
+      "uv_scale_range": [
+        0.4999994469216261,
+        0.5000005105631408
+      ],
+      "max_uv_scale_error_percent": 0.00011061567477543832
+    },
+    "DETAIL_BalconyRail": {
+      "passed": true,
+      "checks": {
+        "nonempty": true,
+        "finite_geometry": true,
+        "degenerate_triangles": true,
+        "duplicate_faces": true,
+        "normals_consistent": true,
+        "positive_closed_volume": true,
+        "topology": true,
+        "uv_present": true,
+        "uv_density": true,
+        "manifest_bounds": true,
+        "material_slots": true,
+        "identity_transform": true,
+        "fingerprint": true
+      },
+      "triangles": 124,
+      "quads": 62,
+      "ngons": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_edges": 0,
+      "signed_volume": 0.03488000637531266,
+      "degenerate_triangles": 0,
+      "uv_scale_range": [
+        0.4999997010516764,
+        0.5000002584756471
+      ],
+      "max_uv_scale_error_percent": 5.9789664719200886e-05
+    },
+    "DETAIL_ColumnBase": {
+      "passed": true,
+      "checks": {
+        "nonempty": true,
+        "finite_geometry": true,
+        "degenerate_triangles": true,
+        "duplicate_faces": true,
+        "normals_consistent": true,
+        "positive_closed_volume": true,
+        "topology": true,
+        "uv_present": true,
+        "uv_density": true,
+        "manifest_bounds": true,
+        "material_slots": true,
+        "identity_transform": true,
+        "fingerprint": true
+      },
+      "triangles": 76,
+      "quads": 21,
+      "ngons": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_edges": 0,
+      "signed_volume": 0.1135957775913238,
+      "degenerate_triangles": 0,
+      "uv_scale_range": [
+        0.4999920484751055,
+        0.5000008498694188
+      ],
+      "max_uv_scale_error_percent": 0.0015903049789045554
+    },
+    "STAIR_Straight_SlopingUnderside": {
+      "passed": true,
+      "checks": {
+        "nonempty": true,
+        "finite_geometry": true,
+        "degenerate_triangles": true,
+        "duplicate_faces": true,
+        "normals_consistent": true,
+        "positive_closed_volume": true,
+        "topology": true,
+        "uv_present": true,
+        "uv_density": true,
+        "manifest_bounds": true,
+        "material_slots": true,
+        "identity_transform": true,
+        "fingerprint": true,
+        "sloping_stair_volume": true,
+        "sloping_stair_bounds": true
+      },
+      "triangles": 124,
+      "quads": 52,
+      "ngons": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_edges": 0,
+      "signed_volume": 2.399999982118649,
+      "degenerate_triangles": 0,
+      "uv_scale_range": [
+        0.49999972510996055,
+        0.5000002499000317
+      ],
+      "max_uv_scale_error_percent": 5.497800789067142e-05
+    }
+  },
+  "approved_pilot_unchanged": {
+    "WALL_Flat_2x2": true,
+    "FLOOR_Tile_2x2": true,
+    "ARCH_Round": true,
+    "COLUMN_Round": true,
+    "PIPE_Straight_2m": true,
+    "PIPE_Elbow90": true,
+    "STAIR_Straight": true,
+    "BRIDGE_Flat_4m": true
+  },
+  "connectors": {
+    "WALL_Flat_2x2": true,
+    "WALL_Flat_4x2": true,
+    "WALL_Thick_2x2": true,
+    "WALL_InsideCorner": true,
+    "WALL_OutsideCorner": true,
+    "WALL_RecessedPanel": true,
+    "WALL_LowPartition": true,
+    "WALL_Curved90": true,
+    "FLOOR_Tile_2x2": true,
+    "FLOOR_Tile_4x4": true,
+    "FLOOR_RaisedPlatform": true,
+    "FLOOR_Ramp": true,
+    "CEILING_Flat_2x2": true,
+    "CEILING_Grid_2x2": true,
+    "CEILING_Vaulted": true,
+    "CEILING_Recessed": true,
+    "ARCH_Round": true,
+    "ARCH_Point": true,
+    "ARCH_Segmental": true,
+    "ARCH_WideSpan": true,
+    "ARCH_Double": true,
+    "COLUMN_Round": true,
+    "COLUMN_Square": true,
+    "COLUMN_Fluted": true,
+    "PILASTER_Wall": true,
+    "BEAM_Straight": true,
+    "BEAM_Curved": true,
+    "CORNICE_Straight": true,
+    "SKIRTING_Straight": true,
+    "TRIM_PanelFrame": true,
+    "DOORWAY_Standard": true,
+    "DOORWAY_Wide": true,
+    "DOORWAY_Arched": true,
+    "DOOR_Leaf_Plain": true,
+    "DOOR_Leaf_Industrial": true,
+    "DOOR_Frame": true,
+    "DOOR_DoubleLeaf": true,
+    "WINDOW_Rectangular": true,
+    "WINDOW_Tall": true,
+    "WINDOW_Arched": true,
+    "WINDOW_InteriorObservation": true,
+    "WINDOW_FrameAndSill": true,
+    "PIPE_Straight_1m": true,
+    "PIPE_Straight_2m": true,
+    "PIPE_Straight_4m": true,
+    "PIPE_Elbow45": true,
+    "PIPE_Elbow90": true,
+    "PIPE_Tee": true,
+    "PIPE_Cross": true,
+    "PIPE_Reducer": true,
+    "PIPE_Flange": true,
+    "PIPE_EndCap": true,
+    "PIPE_ValveWheel": true,
+    "PIPE_ValveBody": true,
+    "PIPE_Bracket": true,
+    "PIPE_Ubend": true,
+    "PIPE_Riser": true,
+    "PIPE_Manifold": true,
+    "DUCT_Square_1m": true,
+    "DUCT_Square_2m": true,
+    "DUCT_Elbow90": true,
+    "DUCT_Tee": true,
+    "DUCT_Reducer": true,
+    "DUCT_EndCap": true,
+    "VENT_WallGrille": true,
+    "VENT_CeilingGrille": true,
+    "VENT_FanHousing": true,
+    "DUCT_Hanger": true,
+    "STAIR_Straight": true,
+    "STAIR_Switchback": true,
+    "STAIR_Spiral": true,
+    "STAIR_Landing": true,
+    "STAIR_Railing": true,
+    "BRIDGE_Flat_4m": true,
+    "BRIDGE_Arched": true,
+    "BRIDGE_Catwalk": true,
+    "ELEVATOR_ShaftSegment": true,
+    "ELEVATOR_CabShell": true,
+    "LIGHT_FluorescentHousing": true,
+    "LIGHT_RecessedPanel": true,
+    "LIGHT_WallSconce": true,
+    "LIGHT_IndustrialCage": true,
+    "LIGHT_ExitSignHousing": true,
+    "DETAIL_CableTray": true,
+    "DETAIL_WallConduit": true,
+    "DETAIL_ServiceHatch": true,
+    "DETAIL_BalconyRail": true,
+    "DETAIL_ColumnBase": true,
+    "STAIR_Straight_SlopingUnderside": true
+  },
+  "joins": [
+    {
+      "a": "flight_1",
+      "a_connector": "top",
+      "b": "landing",
+      "b_connector": "in",
+      "error_metres": 0.0,
+      "direction_dot": -1.0,
+      "passed": true
+    },
+    {
+      "a": "landing",
+      "a_connector": "out",
+      "b": "flight_2",
+      "b_connector": "bottom",
+      "error_metres": 0.0,
+      "direction_dot": -1.0,
+      "passed": true
+    },
+    {
+      "a": "bridge_A",
+      "a_connector": "end",
+      "b": "bridge_B",
+      "b_connector": "start",
+      "error_metres": 0.0,
+      "direction_dot": -1.0,
+      "passed": true
+    },
+    {
+      "a": "pipe_4",
+      "a_connector": "out",
+      "b": "pipe_elbow",
+      "b_connector": "in",
+      "error_metres": 0.0,
+      "direction_dot": -1.0,
+      "passed": true
+    },
+    {
+      "a": "pipe_elbow",
+      "a_connector": "out",
+      "b": "pipe_2",
+      "b_connector": "in",
+      "error_metres": 0.0,
+      "direction_dot": -1.0,
+      "passed": true
+    },
+    {
+      "a": "duct_A",
+      "a_connector": "out",
+      "b": "duct_B",
+      "b_connector": "in",
+      "error_metres": 0.0,
+      "direction_dot": -1.0,
+      "passed": true
+    },
+    {
+      "a": "duct_B",
+      "a_connector": "out",
+      "b": "duct_elbow",
+      "b_connector": "in",
+      "error_metres": 0.0,
+      "direction_dot": -1.0,
+      "passed": true
+    },
+    {
+      "a": "shaft_lower",
+      "a_connector": "top",
+      "b": "shaft_upper",
+      "b_connector": "bottom",
+      "error_metres": 0.0,
+      "direction_dot": -1.0,
+      "passed": true
+    },
+    {
+      "a": "wall_join_A",
+      "a_connector": "right",
+      "b": "wall_join_B",
+      "b_connector": "left",
+      "error_metres": 0.0,
+      "direction_dot": -1.0,
+      "passed": true
+    },
+    {
+      "a": "tile_join_A",
+      "a_connector": "east",
+      "b": "tile_join_B",
+      "b_connector": "west",
+      "error_metres": 0.0,
+      "direction_dot": -1.0,
+      "passed": true
+    }
+  ],
+  "opening_clearance": {
+    "ARCH_Round": true,
+    "ARCH_Point": true,
+    "ARCH_Segmental": true,
+    "ARCH_WideSpan": true,
+    "DOORWAY_Standard": true,
+    "DOORWAY_Wide": true,
+    "DOORWAY_Arched": true
+  },
+  "pipe_mating_profiles": {
+    "PIPE_Straight_1m:in": {
+      "passed": true,
+      "outer_inner_vertices": [
+        32,
+        32
+      ],
+      "max_profile_error_metres": 6.064333243705223e-08
+    },
+    "PIPE_Straight_1m:out": {
+      "passed": true,
+      "outer_inner_vertices": [
+        32,
+        32
+      ],
+      "max_profile_error_metres": 6.064333243705223e-08
+    },
+    "PIPE_Straight_2m:in": {
+      "passed": true,
+      "outer_inner_vertices": [
+        32,
+        32
+      ],
+      "max_profile_error_metres": 8.33000234328132e-09
+    },
+    "PIPE_Straight_2m:out": {
+      "passed": true,
+      "outer_inner_vertices": [
+        32,
+        32
+      ],
+      "max_profile_error_metres": 8.33000234328132e-09
+    },
+    "PIPE_Straight_4m:in": {
+      "passed": true,
+      "outer_inner_vertices": [
+        32,
+        32
+      ],
+      "max_profile_error_metres": 6.064333243705223e-08
+    },
+    "PIPE_Straight_4m:out": {
+      "passed": true,
+      "outer_inner_vertices": [
+        32,
+        32
+      ],
+      "max_profile_error_metres": 6.064333243705223e-08
+    },
+    "PIPE_Elbow45:in": {
+      "passed": true,
+      "outer_inner_vertices": [
+        32,
+        32
+      ],
+      "max_profile_error_metres": 6.064333243705223e-08
+    },
+    "PIPE_Elbow45:out": {
+      "passed": true,
+      "outer_inner_vertices": [
+        32,
+        32
+      ],
+      "max_profile_error_metres": 1.1590383340495858e-07
+    },
+    "PIPE_Elbow90:in": {
+      "passed": true,
+      "outer_inner_vertices": [
+        32,
+        32
+      ],
+      "max_profile_error_metres": 8.33000234328132e-09
+    },
+    "PIPE_Elbow90:out": {
+      "passed": true,
+      "outer_inner_vertices": [
+        32,
+        32
+      ],
+      "max_profile_error_metres": 6.006850114687196e-08
+    },
+    "PIPE_Tee:west": {
+      "passed": true,
+      "outer_inner_vertices": [
+        32,
+        32
+      ],
+      "max_profile_error_metres": 6.064333243705223e-08
+    },
+    "PIPE_Tee:east": {
+      "passed": true,
+      "outer_inner_vertices": [
+        32,
+        32
+      ],
+      "max_profile_error_metres": 6.064333243705223e-08
+    },
+    "PIPE_Tee:north": {
+      "passed": true,
+      "outer_inner_vertices": [
+        32,
+        32
+      ],
+      "max_profile_error_metres": 1.284550104257961e-07
+    },
+    "PIPE_Cross:west": {
+      "passed": true,
+      "outer_inner_vertices": [
+        32,
+        32
+      ],
+      "max_profile_error_metres": 6.064333243705223e-08
+    },
+    "PIPE_Cross:east": {
+      "passed": true,
+      "outer_inner_vertices": [
+        32,
+        32
+      ],
+      "max_profile_error_metres": 6.064333243705223e-08
+    },
+    "PIPE_Cross:north": {
+      "passed": true,
+      "outer_inner_vertices": [
+        32,
+        32
+      ],
+      "max_profile_error_metres": 2.0116567611694336e-07
+    },
+    "PIPE_Cross:south": {
+      "passed": true,
+      "outer_inner_vertices": [
+        32,
+        32
+      ],
+      "max_profile_error_metres": 6.064333243705223e-08
+    },
+    "PIPE_Reducer:in": {
+      "passed": true,
+      "outer_inner_vertices": [
+        32,
+        32
+      ],
+      "max_profile_error_metres": 6.064333243705223e-08
+    },
+    "PIPE_ValveBody:in": {
+      "passed": true,
+      "outer_inner_vertices": [
+        32,
+        32
+      ],
+      "max_profile_error_metres": 6.064333243705223e-08
+    },
+    "PIPE_ValveBody:out": {
+      "passed": true,
+      "outer_inner_vertices": [
+        32,
+        32
+      ],
+      "max_profile_error_metres": 6.064333243705223e-08
+    },
+    "PIPE_Ubend:in": {
+      "passed": true,
+      "outer_inner_vertices": [
+        32,
+        32
+      ],
+      "max_profile_error_metres": 6.064333243705223e-08
+    },
+    "PIPE_Ubend:out": {
+      "passed": true,
+      "outer_inner_vertices": [
+        32,
+        32
+      ],
+      "max_profile_error_metres": 1.2202813740193247e-07
+    },
+    "PIPE_Riser:bottom": {
+      "passed": true,
+      "outer_inner_vertices": [
+        32,
+        32
+      ],
+      "max_profile_error_metres": 6.064333243705223e-08
+    },
+    "PIPE_Riser:top": {
+      "passed": true,
+      "outer_inner_vertices": [
+        32,
+        32
+      ],
+      "max_profile_error_metres": 1.4394282613964123e-07
+    },
+    "PIPE_Manifold:in": {
+      "passed": true,
+      "outer_inner_vertices": [
+        32,
+        32
+      ],
+      "max_profile_error_metres": 6.064333243705223e-08
+    },
+    "PIPE_Manifold:out": {
+      "passed": true,
+      "outer_inner_vertices": [
+        32,
+        32
+      ],
+      "max_profile_error_metres": 6.064333243705223e-08
+    },
+    "PIPE_Manifold:branch_1": {
+      "passed": true,
+      "outer_inner_vertices": [
+        32,
+        32
+      ],
+      "max_profile_error_metres": 1.6173938919672676e-07
+    },
+    "PIPE_Manifold:branch_2": {
+      "passed": true,
+      "outer_inner_vertices": [
+        32,
+        32
+      ],
+      "max_profile_error_metres": 1.8431718463976653e-07
+    },
+    "PIPE_Manifold:branch_3": {
+      "passed": true,
+      "outer_inner_vertices": [
+        32,
+        32
+      ],
+      "max_profile_error_metres": 1.959941750461743e-07
+    }
+  },
+  "stair_variation_treads_match_approved": true,
+  "files": {
+    "WALL_Flat_2x2": true,
+    "WALL_Flat_4x2": true,
+    "WALL_Thick_2x2": true,
+    "WALL_InsideCorner": true,
+    "WALL_OutsideCorner": true,
+    "WALL_RecessedPanel": true,
+    "WALL_LowPartition": true,
+    "WALL_Curved90": true,
+    "FLOOR_Tile_2x2": true,
+    "FLOOR_Tile_4x4": true,
+    "FLOOR_RaisedPlatform": true,
+    "FLOOR_Ramp": true,
+    "CEILING_Flat_2x2": true,
+    "CEILING_Grid_2x2": true,
+    "CEILING_Vaulted": true,
+    "CEILING_Recessed": true,
+    "ARCH_Round": true,
+    "ARCH_Point": true,
+    "ARCH_Segmental": true,
+    "ARCH_WideSpan": true,
+    "ARCH_Double": true,
+    "COLUMN_Round": true,
+    "COLUMN_Square": true,
+    "COLUMN_Fluted": true,
+    "PILASTER_Wall": true,
+    "BEAM_Straight": true,
+    "BEAM_Curved": true,
+    "CORNICE_Straight": true,
+    "SKIRTING_Straight": true,
+    "TRIM_PanelFrame": true,
+    "DOORWAY_Standard": true,
+    "DOORWAY_Wide": true,
+    "DOORWAY_Arched": true,
+    "DOOR_Leaf_Plain": true,
+    "DOOR_Leaf_Industrial": true,
+    "DOOR_Frame": true,
+    "DOOR_DoubleLeaf": true,
+    "WINDOW_Rectangular": true,
+    "WINDOW_Tall": true,
+    "WINDOW_Arched": true,
+    "WINDOW_InteriorObservation": true,
+    "WINDOW_FrameAndSill": true,
+    "PIPE_Straight_1m": true,
+    "PIPE_Straight_2m": true,
+    "PIPE_Straight_4m": true,
+    "PIPE_Elbow45": true,
+    "PIPE_Elbow90": true,
+    "PIPE_Tee": true,
+    "PIPE_Cross": true,
+    "PIPE_Reducer": true,
+    "PIPE_Flange": true,
+    "PIPE_EndCap": true,
+    "PIPE_ValveWheel": true,
+    "PIPE_ValveBody": true,
+    "PIPE_Bracket": true,
+    "PIPE_Ubend": true,
+    "PIPE_Riser": true,
+    "PIPE_Manifold": true,
+    "DUCT_Square_1m": true,
+    "DUCT_Square_2m": true,
+    "DUCT_Elbow90": true,
+    "DUCT_Tee": true,
+    "DUCT_Reducer": true,
+    "DUCT_EndCap": true,
+    "VENT_WallGrille": true,
+    "VENT_CeilingGrille": true,
+    "VENT_FanHousing": true,
+    "DUCT_Hanger": true,
+    "STAIR_Straight": true,
+    "STAIR_Switchback": true,
+    "STAIR_Spiral": true,
+    "STAIR_Landing": true,
+    "STAIR_Railing": true,
+    "BRIDGE_Flat_4m": true,
+    "BRIDGE_Arched": true,
+    "BRIDGE_Catwalk": true,
+    "ELEVATOR_ShaftSegment": true,
+    "ELEVATOR_CabShell": true,
+    "LIGHT_FluorescentHousing": true,
+    "LIGHT_RecessedPanel": true,
+    "LIGHT_WallSconce": true,
+    "LIGHT_IndustrialCage": true,
+    "LIGHT_ExitSignHousing": true,
+    "DETAIL_CableTray": true,
+    "DETAIL_WallConduit": true,
+    "DETAIL_ServiceHatch": true,
+    "DETAIL_BalconyRail": true,
+    "DETAIL_ColumnBase": true,
+    "STAIR_Straight_SlopingUnderside": true
+  },
+  "fbx_roundtrip": [
+    {
+      "checks": {
+        "bounds_metres": true,
+        "triangle_count": true,
+        "uv_values": true,
+        "material_slots": true,
+        "checker_images": true,
+        "closed_orientation": true,
+        "surface_area": true
+      },
+      "passed": true,
+      "bounds_error_metres": 3.2584134146418364e-07,
+      "max_position_uv_error": 0,
+      "asset_id": "WALL_Flat_2x2"
+    },
+    {
+      "checks": {
+        "bounds_metres": true,
+        "triangle_count": true,
+        "uv_values": true,
+        "material_slots": true,
+        "checker_images": true,
+        "closed_orientation": true,
+        "surface_area": true
+      },
+      "passed": true,
+      "bounds_error_metres": 3.2584134146418364e-07,
+      "max_position_uv_error": 0,
+      "asset_id": "WALL_Flat_4x2"
+    },
+    {
+      "checks": {
+        "bounds_metres": true,
+        "triangle_count": true,
+        "uv_values": true,
+        "material_slots": true,
+        "checker_images": true,
+        "closed_orientation": true,
+        "surface_area": true
+      },
+      "passed": true,
+      "bounds_error_metres": 3.2782554626464844e-07,
+      "max_position_uv_error": 0,
+      "asset_id": "WALL_Thick_2x2"
+    },
+    {
+      "checks": {
+        "bounds_metres": true,
+        "triangle_count": true,
+        "uv_values": true,
+        "material_slots": true,
+        "checker_images": true,
+        "closed_orientation": true,
+        "surface_area": true
+      },
+      "passed": true,
+      "bounds_error_metres": 3.2584134146418364e-07,
+      "max_position_uv_error": 0,
+      "asset_id": "WALL_InsideCorner"
+    },
+    {
+      "checks": {
+        "bounds_metres": true,
+        "triangle_count": true,
+        "uv_values": true,
+        "material_slots": true,
+        "checker_images": true,
+        "closed_orientation": true,
+        "surface_area": true
+      },
+      "passed": true,
+      "bounds_error_metres": 3.2782554626464844e-07,
+      "max_position_uv_error": 0,
+      "asset_id": "WALL_OutsideCorner"
+    },
+    {
+      "checks": {
+        "bounds_metres": true,
+        "triangle_count": true,
+        "uv_values": true,
+        "material_slots": true,
+        "checker_images": true,
+        "closed_orientation": true,
+        "surface_area": true
+      },
+      "passed": true,
+      "bounds_error_metres": 3.2782554626464844e-07,
+      "max_position_uv_error": 0,
+      "asset_id": "WALL_RecessedPanel"
+    },
+    {
+      "checks": {
+        "bounds_metres": true,
+        "triangle_count": true,
+        "uv_values": true,
+        "material_slots": true,
+        "checker_images": true,
+        "closed_orientation": true,
+        "surface_area": true
+      },
+      "passed": true,
+      "bounds_error_metres": 1.6391277313232422e-07,
+      "max_position_uv_error": 0,
+      "asset_id": "WALL_LowPartition"
+    },
+    {
+      "checks": {
+        "bounds_metres": true,
+        "triangle_count": true,
+        "uv_values": true,
+        "material_slots": true,
+        "checker_images": true,
+        "closed_orientation": true,
+        "surface_area": true
+      },
+      "passed": true,
+      "bounds_error_metres": 3.584254955057986e-07,
+      "max_position_uv_error": 0,
+      "asset_id": "WALL_Curved90"
+    },
+    {
+      "checks": {
+        "bounds_metres": true,
+        "triangle_count": true,
+        "uv_values": true,
+        "material_slots": true,
+        "checker_images": true,
+        "closed_orientation": true,
+        "surface_area": true
+      },
+      "passed": true,
+      "bounds_error_metres": 3.2584134146418364e-07,
+      "max_position_uv_error": 0,
+      "asset_id": "FLOOR_Tile_2x2"
+    },
+    {
+      "checks": {
+        "bounds_metres": true,
+        "triangle_count": true,
+        "uv_values": true,
+        "material_slots": true,
+        "checker_images": true,
+        "closed_orientation": true,
+        "surface_area": true
+      },
+      "passed": true,
+      "bounds_error_metres": 6.516826829283673e-07,
+      "max_position_uv_error": 0,
+      "asset_id": "FLOOR_Tile_4x4"
+    },
+    {
+      "checks": {
+        "bounds_metres": true,
+        "triangle_count": true,
+        "uv_values": true,
+        "material_slots": true,
+        "checker_images": true,
+        "closed_orientation": true,
+        "surface_area": true
+      },
+      "passed": true,
+      "bounds_error_metres": 3.2782554626464844e-07,
+      "max_position_uv_error": 0,
+      "asset_id": "FLOOR_RaisedPlatform"
+    },
+    {
+      "checks": {
+        "bounds_metres": true,
+        "triangle_count": true,
+        "uv_values": true,
+        "material_slots": true,
+        "checker_images": true,
+        "closed_orientation": true,
+        "surface_area": true
+      },
+      "passed": true,
+      "bounds_error_metres": 1.6391277313232422e-07,
+      "max_position_uv_error": 0,
+      "asset_id": "FLOOR_Ramp"
+    },
+    {
+      "checks": {
+        "bounds_metres": true,
+        "triangle_count": true,
+        "uv_values": true,
+        "material_slots": true,
+        "checker_images": true,
+        "closed_orientation": true,
+        "surface_area": true
+      },
+      "passed": true,
+      "bounds_error_metres": 3.2584134146418364e-07,
+      "max_position_uv_error": 0,
+      "asset_id": "CEILING_Flat_2x2"
+    },
+    {
+      "checks": {
+        "bounds_metres": true,
+        "triangle_count": true,
+        "uv_values": true,
+        "material_slots": true,
+        "checker_images": true,
+        "closed_orientation": true,
+        "surface_area": true
+      },
+      "passed": true,
+      "bounds_error_metres": 3.2584134146418364e-07,
+      "max_position_uv_error": 0,
+      "asset_id": "CEILING_Grid_2x2"
+    },
+    {
+      "checks": {
+        "bounds_metres": true,
+        "triangle_count": true,
+        "uv_values": true,
+        "material_slots": true,
+        "checker_images": true,
+        "closed_orientation": true,
+        "surface_area": true
+      },
+      "passed": true,
+      "bounds_error_metres": 3.2584134146418364e-07,
+      "max_position_uv_error": 0,
+      "asset_id": "CEILING_Vaulted"
+    },
+    {
+      "checks": {
+        "bounds_metres": true,
+        "triangle_count": true,
+        "uv_values": true,
+        "material_slots": true,
+        "checker_images": true,
+        "closed_orientation": true,
+        "surface_area": true
+      },
+      "passed": true,
+      "bounds_error_metres": 3.2584134146418364e-07,
+      "max_position_uv_error": 0,
+      "asset_id": "CEILING_Recessed"
+    },
+    {
+      "checks": {
+        "bounds_metres": true,
+        "triangle_count": true,
+        "uv_values": true,
+        "material_slots": true,
+        "checker_images": true,
+        "closed_orientation": true,
+        "surface_area": true
+      },
+      "passed": true,
+      "bounds_error_metres": 5.364418029785156e-07,
+      "max_position_uv_error": 0,
+      "asset_id": "ARCH_Round"
+    },
+    {
+      "checks": {
+        "bounds_metres": true,
+        "triangle_count": true,
+        "uv_values": true,
+        "material_slots": true,
+        "checker_images": true,
+        "closed_orientation": true,
+        "surface_area": true
+      },
+      "passed": true,
+      "bounds_error_metres": 7.450580596923828e-07,
+      "max_position_uv_error": 0,
+      "asset_id": "ARCH_Point"
+    },
+    {
+      "checks": {
+        "bounds_metres": true,
+        "triangle_count": true,
+        "uv_values": true,
+        "material_slots": true,
+        "checker_images": true,
+        "closed_orientation": true,
+        "surface_area": true
+      },
+      "passed": true,
+      "bounds_error_metres": 4.76837158203125e-07,
+      "max_position_uv_error": 0,
+      "asset_id": "ARCH_Segmental"
+    },
+    {
+      "checks": {
+        "bounds_metres": true,
+        "triangle_count": true,
+        "uv_values": true,
+        "material_slots": true,
+        "checker_images": true,
+        "closed_orientation": true,
+        "surface_area": true
+      },
+      "passed": true,
+      "bounds_error_metres": 7.450580596923828e-07,
+      "max_position_uv_error": 0,
+      "asset_id": "ARCH_WideSpan"
+    },
+    {
+      "checks": {
+        "bounds_metres": true,
+        "triangle_count": true,
+        "uv_values": true,
+        "material_slots": true,
+        "checker_images": true,
+        "closed_orientation": true,
+        "surface_area": true
+      },
+      "passed": true,
+      "bounds_error_metres": 5.21540641784668e-07,
+      "max_position_uv_error": 0,
+      "asset_id": "ARCH_Double"
+    },
+    {
+      "checks": {
+        "bounds_metres": true,
+        "triangle_count": true,
+        "uv_values": true,
+        "material_slots": true,
+        "checker_images": true,
+        "closed_orientation": true,
+        "surface_area": true
+      },
+      "passed": true,
+      "bounds_error_metres": 3.2782554626464844e-07,
+      "max_position_uv_error": 0,
+      "asset_id": "COLUMN_Round"
+    },
+    {
+      "checks": {
+        "bounds_metres": true,
+        "triangle_count": true,
+        "uv_values": true,
+        "material_slots": true,
+        "checker_images": true,
+        "closed_orientation": true,
+        "surface_area": true
+      },
+      "passed": true,
+      "bounds_error_metres": 3.2782554626464844e-07,
+      "max_position_uv_error": 0,
+      "asset_id": "COLUMN_Square"
+    },
+    {
+      "checks": {
+        "bounds_metres": true,
+        "triangle_count": true,
+        "uv_values": true,
+        "material_slots": true,
+        "checker_images": true,
+        "closed_orientation": true,
+        "surface_area": true
+      },
+      "passed": true,
+      "bounds_error_metres": 3.2782554626464844e-07,
+      "max_position_uv_error": 0,
+      "asset_id": "COLUMN_Fluted"
+    },
+    {
+      "checks": {
+        "bounds_metres": true,
+        "triangle_count": true,
+        "uv_values": true,
+        "material_slots": true,
+        "checker_images": true,
+        "closed_orientation": true,
+        "surface_area": true
+      },
+      "passed": true,
+      "bounds_error_metres": 3.2782554626464844e-07,
+      "max_position_uv_error": 0,
+      "asset_id": "PILASTER_Wall"
+    },
+    {
+      "checks": {
+        "bounds_metres": true,
+        "triangle_count": true,
+        "uv_values": true,
+        "material_slots": true,
+        "checker_images": true,
+        "closed_orientation": true,
+        "surface_area": true
+      },
+      "passed": true,
+      "bounds_error_metres": 4.470348358154297e-08,
+      "max_position_uv_error": 0,
+      "asset_id": "BEAM_Straight"
+    },
+    {
+      "checks": {
+        "bounds_metres": true,
+        "triangle_count": true,
+        "uv_values": true,
+        "material_slots": true,
+        "checker_images": true,
+        "closed_orientation": true,
+        "surface_area": true
+      },
+      "passed": true,
+      "bounds_error_metres": 3.8743019104003906e-07,
+      "max_position_uv_error": 0,
+      "asset_id": "BEAM_Curved"
+    },
+    {
+      "checks": {
+        "bounds_metres": true,
+        "triangle_count": true,
+        "uv_values": true,
+        "material_slots": true,
+        "checker_images": true,
+        "closed_orientation": true,
+        "surface_area": true
+      },
+      "passed": true,
+      "bounds_error_metres": 3.258415048890129e-08,
+      "max_position_uv_error": 0,
+      "asset_id": "CORNICE_Straight"
+    },
+    {
+      "checks": {
+        "bounds_metres": true,
+        "triangle_count": true,
+        "uv_values": true,
+        "material_slots": true,
+        "checker_images": true,
+        "closed_orientation": true,
+        "surface_area": true
+      },
+      "passed": true,
+      "bounds_error_metres": 1.862645149230957e-08,
+      "max_position_uv_error": 0,
+      "asset_id": "SKIRTING_Straight"
+    },
+    {
+      "checks": {
+        "bounds_metres": true,
+        "triangle_count": true,
+        "uv_values": true,
+        "material_slots": true,
+        "checker_images": true,
+        "closed_orientation": true,
+        "surface_area": true
+      },
+      "passed": true,
+      "bounds_error_metres": 3.259629011154175e-07,
+      "max_position_uv_error": 0,
+      "asset_id": "TRIM_PanelFrame"
+    },
+    {
+      "checks": {
+        "bounds_metres": true,
+        "triangle_count": true,
+        "uv_values": true,
+        "material_slots": true,
+        "checker_images": true,
+        "closed_orientation": true,
+        "surface_area": true
+      },
+      "passed": true,
+      "bounds_error_metres": 3.8743019104003906e-07,
+      "max_position_uv_error": 0,
+      "asset_id": "DOORWAY_Standard"
+    },
+    {
+      "checks": {
+        "bounds_metres": true,
+        "triangle_count": true,
+        "uv_values": true,
+        "material_slots": true,
+        "checker_images": true,
+        "closed_orientation": true,
+        "surface_area": true
+      },
+      "passed": true,
+      "bounds_error_metres": 3.8743019104003906e-07,
+      "max_position_uv_error": 0,
+      "asset_id": "DOORWAY_Wide"
+    },
+    {
+      "checks": {
+        "bounds_metres": true,
+        "triangle_count": true,
+        "uv_values": true,
+        "material_slots": true,
+        "checker_images": true,
+        "closed_orientation": true,
+        "surface_area": true
+      },
+      "passed": true,
+      "bounds_error_metres": 4.917383193969727e-07,
+      "max_position_uv_error": 0,
+      "asset_id": "DOORWAY_Arched"
+    },
+    {
+      "checks": {
+        "bounds_metres": true,
+        "triangle_count": true,
+        "uv_values": true,
+        "material_slots": true,
+        "checker_images": true,
+        "closed_orientation": true,
+        "surface_area": true
+      },
+      "passed": true,
+      "bounds_error_metres": 3.259629011154175e-07,
+      "max_position_uv_error": 0,
+      "asset_id": "DOOR_Leaf_Plain"
+    },
+    {
+      "checks": {
+        "bounds_metres": true,
+        "triangle_count": true,
+        "uv_values": true,
+        "material_slots": true,
+        "checker_images": true,
+        "closed_orientation": true,
+        "surface_area": true
+      },
+      "passed": true,
+      "bounds_error_metres": 3.241002559661865e-07,
+      "max_position_uv_error": 0,
+      "asset_id": "DOOR_Leaf_Industrial"
+    },
+    {
+      "checks": {
+        "bounds_metres": true,
+        "triangle_count": true,
+        "uv_values": true,
+        "material_slots": true,
+        "checker_images": true,
+        "closed_orientation": true,
+        "surface_area": true
+      },
+      "passed": true,
+      "bounds_error_metres": 3.427267074584961e-07,
+      "max_position_uv_error": 0,
+      "asset_id": "DOOR_Frame"
+    },
+    {
+      "checks": {
+        "bounds_metres": true,
+        "triangle_count": true,
+        "uv_values": true,
+        "material_slots": true,
+        "checker_images": true,
+        "closed_orientation": true,
+        "surface_area": true
+      },
+      "passed": true,
+      "bounds_error_metres": 3.259629011154175e-07,
+      "max_position_uv_error": 0,
+      "asset_id": "DOOR_DoubleLeaf"
+    },
+    {
+      "checks": {
+        "bounds_metres": true,
+        "triangle_count": true,
+        "uv_values": true,
+        "material_slots": true,
+        "checker_images": true,
+        "closed_orientation": true,
+        "surface_area": true
+      },
+      "passed": true,
+      "bounds_error_metres": 1.9371509552001953e-07,
+      "max_position_uv_error": 0,
+      "asset_id": "WINDOW_Rectangular"
+    },
+    {
+      "checks": {
+        "bounds_metres": true,
+        "triangle_count": true,
+        "uv_values": true,
+        "material_slots": true,
+        "checker_images": true,
+        "closed_orientation": true,
+        "surface_area": true
+      },
+      "passed": true,
+      "bounds_error_metres": 3.2782554626464844e-07,
+      "max_position_uv_error": 0,
+      "asset_id": "WINDOW_Tall"
+    },
+    {
+      "checks": {
+        "bounds_metres": true,
+        "triangle_count": true,
+        "uv_values": true,
+        "material_slots": true,
+        "checker_images": true,
+        "closed_orientation": true,
+        "surface_area": true
+      },
+      "passed": true,
+      "bounds_error_metres": 3.2782554626464844e-07,
+      "max_position_uv_error": 0,
+      "asset_id": "WINDOW_Arched"
+    },
+    {
+      "checks": {
+        "bounds_metres": true,
+        "triangle_count": true,
+        "uv_values": true,
+        "material_slots": true,
+        "checker_images": true,
+        "closed_orientation": true,
+        "surface_area": true
+      },
+      "passed": true,
+      "bounds_error_metres": 1.9371509552001953e-07,
+      "max_position_uv_error": 0,
+      "asset_id": "WINDOW_InteriorObservation"
+    },
+    {
+      "checks": {
+        "bounds_metres": true,
+        "triangle_count": true,
+        "uv_values": true,
+        "material_slots": true,
+        "checker_images": true,
+        "closed_orientation": true,
+        "surface_area": true
+      },
+      "passed": true,
+      "bounds_error_metres": 2.9802322387695312e-08,
+      "max_position_uv_error": 0,
+      "asset_id": "WINDOW_FrameAndSill"
+    },
+    {
+      "checks": {
+        "bounds_metres": true,
+        "triangle_count": true,
+        "uv_values": true,
+        "material_slots": true,
+        "checker_images": true,
+        "closed_orientation": true,
+        "surface_area": true
+      },
+      "passed": true,
+      "bounds_error_metres": 0.0,
+      "max_position_uv_error": 0,
+      "asset_id": "PIPE_Straight_1m"
+    },
+    {
+      "checks": {
+        "bounds_metres": true,
+        "triangle_count": true,
+        "uv_values": true,
+        "material_slots": true,
+        "checker_images": true,
+        "closed_orientation": true,
+        "surface_area": true
+      },
+      "passed": true,
+      "bounds_error_metres": 0.0,
+      "max_position_uv_error": 0,
+      "asset_id": "PIPE_Straight_2m"
+    },
+    {
+      "checks": {
+        "bounds_metres": true,
+        "triangle_count": true,
+        "uv_values": true,
+        "material_slots": true,
+        "checker_images": true,
+        "closed_orientation": true,
+        "surface_area": true
+      },
+      "passed": true,
+      "bounds_error_metres": 0.0,
+      "max_position_uv_error": 0,
+      "asset_id": "PIPE_Straight_4m"
+    },
+    {
+      "checks": {
+        "bounds_metres": true,
+        "triangle_count": true,
+        "uv_values": true,
+        "material_slots": true,
+        "checker_images": true,
+        "closed_orientation": true,
+        "surface_area": true
+      },
+      "passed": true,
+      "bounds_error_metres": 1.6391277313232422e-07,
+      "max_position_uv_error": 0,
+      "asset_id": "PIPE_Elbow45"
+    },
+    {
+      "checks": {
+        "bounds_metres": true,
+        "triangle_count": true,
+        "uv_values": true,
+        "material_slots": true,
+        "checker_images": true,
+        "closed_orientation": true,
+        "surface_area": true
+      },
+      "passed": true,
+      "bounds_error_metres": 1.6391277313232422e-07,
+      "max_position_uv_error": 0,
+      "asset_id": "PIPE_Elbow90"
+    },
+    {
+      "checks": {
+        "bounds_metres": true,
+        "triangle_count": true,
+        "uv_values": true,
+        "material_slots": true,
+        "checker_images": true,
+        "closed_orientation": true,
+        "surface_area": true
+      },
+      "passed": true,
+      "bounds_error_metres": 1.6391277313232422e-07,
+      "max_position_uv_error": 0,
+      "asset_id": "PIPE_Tee"
+    },
+    {
+      "checks": {
+        "bounds_metres": true,
+        "triangle_count": true,
+        "uv_values": true,
+        "material_slots": true,
+        "checker_images": true,
+        "closed_orientation": true,
+        "surface_area": true
+      },
+      "passed": true,
+      "bounds_error_metres": 1.6391277313232422e-07,
+      "max_position_uv_error": 0,
+      "asset_id": "PIPE_Cross"
+    },
+    {
+      "checks": {
+        "bounds_metres": true,
+        "triangle_count": true,
+        "uv_values": true,
+        "material_slots": true,
+        "checker_images": true,
+        "closed_orientation": true,
+        "surface_area": true
+      },
+      "passed": true,
+      "bounds_error_metres": 0.0,
+      "max_position_uv_error": 0,
+      "asset_id": "PIPE_Reducer"
+    },
+    {
+      "checks": {
+        "bounds_metres": true,
+        "triangle_count": true,
+        "uv_values": true,
+        "material_slots": true,
+        "checker_images": true,
+        "closed_orientation": true,
+        "surface_area": true
+      },
+      "passed": true,
+      "bounds_error_metres": 0.0,
+      "max_position_uv_error": 0,
+      "asset_id": "PIPE_Flange"
+    },
+    {
+      "checks": {
+        "bounds_metres": true,
+        "triangle_count": true,
+        "uv_values": true,
+        "material_slots": true,
+        "checker_images": true,
+        "closed_orientation": true,
+        "surface_area": true
+      },
+      "passed": true,
+      "bounds_error_metres": 0.0,
+      "max_position_uv_error": 0,
+      "asset_id": "PIPE_EndCap"
+    },
+    {
+      "checks": {
+        "bounds_metres": true,
+        "triangle_count": true,
+        "uv_values": true,
+        "material_slots": true,
+        "checker_images": true,
+        "closed_orientation": true,
+        "surface_area": true
+      },
+      "passed": true,
+      "bounds_error_metres": 0.0,
+      "max_position_uv_error": 0,
+      "asset_id": "PIPE_ValveWheel"
+    },
+    {
+      "checks": {
+        "bounds_metres": true,
+        "triangle_count": true,
+        "uv_values": true,
+        "material_slots": true,
+        "checker_images": true,
+        "closed_orientation": true,
+        "surface_area": true
+      },
+      "passed": true,
+      "bounds_error_metres": 0.0,
+      "max_position_uv_error": 0,
+      "asset_id": "PIPE_ValveBody"
+    },
+    {
+      "checks": {
+        "bounds_metres": true,
+        "triangle_count": true,
+        "uv_values": true,
+        "material_slots": true,
+        "checker_images": true,
+        "closed_orientation": true,
+        "surface_area": true
+      },
+      "passed": true,
+      "bounds_error_metres": 0.0,
+      "max_position_uv_error": 0,
+      "asset_id": "PIPE_Bracket"
+    },
+    {
+      "checks": {
+        "bounds_metres": true,
+        "triangle_count": true,
+        "uv_values": true,
+        "material_slots": true,
+        "checker_images": true,
+        "closed_orientation": true,
+        "surface_area": true
+      },
+      "passed": true,
+      "bounds_error_metres": 3.2782554626464844e-07,
+      "max_position_uv_error": 0,
+      "asset_id": "PIPE_Ubend"
+    },
+    {
+      "checks": {
+        "bounds_metres": true,
+        "triangle_count": true,
+        "uv_values": true,
+        "material_slots": true,
+        "checker_images": true,
+        "closed_orientation": true,
+        "surface_area": true
+      },
+      "passed": true,
+      "bounds_error_metres": 3.2782554626464844e-07,
+      "max_position_uv_error": 0,
+      "asset_id": "PIPE_Riser"
+    },
+    {
+      "checks": {
+        "bounds_metres": true,
+        "triangle_count": true,
+        "uv_values": true,
+        "material_slots": true,
+        "checker_images": true,
+        "closed_orientation": true,
+        "surface_area": true
+      },
+      "passed": true,
+      "bounds_error_metres": 1.6391277313232422e-07,
+      "max_position_uv_error": 0,
+      "asset_id": "PIPE_Manifold"
+    },
+    {
+      "checks": {
+        "bounds_metres": true,
+        "triangle_count": true,
+        "uv_values": true,
+        "material_slots": true,
+        "checker_images": true,
+        "closed_orientation": true,
+        "surface_area": true
+      },
+      "passed": true,
+      "bounds_error_metres": 2.9802322387695312e-08,
+      "max_position_uv_error": 0,
+      "asset_id": "DUCT_Square_1m"
+    },
+    {
+      "checks": {
+        "bounds_metres": true,
+        "triangle_count": true,
+        "uv_values": true,
+        "material_slots": true,
+        "checker_images": true,
+        "closed_orientation": true,
+        "surface_area": true
+      },
+      "passed": true,
+      "bounds_error_metres": 2.9802322387695312e-08,
+      "max_position_uv_error": 0,
+      "asset_id": "DUCT_Square_2m"
+    },
+    {
+      "checks": {
+        "bounds_metres": true,
+        "triangle_count": true,
+        "uv_values": true,
+        "material_slots": true,
+        "checker_images": true,
+        "closed_orientation": true,
+        "surface_area": true
+      },
+      "passed": true,
+      "bounds_error_metres": 1.4901161193847656e-07,
+      "max_position_uv_error": 0,
+      "asset_id": "DUCT_Elbow90"
+    },
+    {
+      "checks": {
+        "bounds_metres": true,
+        "triangle_count": true,
+        "uv_values": true,
+        "material_slots": true,
+        "checker_images": true,
+        "closed_orientation": true,
+        "surface_area": true
+      },
+      "passed": true,
+      "bounds_error_metres": 1.4901161193847656e-07,
+      "max_position_uv_error": 0,
+      "asset_id": "DUCT_Tee"
+    },
+    {
+      "checks": {
+        "bounds_metres": true,
+        "triangle_count": true,
+        "uv_values": true,
+        "material_slots": true,
+        "checker_images": true,
+        "closed_orientation": true,
+        "surface_area": true
+      },
+      "passed": true,
+      "bounds_error_metres": 2.9802322387695312e-08,
+      "max_position_uv_error": 0,
+      "asset_id": "DUCT_Reducer"
+    },
+    {
+      "checks": {
+        "bounds_metres": true,
+        "triangle_count": true,
+        "uv_values": true,
+        "material_slots": true,
+        "checker_images": true,
+        "closed_orientation": true,
+        "surface_area": true
+      },
+      "passed": true,
+      "bounds_error_metres": 2.9802322387695312e-08,
+      "max_position_uv_error": 0,
+      "asset_id": "DUCT_EndCap"
+    },
+    {
+      "checks": {
+        "bounds_metres": true,
+        "triangle_count": true,
+        "uv_values": true,
+        "material_slots": true,
+        "checker_images": true,
+        "closed_orientation": true,
+        "surface_area": true
+      },
+      "passed": true,
+      "bounds_error_metres": 1.6391277313232422e-07,
+      "max_position_uv_error": 0,
+      "asset_id": "VENT_WallGrille"
+    },
+    {
+      "checks": {
+        "bounds_metres": true,
+        "triangle_count": true,
+        "uv_values": true,
+        "material_slots": true,
+        "checker_images": true,
+        "closed_orientation": true,
+        "surface_area": true
+      },
+      "passed": true,
+      "bounds_error_metres": 1.6391277313232422e-07,
+      "max_position_uv_error": 0,
+      "asset_id": "VENT_CeilingGrille"
+    },
+    {
+      "checks": {
+        "bounds_metres": true,
+        "triangle_count": true,
+        "uv_values": true,
+        "material_slots": true,
+        "checker_images": true,
+        "closed_orientation": true,
+        "surface_area": true
+      },
+      "passed": true,
+      "bounds_error_metres": 0.0,
+      "max_position_uv_error": 0,
+      "asset_id": "VENT_FanHousing"
+    },
+    {
+      "checks": {
+        "bounds_metres": true,
+        "triangle_count": true,
+        "uv_values": true,
+        "material_slots": true,
+        "checker_images": true,
+        "closed_orientation": true,
+        "surface_area": true
+      },
+      "passed": true,
+      "bounds_error_metres": 1.4901161193847656e-07,
+      "max_position_uv_error": 0,
+      "asset_id": "DUCT_Hanger"
+    },
+    {
+      "checks": {
+        "bounds_metres": true,
+        "triangle_count": true,
+        "uv_values": true,
+        "material_slots": true,
+        "checker_images": true,
+        "closed_orientation": true,
+        "surface_area": true
+      },
+      "passed": true,
+      "bounds_error_metres": 3.5762786865234375e-07,
+      "max_position_uv_error": 0,
+      "asset_id": "STAIR_Straight"
+    },
+    {
+      "checks": {
+        "bounds_metres": true,
+        "triangle_count": true,
+        "uv_values": true,
+        "material_slots": true,
+        "checker_images": true,
+        "closed_orientation": true,
+        "surface_area": true
+      },
+      "passed": true,
+      "bounds_error_metres": 4.76837158203125e-07,
+      "max_position_uv_error": 0,
+      "asset_id": "STAIR_Switchback"
+    },
+    {
+      "checks": {
+        "bounds_metres": true,
+        "triangle_count": true,
+        "uv_values": true,
+        "material_slots": true,
+        "checker_images": true,
+        "closed_orientation": true,
+        "surface_area": true
+      },
+      "passed": true,
+      "bounds_error_metres": 4.76837158203125e-07,
+      "max_position_uv_error": 0,
+      "asset_id": "STAIR_Spiral"
+    },
+    {
+      "checks": {
+        "bounds_metres": true,
+        "triangle_count": true,
+        "uv_values": true,
+        "material_slots": true,
+        "checker_images": true,
+        "closed_orientation": true,
+        "surface_area": true
+      },
+      "passed": true,
+      "bounds_error_metres": 1.6391277313232422e-07,
+      "max_position_uv_error": 0,
+      "asset_id": "STAIR_Landing"
+    },
+    {
+      "checks": {
+        "bounds_metres": true,
+        "triangle_count": true,
+        "uv_values": true,
+        "material_slots": true,
+        "checker_images": true,
+        "closed_orientation": true,
+        "surface_area": true
+      },
+      "passed": true,
+      "bounds_error_metres": 4.880130290985107e-07,
+      "max_position_uv_error": 0,
+      "asset_id": "STAIR_Railing"
+    },
+    {
+      "checks": {
+        "bounds_metres": true,
+        "triangle_count": true,
+        "uv_values": true,
+        "material_slots": true,
+        "checker_images": true,
+        "closed_orientation": true,
+        "surface_area": true
+      },
+      "passed": true,
+      "bounds_error_metres": 1.6391277313232422e-07,
+      "max_position_uv_error": 0,
+      "asset_id": "BRIDGE_Flat_4m"
+    },
+    {
+      "checks": {
+        "bounds_metres": true,
+        "triangle_count": true,
+        "uv_values": true,
+        "material_slots": true,
+        "checker_images": true,
+        "closed_orientation": true,
+        "surface_area": true
+      },
+      "passed": true,
+      "bounds_error_metres": 1.7881393432617188e-07,
+      "max_position_uv_error": 0,
+      "asset_id": "BRIDGE_Arched"
+    },
+    {
+      "checks": {
+        "bounds_metres": true,
+        "triangle_count": true,
+        "uv_values": true,
+        "material_slots": true,
+        "checker_images": true,
+        "closed_orientation": true,
+        "surface_area": true
+      },
+      "passed": true,
+      "bounds_error_metres": 1.6391277313232422e-07,
+      "max_position_uv_error": 0,
+      "asset_id": "BRIDGE_Catwalk"
+    },
+    {
+      "checks": {
+        "bounds_metres": true,
+        "triangle_count": true,
+        "uv_values": true,
+        "material_slots": true,
+        "checker_images": true,
+        "closed_orientation": true,
+        "surface_area": true
+      },
+      "passed": true,
+      "bounds_error_metres": 7.152557373046875e-07,
+      "max_position_uv_error": 0,
+      "asset_id": "ELEVATOR_ShaftSegment"
+    },
+    {
+      "checks": {
+        "bounds_metres": true,
+        "triangle_count": true,
+        "uv_values": true,
+        "material_slots": true,
+        "checker_images": true,
+        "closed_orientation": true,
+        "surface_area": true
+      },
+      "passed": true,
+      "bounds_error_metres": 3.5762786865234375e-07,
+      "max_position_uv_error": 0,
+      "asset_id": "ELEVATOR_CabShell"
+    },
+    {
+      "checks": {
+        "bounds_metres": true,
+        "triangle_count": true,
+        "uv_values": true,
+        "material_slots": true,
+        "checker_images": true,
+        "closed_orientation": true,
+        "surface_area": true
+      },
+      "passed": true,
+      "bounds_error_metres": 2.443810132035651e-08,
+      "max_position_uv_error": 0,
+      "asset_id": "LIGHT_FluorescentHousing"
+    },
+    {
+      "checks": {
+        "bounds_metres": true,
+        "triangle_count": true,
+        "uv_values": true,
+        "material_slots": true,
+        "checker_images": true,
+        "closed_orientation": true,
+        "surface_area": true
+      },
+      "passed": true,
+      "bounds_error_metres": 1.6292067073209182e-07,
+      "max_position_uv_error": 0,
+      "asset_id": "LIGHT_RecessedPanel"
+    },
+    {
+      "checks": {
+        "bounds_metres": true,
+        "triangle_count": true,
+        "uv_values": true,
+        "material_slots": true,
+        "checker_images": true,
+        "closed_orientation": true,
+        "surface_area": true
+      },
+      "passed": true,
+      "bounds_error_metres": 8.195638656616211e-08,
+      "max_position_uv_error": 0,
+      "asset_id": "LIGHT_WallSconce"
+    },
+    {
+      "checks": {
+        "bounds_metres": true,
+        "triangle_count": true,
+        "uv_values": true,
+        "material_slots": true,
+        "checker_images": true,
+        "closed_orientation": true,
+        "surface_area": true
+      },
+      "passed": true,
+      "bounds_error_metres": 8.940696716308594e-08,
+      "max_position_uv_error": 0,
+      "asset_id": "LIGHT_IndustrialCage"
+    },
+    {
+      "checks": {
+        "bounds_metres": true,
+        "triangle_count": true,
+        "uv_values": true,
+        "material_slots": true,
+        "checker_images": true,
+        "closed_orientation": true,
+        "surface_area": true
+      },
+      "passed": true,
+      "bounds_error_metres": 6.332993507385254e-08,
+      "max_position_uv_error": 0,
+      "asset_id": "LIGHT_ExitSignHousing"
+    },
+    {
+      "checks": {
+        "bounds_metres": true,
+        "triangle_count": true,
+        "uv_values": true,
+        "material_slots": true,
+        "checker_images": true,
+        "closed_orientation": true,
+        "surface_area": true
+      },
+      "passed": true,
+      "bounds_error_metres": 4.470348358154297e-08,
+      "max_position_uv_error": 0,
+      "asset_id": "DETAIL_CableTray"
+    },
+    {
+      "checks": {
+        "bounds_metres": true,
+        "triangle_count": true,
+        "uv_values": true,
+        "material_slots": true,
+        "checker_images": true,
+        "closed_orientation": true,
+        "surface_area": true
+      },
+      "passed": true,
+      "bounds_error_metres": 0.0,
+      "max_position_uv_error": 0,
+      "asset_id": "DETAIL_WallConduit"
+    },
+    {
+      "checks": {
+        "bounds_metres": true,
+        "triangle_count": true,
+        "uv_values": true,
+        "material_slots": true,
+        "checker_images": true,
+        "closed_orientation": true,
+        "surface_area": true
+      },
+      "passed": true,
+      "bounds_error_metres": 1.6391277313232422e-07,
+      "max_position_uv_error": 0,
+      "asset_id": "DETAIL_ServiceHatch"
+    },
+    {
+      "checks": {
+        "bounds_metres": true,
+        "triangle_count": true,
+        "uv_values": true,
+        "material_slots": true,
+        "checker_images": true,
+        "closed_orientation": true,
+        "surface_area": true
+      },
+      "passed": true,
+      "bounds_error_metres": 1.7881393432617188e-07,
+      "max_position_uv_error": 0,
+      "asset_id": "DETAIL_BalconyRail"
+    },
+    {
+      "checks": {
+        "bounds_metres": true,
+        "triangle_count": true,
+        "uv_values": true,
+        "material_slots": true,
+        "checker_images": true,
+        "closed_orientation": true,
+        "surface_area": true
+      },
+      "passed": true,
+      "bounds_error_metres": 6.516827255609314e-08,
+      "max_position_uv_error": 0,
+      "asset_id": "DETAIL_ColumnBase"
+    },
+    {
+      "checks": {
+        "bounds_metres": true,
+        "triangle_count": true,
+        "uv_values": true,
+        "material_slots": true,
+        "checker_images": true,
+        "closed_orientation": true,
+        "surface_area": true
+      },
+      "passed": true,
+      "bounds_error_metres": 3.5762786865234375e-07,
+      "max_position_uv_error": 0,
+      "asset_id": "STAIR_Straight_SlopingUnderside"
+    }
+  ],
+  "viewer_compatibility": "UNVERIFIED; no viewer/domain access or uploads",
+  "uv_contract": "2m/repeat; singular-value density tolerance +/-14%, exact base tile corners",
+  "collision": "No collision certification. Separate pilot proposals unchanged; full collision set deferred.",
+  "limitations": [
+    "FBX importer is Blender, not DarkRide",
+    "No exhaustive self-intersection proof",
+    "Runtime materials, collision, FPS, texture persistence, loading and normal handedness untested"
+  ],
+  "offline_pass": true
+}

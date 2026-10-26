@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "status": "example mapping; user PBR maps not supplied",
+  "uv_metres_per_repeat": 2,
+  "normal_convention_candidate": "OpenGL +Y; DarkRide test pending",
+  "maps": ["base_color", "normal", "roughness", "metallic", "ao"],
+  "materials": {
+    "MAT_Wall": {"base_color_factor": [0.67, 0.59, 0.29, 1], "roughness": 0.85, "maps": {}},
+    "MAT_Floor": {"base_color_factor": [0.43, 0.35, 0.15, 1], "roughness": 0.95, "maps": {}},
+    "MAT_Ceiling": {"base_color_factor": [0.72, 0.69, 0.5, 1], "roughness": 0.9, "maps": {}},
+    "MAT_Concrete": {"base_color_factor": [0.48, 0.46, 0.4, 1], "roughness": 0.85, "maps": {}},
+    "MAT_Metal": {"base_color_factor": [0.2, 0.21, 0.19, 1], "roughness": 0.45, "metallic": 1, "maps": {}},
+    "MAT_Trim": {"base_color_factor": [0.58, 0.55, 0.42, 1], "roughness": 0.6, "maps": {}},
+    "MAT_Glass": {"base_color_factor": [0.8, 0.9, 0.9, 0.25], "status": "reserved; transparency untested", "maps": {}},
+    "MAT_Emissive": {"base_color_factor": [1, 0.9, 0.65, 1], "status": "reserved; runtime light not included", "maps": {}}
+  },
+  "color_space": {"base_color": "sRGB", "normal": "Non-Color", "roughness": "Non-Color", "metallic": "Non-Color", "ao": "Non-Color"},
+  "ao": "Separate map; viewer wiring unverified",
+  "height_displacement": "not assumed supported"
+}

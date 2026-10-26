@@ -1,0 +1,582 @@
+{
+  "files": {
+    "manifest.json": "3b219c86103d093821f0f5b9ee808d9613047f82f784f194c10cc0229caa0983",
+    "blender/generate.py": "baacbacbb9c2aa307fb9d0488ff87fc8201aebe0817b1e7606311b8a9f1b86f8",
+    "blender/validate.py": "98d00ae1f377c9a45ca5f089ac89b1cad12592e64fba286cd1f1f64603ec9bf2",
+    "blender/crazy88.blend": "8f8a332370c3498bcad9ff20d83d27e6559be5b7e0ee408f89863bff8c09a61b",
+    "meshes/WALL_Flat_2x2.fbx": "252b07306363f62515628a4350cedbe4166e685acf827ff28b3af9c87df7f59e",
+    "meshes/FLOOR_Tile_2x2.fbx": "2bf48735b90f503f7c072c077683c6398f4bbbf6d2956e6d3b95ed73de0313d1",
+    "meshes/ARCH_Round.fbx": "0b2078faf755f0240938bb6497455c0736853461e5f6b934a5b1f7696d1600d5",
+    "meshes/COLUMN_Round.fbx": "4f77b462c4985ed112a7f2dac953b26ca37b7ee232af3b48e8e6bf8b419788a8",
+    "meshes/PIPE_Straight_2m.fbx": "84bc569b4b341c17d089b09a5018656d2e33a8e7d4e8ada8edda02c739961b2f",
+    "meshes/PIPE_Elbow90.fbx": "f79a7363a3f2c74c79984b211b027a4a6fcaa80ed392bc6cd4dcb34c0f308b24",
+    "meshes/STAIR_Straight.fbx": "974af6e5cf2427b2182e7a4318d68a76fea39000e4b640030dc14ce365adec15",
+    "meshes/BRIDGE_Flat_4m.fbx": "28718e5810af2685cb38b2610bba4eed9f9729b480b979f22099153b9391d402"
+  },
+  "assets": [
+    {
+      "asset_id": "WALL_Flat_2x2",
+      "filename": "meshes/WALL_Flat_2x2.fbx",
+      "export_status": "candidate_not_viewer_validated",
+      "bounds": {
+        "min": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "max": [
+          2.0,
+          0.0,
+          2.0
+        ]
+      },
+      "dimensions": [
+        2.0,
+        0.0,
+        2.0
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "connectors": [
+        {
+          "name": "left",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "direction": [
+            -1,
+            0,
+            0
+          ],
+          "profile": "wall_edge_2m"
+        },
+        {
+          "name": "right",
+          "position": [
+            2,
+            0,
+            0
+          ],
+          "direction": [
+            1,
+            0,
+            0
+          ],
+          "profile": "wall_edge_2m"
+        }
+      ],
+      "material_slots": [
+        "MAT_Wall"
+      ],
+      "uv_metres_per_repeat": 2,
+      "checker_pixels_per_metre": 256,
+      "triangles": 2,
+      "vertices": 4,
+      "closed": false,
+      "geometry_sha256": "86b61598c59e33e951a7fa8d5e2ca511e26b89e966f405ca7aef714c6692f246",
+      "collision": null
+    },
+    {
+      "asset_id": "FLOOR_Tile_2x2",
+      "filename": "meshes/FLOOR_Tile_2x2.fbx",
+      "export_status": "candidate_not_viewer_validated",
+      "bounds": {
+        "min": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "max": [
+          2.0,
+          2.0,
+          0.0
+        ]
+      },
+      "dimensions": [
+        2.0,
+        2.0,
+        0.0
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "connectors": [
+        {
+          "name": "west",
+          "position": [
+            0,
+            1,
+            0
+          ],
+          "direction": [
+            -1,
+            0,
+            0
+          ],
+          "profile": "floor_edge_2m"
+        },
+        {
+          "name": "east",
+          "position": [
+            2,
+            1,
+            0
+          ],
+          "direction": [
+            1,
+            0,
+            0
+          ],
+          "profile": "floor_edge_2m"
+        },
+        {
+          "name": "south",
+          "position": [
+            1,
+            0,
+            0
+          ],
+          "direction": [
+            0,
+            -1,
+            0
+          ],
+          "profile": "floor_edge_2m"
+        },
+        {
+          "name": "north",
+          "position": [
+            1,
+            2,
+            0
+          ],
+          "direction": [
+            0,
+            1,
+            0
+          ],
+          "profile": "floor_edge_2m"
+        }
+      ],
+      "material_slots": [
+        "MAT_Floor"
+      ],
+      "uv_metres_per_repeat": 2,
+      "checker_pixels_per_metre": 256,
+      "triangles": 2,
+      "vertices": 4,
+      "closed": false,
+      "geometry_sha256": "dec2f85709a2a5b7178b1da74c0168fd4f47b8cbec6844b297ffddfd259d0d4b",
+      "collision": null
+    },
+    {
+      "asset_id": "ARCH_Round",
+      "filename": "meshes/ARCH_Round.fbx",
+      "export_status": "candidate_not_viewer_validated",
+      "bounds": {
+        "min": [
+          -1.2999999523162842,
+          -0.15000000596046448,
+          0.0
+        ],
+        "max": [
+          1.2999999523162842,
+          0.15000000596046448,
+          3.299999952316284
+        ]
+      },
+      "dimensions": [
+        2.5999999046325684,
+        0.30000001192092896,
+        3.299999952316284
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "connectors": [
+        {
+          "name": "left_foot",
+          "position": [
+            -1.15,
+            0,
+            0
+          ],
+          "direction": [
+            0,
+            0,
+            -1
+          ],
+          "profile": "arch_foot_0.3m"
+        },
+        {
+          "name": "right_foot",
+          "position": [
+            1.15,
+            0,
+            0
+          ],
+          "direction": [
+            0,
+            0,
+            -1
+          ],
+          "profile": "arch_foot_0.3m"
+        }
+      ],
+      "material_slots": [
+        "MAT_Concrete"
+      ],
+      "uv_metres_per_repeat": 2,
+      "checker_pixels_per_metre": 256,
+      "triangles": 276,
+      "vertices": 140,
+      "closed": true,
+      "geometry_sha256": "1d282e8c5320b3be8c21760f859e809dd1f6e361c92b2f3572621115d5a724e2",
+      "collision": null
+    },
+    {
+      "asset_id": "COLUMN_Round",
+      "filename": "meshes/COLUMN_Round.fbx",
+      "export_status": "candidate_not_viewer_validated",
+      "bounds": {
+        "min": [
+          -0.25,
+          -0.25,
+          0.0
+        ],
+        "max": [
+          0.25,
+          0.25,
+          2.0
+        ]
+      },
+      "dimensions": [
+        0.5,
+        0.5,
+        2.0
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "connectors": [
+        {
+          "name": "bottom",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "direction": [
+            0,
+            0,
+            -1
+          ],
+          "profile": "column_diameter_0.5m"
+        },
+        {
+          "name": "top",
+          "position": [
+            0,
+            0,
+            2
+          ],
+          "direction": [
+            0,
+            0,
+            1
+          ],
+          "profile": "column_diameter_0.5m"
+        }
+      ],
+      "material_slots": [
+        "MAT_Concrete"
+      ],
+      "uv_metres_per_repeat": 2,
+      "checker_pixels_per_metre": 256,
+      "triangles": 124,
+      "vertices": 64,
+      "closed": true,
+      "geometry_sha256": "fec15e8cd261520cd7df2c128f63dade265ac94956fbd6354f12b43e1371e521",
+      "collision": null
+    },
+    {
+      "asset_id": "PIPE_Straight_2m",
+      "filename": "meshes/PIPE_Straight_2m.fbx",
+      "export_status": "candidate_not_viewer_validated",
+      "bounds": {
+        "min": [
+          0.0,
+          -0.10000000149011612,
+          -0.10000000149011612
+        ],
+        "max": [
+          2.0,
+          0.10000000149011612,
+          0.10000000149011612
+        ]
+      },
+      "dimensions": [
+        2.0,
+        0.20000000298023224,
+        0.20000000298023224
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "connectors": [
+        {
+          "name": "in",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "direction": [
+            -1,
+            0,
+            0
+          ],
+          "profile": "pipe_od_0.2_id_0.16"
+        },
+        {
+          "name": "out",
+          "position": [
+            2,
+            0,
+            0
+          ],
+          "direction": [
+            1,
+            0,
+            0
+          ],
+          "profile": "pipe_od_0.2_id_0.16"
+        }
+      ],
+      "material_slots": [
+        "MAT_Metal"
+      ],
+      "uv_metres_per_repeat": 2,
+      "checker_pixels_per_metre": 256,
+      "triangles": 256,
+      "vertices": 128,
+      "closed": true,
+      "geometry_sha256": "5f7eebadb61b112eb509804d47addfcaa455d770233933cc95cdd5473f81ae05",
+      "collision": null
+    },
+    {
+      "asset_id": "PIPE_Elbow90",
+      "filename": "meshes/PIPE_Elbow90.fbx",
+      "export_status": "candidate_not_viewer_validated",
+      "bounds": {
+        "min": [
+          0.0,
+          -0.10000000149011612,
+          -0.10000000149011612
+        ],
+        "max": [
+          1.100000023841858,
+          1.0,
+          0.10000000149011612
+        ]
+      },
+      "dimensions": [
+        1.100000023841858,
+        1.1000000014901161,
+        0.20000000298023224
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "connectors": [
+        {
+          "name": "in",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "direction": [
+            -1,
+            0,
+            0
+          ],
+          "profile": "pipe_od_0.2_id_0.16"
+        },
+        {
+          "name": "out",
+          "position": [
+            1,
+            1,
+            0
+          ],
+          "direction": [
+            0,
+            1,
+            0
+          ],
+          "profile": "pipe_od_0.2_id_0.16"
+        }
+      ],
+      "material_slots": [
+        "MAT_Metal"
+      ],
+      "uv_metres_per_repeat": 2,
+      "checker_pixels_per_metre": 256,
+      "triangles": 3200,
+      "vertices": 1600,
+      "closed": true,
+      "geometry_sha256": "1f0e2ec670083a954280d54acaf580b41ff7263a6d34aabe5254288ba5047f1a",
+      "collision": null
+    },
+    {
+      "asset_id": "STAIR_Straight",
+      "filename": "meshes/STAIR_Straight.fbx",
+      "export_status": "candidate_not_viewer_validated",
+      "bounds": {
+        "min": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "max": [
+          4.0,
+          1.0,
+          2.0
+        ]
+      },
+      "dimensions": [
+        4.0,
+        2.0,
+        2.0
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "connectors": [
+        {
+          "name": "bottom",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "direction": [
+            -1,
+            0,
+            0
+          ],
+          "profile": "walkway_width_2m"
+        },
+        {
+          "name": "top",
+          "position": [
+            4,
+            0,
+            2
+          ],
+          "direction": [
+            1,
+            0,
+            0
+          ],
+          "profile": "walkway_width_2m"
+        }
+      ],
+      "material_slots": [
+        "MAT_Concrete"
+      ],
+      "uv_metres_per_repeat": 2,
+      "checker_pixels_per_metre": 256,
+      "triangles": 120,
+      "vertices": 62,
+      "closed": true,
+      "geometry_sha256": "49447749ff32ba459d02f795a937289c4ad8ddd1a21b2e27756b598302e5335b",
+      "collision": null
+    },
+    {
+      "asset_id": "BRIDGE_Flat_4m",
+      "filename": "meshes/BRIDGE_Flat_4m.fbx",
+      "export_status": "candidate_not_viewer_validated",
+      "bounds": {
+        "min": [
+          0.0,
+          -1.0,
+          -0.20000000298023224
+        ],
+        "max": [
+          4.0,
+          1.0,
+          0.0
+        ]
+      },
+      "dimensions": [
+        4.0,
+        2.0,
+        0.20000000298023224
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "connectors": [
+        {
+          "name": "start",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "direction": [
+            -1,
+            0,
+            0
+          ],
+          "profile": "walkway_width_2m"
+        },
+        {
+          "name": "end",
+          "position": [
+            4,
+            0,
+            0
+          ],
+          "direction": [
+            1,
+            0,
+            0
+          ],
+          "profile": "walkway_width_2m"
+        }
+      ],
+      "material_slots": [
+        "MAT_Floor"
+      ],
+      "uv_metres_per_repeat": 2,
+      "checker_pixels_per_metre": 256,
+      "triangles": 12,
+      "vertices": 8,
+      "closed": true,
+      "geometry_sha256": "3a76d8939184f4c04f60ed0a6d98e3a9cacb908982381d61575ed5d0217a3b76",
+      "collision": null
+    }
+  ]
+}

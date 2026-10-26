@@ -1,0 +1,12 @@
+[
+  {
+    "path": "blender/crazy88_master.blend",
+    "redacted_home_prefixes": 1,
+    "scope": "authoring metadata only; geometry and original working files unchanged"
+  },
+  {
+    "path": "approved_pilot/blender/crazy88.blend",
+    "redacted_home_prefixes": 1,
+    "scope": "authoring metadata only; geometry and original working files unchanged"
+  }
+]

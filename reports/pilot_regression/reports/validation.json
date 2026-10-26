@@ -1,0 +1,412 @@
+{
+  "scope": "8 assets; offline Blender checks only",
+  "blender_version": "4.5.0",
+  "inventory_pass": true,
+  "assets": {
+    "WALL_Flat_2x2": {
+      "checks": {
+        "nonempty": true,
+        "degenerate_triangles": true,
+        "duplicate_faces": true,
+        "normals_consistent": true,
+        "positive_closed_volume": true,
+        "topology": true,
+        "uv_present": true,
+        "uv_density": true,
+        "expected_bounds": true,
+        "manifest_bounds": true,
+        "material_slots": true,
+        "identity_transform": true,
+        "base_unit_uv_exact": true,
+        "plane_normal": true
+      },
+      "passed": true,
+      "triangles": 2,
+      "boundary_edges": 4,
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0,
+      "uv_scale_range": [
+        0.4999999982277591,
+        0.5000000103293766
+      ],
+      "max_uv_scale_error_percent": 2.065875315260257e-06,
+      "degenerate_count": 0
+    },
+    "FLOOR_Tile_2x2": {
+      "checks": {
+        "nonempty": true,
+        "degenerate_triangles": true,
+        "duplicate_faces": true,
+        "normals_consistent": true,
+        "positive_closed_volume": true,
+        "topology": true,
+        "uv_present": true,
+        "uv_density": true,
+        "expected_bounds": true,
+        "manifest_bounds": true,
+        "material_slots": true,
+        "identity_transform": true,
+        "base_unit_uv_exact": true,
+        "plane_normal": true
+      },
+      "passed": true,
+      "triangles": 2,
+      "boundary_edges": 4,
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0,
+      "uv_scale_range": [
+        0.4999999982277591,
+        0.5000000103293766
+      ],
+      "max_uv_scale_error_percent": 2.065875315260257e-06,
+      "degenerate_count": 0
+    },
+    "ARCH_Round": {
+      "checks": {
+        "nonempty": true,
+        "degenerate_triangles": true,
+        "duplicate_faces": true,
+        "normals_consistent": true,
+        "positive_closed_volume": true,
+        "topology": true,
+        "uv_present": true,
+        "uv_density": true,
+        "expected_bounds": true,
+        "manifest_bounds": true,
+        "material_slots": true,
+        "identity_transform": true
+      },
+      "passed": true,
+      "triangles": 276,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.6846327248792481,
+      "uv_scale_range": [
+        0.49999791103198243,
+        0.5000014617364179
+      ],
+      "max_uv_scale_error_percent": 0.000417793603513239,
+      "degenerate_count": 0
+    },
+    "COLUMN_Round": {
+      "checks": {
+        "nonempty": true,
+        "degenerate_triangles": true,
+        "duplicate_faces": true,
+        "normals_consistent": true,
+        "positive_closed_volume": true,
+        "topology": true,
+        "uv_present": true,
+        "uv_density": true,
+        "expected_bounds": true,
+        "manifest_bounds": true,
+        "material_slots": true,
+        "identity_transform": true
+      },
+      "passed": true,
+      "triangles": 124,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.3901806379307997,
+      "uv_scale_range": [
+        0.49999781941347665,
+        0.5000006725149627
+      ],
+      "max_uv_scale_error_percent": 0.0004361173046696365,
+      "degenerate_count": 0
+    },
+    "PIPE_Straight_2m": {
+      "checks": {
+        "nonempty": true,
+        "degenerate_triangles": true,
+        "duplicate_faces": true,
+        "normals_consistent": true,
+        "positive_closed_volume": true,
+        "topology": true,
+        "uv_present": true,
+        "uv_density": true,
+        "expected_bounds": true,
+        "manifest_bounds": true,
+        "material_slots": true,
+        "identity_transform": true
+      },
+      "passed": true,
+      "triangles": 256,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.02247440551945943,
+      "uv_scale_range": [
+        0.49999847108136636,
+        0.5000009647007382
+      ],
+      "max_uv_scale_error_percent": 0.0003057837267284036,
+      "degenerate_count": 0
+    },
+    "PIPE_Elbow90": {
+      "checks": {
+        "nonempty": true,
+        "degenerate_triangles": true,
+        "duplicate_faces": true,
+        "normals_consistent": true,
+        "positive_closed_volume": true,
+        "topology": true,
+        "uv_present": true,
+        "uv_density": true,
+        "expected_bounds": true,
+        "manifest_bounds": true,
+        "material_slots": true,
+        "identity_transform": true
+      },
+      "passed": true,
+      "triangles": 3200,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.017638757863801226,
+      "uv_scale_range": [
+        0.45461515690036597,
+        0.5556708311591232
+      ],
+      "max_uv_scale_error_percent": 11.134166231824638,
+      "degenerate_count": 0
+    },
+    "STAIR_Straight": {
+      "checks": {
+        "nonempty": true,
+        "degenerate_triangles": true,
+        "duplicate_faces": true,
+        "normals_consistent": true,
+        "positive_closed_volume": true,
+        "topology": true,
+        "uv_present": true,
+        "uv_density": true,
+        "expected_bounds": true,
+        "manifest_bounds": true,
+        "material_slots": true,
+        "identity_transform": true,
+        "surface_area_no_overlap": true
+      },
+      "passed": true,
+      "triangles": 120,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "signed_volume": 8.800000000000034,
+      "uv_scale_range": [
+        0.49999986724930534,
+        0.5000001463391152
+      ],
+      "max_uv_scale_error_percent": 2.926782303180886e-05,
+      "degenerate_count": 0
+    },
+    "BRIDGE_Flat_4m": {
+      "checks": {
+        "nonempty": true,
+        "degenerate_triangles": true,
+        "duplicate_faces": true,
+        "normals_consistent": true,
+        "positive_closed_volume": true,
+        "topology": true,
+        "uv_present": true,
+        "uv_density": true,
+        "expected_bounds": true,
+        "manifest_bounds": true,
+        "material_slots": true,
+        "identity_transform": true
+      },
+      "passed": true,
+      "triangles": 12,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "signed_volume": 1.6000000238418577,
+      "uv_scale_range": [
+        0.4999999962998918,
+        0.5000000109375162
+      ],
+      "max_uv_scale_error_percent": 2.1875032452101095e-06,
+      "degenerate_count": 0
+    }
+  },
+  "joins": [
+    {
+      "a": "wall_A",
+      "a_connector": "right",
+      "b": "wall_B",
+      "b_connector": "left",
+      "error_metres": 0.0,
+      "direction_dot": -1.0,
+      "passed": true
+    },
+    {
+      "a": "tile_0_0",
+      "a_connector": "east",
+      "b": "tile_1_0",
+      "b_connector": "west",
+      "error_metres": 0.0,
+      "direction_dot": -1.0,
+      "passed": true
+    },
+    {
+      "a": "stairs",
+      "a_connector": "top",
+      "b": "bridge",
+      "b_connector": "start",
+      "error_metres": 0.0,
+      "direction_dot": -1.0,
+      "passed": true
+    },
+    {
+      "a": "pipe_A",
+      "a_connector": "out",
+      "b": "elbow",
+      "b_connector": "in",
+      "error_metres": 0.0,
+      "direction_dot": -1.0,
+      "passed": true
+    },
+    {
+      "a": "elbow",
+      "a_connector": "out",
+      "b": "pipe_B",
+      "b_connector": "in",
+      "error_metres": 0.0,
+      "direction_dot": -1.0,
+      "passed": true
+    }
+  ],
+  "arch_clearance_pass": true,
+  "exported_files": {
+    "meshes/WALL_Flat_2x2.fbx": true,
+    "meshes/FLOOR_Tile_2x2.fbx": true,
+    "meshes/ARCH_Round.fbx": true,
+    "meshes/COLUMN_Round.fbx": true,
+    "meshes/PIPE_Straight_2m.fbx": true,
+    "meshes/PIPE_Elbow90.fbx": true,
+    "meshes/STAIR_Straight.fbx": true,
+    "meshes/BRIDGE_Flat_4m.fbx": true
+  },
+  "fbx_blender_roundtrip": [
+    {
+      "asset_id": "WALL_Flat_2x2",
+      "passed": true,
+      "checks": {
+        "one_mesh": true,
+        "bounds_metres": true,
+        "triangles": true,
+        "uv_present": true,
+        "materials": true,
+        "uv_values": true,
+        "checker_image": true,
+        "closed_normals": true
+      }
+    },
+    {
+      "asset_id": "FLOOR_Tile_2x2",
+      "passed": true,
+      "checks": {
+        "one_mesh": true,
+        "bounds_metres": true,
+        "triangles": true,
+        "uv_present": true,
+        "materials": true,
+        "uv_values": true,
+        "checker_image": true,
+        "closed_normals": true
+      }
+    },
+    {
+      "asset_id": "ARCH_Round",
+      "passed": true,
+      "checks": {
+        "one_mesh": true,
+        "bounds_metres": true,
+        "triangles": true,
+        "uv_present": true,
+        "materials": true,
+        "uv_values": true,
+        "checker_image": true,
+        "closed_normals": true
+      }
+    },
+    {
+      "asset_id": "COLUMN_Round",
+      "passed": true,
+      "checks": {
+        "one_mesh": true,
+        "bounds_metres": true,
+        "triangles": true,
+        "uv_present": true,
+        "materials": true,
+        "uv_values": true,
+        "checker_image": true,
+        "closed_normals": true
+      }
+    },
+    {
+      "asset_id": "PIPE_Straight_2m",
+      "passed": true,
+      "checks": {
+        "one_mesh": true,
+        "bounds_metres": true,
+        "triangles": true,
+        "uv_present": true,
+        "materials": true,
+        "uv_values": true,
+        "checker_image": true,
+        "closed_normals": true
+      }
+    },
+    {
+      "asset_id": "PIPE_Elbow90",
+      "passed": true,
+      "checks": {
+        "one_mesh": true,
+        "bounds_metres": true,
+        "triangles": true,
+        "uv_present": true,
+        "materials": true,
+        "uv_values": true,
+        "checker_image": true,
+        "closed_normals": true
+      }
+    },
+    {
+      "asset_id": "STAIR_Straight",
+      "passed": true,
+      "checks": {
+        "one_mesh": true,
+        "bounds_metres": true,
+        "triangles": true,
+        "uv_present": true,
+        "materials": true,
+        "uv_values": true,
+        "checker_image": true,
+        "closed_normals": true
+      }
+    },
+    {
+      "asset_id": "BRIDGE_Flat_4m",
+      "passed": true,
+      "checks": {
+        "one_mesh": true,
+        "bounds_metres": true,
+        "triangles": true,
+        "uv_present": true,
+        "materials": true,
+        "uv_values": true,
+        "checker_image": true,
+        "closed_normals": true
+      }
+    }
+  ],
+  "viewer_compatibility": "NOT TESTED; no domain connection or import attempted",
+  "collision": "Four optional proposals in separate Blender scene. No viewer collision claims.",
+  "uv_tolerance": "0.5 UV/metre; +/-14% singular-value tolerance on curved surfaces, exact base-tile corners",
+  "deferred": [
+    "DarkRide loading and normals",
+    "texture repeat and persistence",
+    "normal map +Y/-Y",
+    "PBR import and material replacement",
+    "collision and walking",
+    "FPS/load time/texture memory"
+  ],
+  "offline_pass": true
+}

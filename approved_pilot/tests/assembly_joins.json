@@ -1,0 +1,32 @@
+[
+  {
+    "a": "wall_A",
+    "a_connector": "right",
+    "b": "wall_B",
+    "b_connector": "left"
+  },
+  {
+    "a": "tile_0_0",
+    "a_connector": "east",
+    "b": "tile_1_0",
+    "b_connector": "west"
+  },
+  {
+    "a": "stairs",
+    "a_connector": "top",
+    "b": "bridge",
+    "b_connector": "start"
+  },
+  {
+    "a": "pipe_A",
+    "a_connector": "out",
+    "b": "elbow",
+    "b_connector": "in"
+  },
+  {
+    "a": "elbow",
+    "a_connector": "out",
+    "b": "pipe_B",
+    "b_connector": "in"
+  }
+]

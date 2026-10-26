@@ -1,0 +1,45 @@
+{
+  "status": "offline_validated_ready_for_visual_review_and_isolated_viewer_testing",
+  "completed_utc": "2026-10-26T08:43:08.399216+00:00",
+  "assets": 89,
+  "export_triangles": 19204,
+  "source_quads": 8251,
+  "fbx_roundtrips_passed": 89,
+  "standalone_sources_passed": 89,
+  "deterministic_geometry_all_89": true,
+  "independent_cli_cases": 6,
+  "approved_pilot_unchanged": true,
+  "joins_passed": 10,
+  "pipe_profiles_passed": 29,
+  "spiral_minimum_sampled_clearance_metres": 3.663278579711914,
+  "reducer_uv_seams": {
+    "outer": {
+      "facets": 32,
+      "longitudinal_seams": 1,
+      "passed": true
+    },
+    "inner": {
+      "facets": 32,
+      "longitudinal_seams": 1,
+      "passed": true
+    }
+  },
+  "contact_sheets_refreshed": true,
+  "visual_review": "Seven category sheets and revised underside view inspected; no new regeneration defect identified",
+  "all_available_offline_checks_passed": true,
+  "manual_review": [
+    "Spiral walk line, inner treads and railings",
+    "Sloping stair lower datum clearance",
+    "Intentional UV seams with final materials",
+    "Double arch central separation"
+  ],
+  "darkride_viewer_compatibility": "unverified",
+  "deployment": "none",
+  "evidence_sha256": {
+    "reports/validation.json": "487d667c06bdaacb9acd2b4bb89034d3bfde6af8ed41230ad3dcffe42acaa14f",
+    "reports/standalone_sources.json": "964a553a7ff0b69ee5c23e9bdd109f25ae06733930260a06d64a49fb80e0953c",
+    "reports/regeneration.json": "87b8620b72c4e740da90a20f9ed159bbc40b40b7b0ddbb2e0fbc0d038b3b5400",
+    "reports/focused_geometry.json": "90690367dbfc147a89fe4ad8db666eee03baac04f71c580add35e49104d3aac7",
+    "reports/pilot_regression/reports/validation.json": "6d806d3d68dcd40e143259f54b5c364eb5f1201f625a8026e92969473644b239"
+  }
+}

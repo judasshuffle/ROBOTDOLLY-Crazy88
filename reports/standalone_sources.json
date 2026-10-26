@@ -1,0 +1,361 @@
+{
+  "passed": true,
+  "assets": [
+    {
+      "asset_id": "WALL_Flat_2x2",
+      "passed": true
+    },
+    {
+      "asset_id": "WALL_Flat_4x2",
+      "passed": true
+    },
+    {
+      "asset_id": "WALL_Thick_2x2",
+      "passed": true
+    },
+    {
+      "asset_id": "WALL_InsideCorner",
+      "passed": true
+    },
+    {
+      "asset_id": "WALL_OutsideCorner",
+      "passed": true
+    },
+    {
+      "asset_id": "WALL_RecessedPanel",
+      "passed": true
+    },
+    {
+      "asset_id": "WALL_LowPartition",
+      "passed": true
+    },
+    {
+      "asset_id": "WALL_Curved90",
+      "passed": true
+    },
+    {
+      "asset_id": "FLOOR_Tile_2x2",
+      "passed": true
+    },
+    {
+      "asset_id": "FLOOR_Tile_4x4",
+      "passed": true
+    },
+    {
+      "asset_id": "FLOOR_RaisedPlatform",
+      "passed": true
+    },
+    {
+      "asset_id": "FLOOR_Ramp",
+      "passed": true
+    },
+    {
+      "asset_id": "CEILING_Flat_2x2",
+      "passed": true
+    },
+    {
+      "asset_id": "CEILING_Grid_2x2",
+      "passed": true
+    },
+    {
+      "asset_id": "CEILING_Vaulted",
+      "passed": true
+    },
+    {
+      "asset_id": "CEILING_Recessed",
+      "passed": true
+    },
+    {
+      "asset_id": "ARCH_Round",
+      "passed": true
+    },
+    {
+      "asset_id": "ARCH_Point",
+      "passed": true
+    },
+    {
+      "asset_id": "ARCH_Segmental",
+      "passed": true
+    },
+    {
+      "asset_id": "ARCH_WideSpan",
+      "passed": true
+    },
+    {
+      "asset_id": "ARCH_Double",
+      "passed": true
+    },
+    {
+      "asset_id": "COLUMN_Round",
+      "passed": true
+    },
+    {
+      "asset_id": "COLUMN_Square",
+      "passed": true
+    },
+    {
+      "asset_id": "COLUMN_Fluted",
+      "passed": true
+    },
+    {
+      "asset_id": "PILASTER_Wall",
+      "passed": true
+    },
+    {
+      "asset_id": "BEAM_Straight",
+      "passed": true
+    },
+    {
+      "asset_id": "BEAM_Curved",
+      "passed": true
+    },
+    {
+      "asset_id": "CORNICE_Straight",
+      "passed": true
+    },
+    {
+      "asset_id": "SKIRTING_Straight",
+      "passed": true
+    },
+    {
+      "asset_id": "TRIM_PanelFrame",
+      "passed": true
+    },
+    {
+      "asset_id": "DOORWAY_Standard",
+      "passed": true
+    },
+    {
+      "asset_id": "DOORWAY_Wide",
+      "passed": true
+    },
+    {
+      "asset_id": "DOORWAY_Arched",
+      "passed": true
+    },
+    {
+      "asset_id": "DOOR_Leaf_Plain",
+      "passed": true
+    },
+    {
+      "asset_id": "DOOR_Leaf_Industrial",
+      "passed": true
+    },
+    {
+      "asset_id": "DOOR_Frame",
+      "passed": true
+    },
+    {
+      "asset_id": "DOOR_DoubleLeaf",
+      "passed": true
+    },
+    {
+      "asset_id": "WINDOW_Rectangular",
+      "passed": true
+    },
+    {
+      "asset_id": "WINDOW_Tall",
+      "passed": true
+    },
+    {
+      "asset_id": "WINDOW_Arched",
+      "passed": true
+    },
+    {
+      "asset_id": "WINDOW_InteriorObservation",
+      "passed": true
+    },
+    {
+      "asset_id": "WINDOW_FrameAndSill",
+      "passed": true
+    },
+    {
+      "asset_id": "PIPE_Straight_1m",
+      "passed": true
+    },
+    {
+      "asset_id": "PIPE_Straight_2m",
+      "passed": true
+    },
+    {
+      "asset_id": "PIPE_Straight_4m",
+      "passed": true
+    },
+    {
+      "asset_id": "PIPE_Elbow45",
+      "passed": true
+    },
+    {
+      "asset_id": "PIPE_Elbow90",
+      "passed": true
+    },
+    {
+      "asset_id": "PIPE_Tee",
+      "passed": true
+    },
+    {
+      "asset_id": "PIPE_Cross",
+      "passed": true
+    },
+    {
+      "asset_id": "PIPE_Reducer",
+      "passed": true
+    },
+    {
+      "asset_id": "PIPE_Flange",
+      "passed": true
+    },
+    {
+      "asset_id": "PIPE_EndCap",
+      "passed": true
+    },
+    {
+      "asset_id": "PIPE_ValveWheel",
+      "passed": true
+    },
+    {
+      "asset_id": "PIPE_ValveBody",
+      "passed": true
+    },
+    {
+      "asset_id": "PIPE_Bracket",
+      "passed": true
+    },
+    {
+      "asset_id": "PIPE_Ubend",
+      "passed": true
+    },
+    {
+      "asset_id": "PIPE_Riser",
+      "passed": true
+    },
+    {
+      "asset_id": "PIPE_Manifold",
+      "passed": true
+    },
+    {
+      "asset_id": "DUCT_Square_1m",
+      "passed": true
+    },
+    {
+      "asset_id": "DUCT_Square_2m",
+      "passed": true
+    },
+    {
+      "asset_id": "DUCT_Elbow90",
+      "passed": true
+    },
+    {
+      "asset_id": "DUCT_Tee",
+      "passed": true
+    },
+    {
+      "asset_id": "DUCT_Reducer",
+      "passed": true
+    },
+    {
+      "asset_id": "DUCT_EndCap",
+      "passed": true
+    },
+    {
+      "asset_id": "VENT_WallGrille",
+      "passed": true
+    },
+    {
+      "asset_id": "VENT_CeilingGrille",
+      "passed": true
+    },
+    {
+      "asset_id": "VENT_FanHousing",
+      "passed": true
+    },
+    {
+      "asset_id": "DUCT_Hanger",
+      "passed": true
+    },
+    {
+      "asset_id": "STAIR_Straight",
+      "passed": true
+    },
+    {
+      "asset_id": "STAIR_Switchback",
+      "passed": true
+    },
+    {
+      "asset_id": "STAIR_Spiral",
+      "passed": true
+    },
+    {
+      "asset_id": "STAIR_Landing",
+      "passed": true
+    },
+    {
+      "asset_id": "STAIR_Railing",
+      "passed": true
+    },
+    {
+      "asset_id": "BRIDGE_Flat_4m",
+      "passed": true
+    },
+    {
+      "asset_id": "BRIDGE_Arched",
+      "passed": true
+    },
+    {
+      "asset_id": "BRIDGE_Catwalk",
+      "passed": true
+    },
+    {
+      "asset_id": "ELEVATOR_ShaftSegment",
+      "passed": true
+    },
+    {
+      "asset_id": "ELEVATOR_CabShell",
+      "passed": true
+    },
+    {
+      "asset_id": "LIGHT_FluorescentHousing",
+      "passed": true
+    },
+    {
+      "asset_id": "LIGHT_RecessedPanel",
+      "passed": true
+    },
+    {
+      "asset_id": "LIGHT_WallSconce",
+      "passed": true
+    },
+    {
+      "asset_id": "LIGHT_IndustrialCage",
+      "passed": true
+    },
+    {
+      "asset_id": "LIGHT_ExitSignHousing",
+      "passed": true
+    },
+    {
+      "asset_id": "DETAIL_CableTray",
+      "passed": true
+    },
+    {
+      "asset_id": "DETAIL_WallConduit",
+      "passed": true
+    },
+    {
+      "asset_id": "DETAIL_ServiceHatch",
+      "passed": true
+    },
+    {
+      "asset_id": "DETAIL_BalconyRail",
+      "passed": true
+    },
+    {
+      "asset_id": "DETAIL_ColumnBase",
+      "passed": true
+    },
+    {
+      "asset_id": "STAIR_Straight_SlopingUnderside",
+      "passed": true
+    }
+  ]
+}

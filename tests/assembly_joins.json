@@ -1,0 +1,62 @@
+[
+  {
+    "a": "flight_1",
+    "a_connector": "top",
+    "b": "landing",
+    "b_connector": "in"
+  },
+  {
+    "a": "landing",
+    "a_connector": "out",
+    "b": "flight_2",
+    "b_connector": "bottom"
+  },
+  {
+    "a": "bridge_A",
+    "a_connector": "end",
+    "b": "bridge_B",
+    "b_connector": "start"
+  },
+  {
+    "a": "pipe_4",
+    "a_connector": "out",
+    "b": "pipe_elbow",
+    "b_connector": "in"
+  },
+  {
+    "a": "pipe_elbow",
+    "a_connector": "out",
+    "b": "pipe_2",
+    "b_connector": "in"
+  },
+  {
+    "a": "duct_A",
+    "a_connector": "out",
+    "b": "duct_B",
+    "b_connector": "in"
+  },
+  {
+    "a": "duct_B",
+    "a_connector": "out",
+    "b": "duct_elbow",
+    "b_connector": "in"
+  },
+  {
+    "a": "shaft_lower",
+    "a_connector": "top",
+    "b": "shaft_upper",
+    "b_connector": "bottom"
+  },
+  {
+    "a": "wall_join_A",
+    "a_connector": "right",
+    "b": "wall_join_B",
+    "b_connector": "left"
+  },
+  {
+    "a": "tile_join_A",
+    "a_connector": "east",
+    "b": "tile_join_B",
+    "b_connector": "west"
+  }
+]

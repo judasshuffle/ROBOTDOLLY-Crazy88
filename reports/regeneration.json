@@ -1,0 +1,43 @@
+{
+  "deterministic_all_89": true,
+  "canonical_files_unchanged_by_single_asset_commands": true,
+  "independent_regeneration": [
+    {
+      "asset_id": "STAIR_Straight",
+      "exit_code": 0,
+      "identical_geometry": true,
+      "identical_connectors": true
+    },
+    {
+      "asset_id": "FLOOR_Ramp",
+      "exit_code": 0,
+      "identical_geometry": true,
+      "identical_connectors": true
+    },
+    {
+      "asset_id": "PIPE_Tee",
+      "exit_code": 0,
+      "identical_geometry": true,
+      "identical_connectors": true
+    },
+    {
+      "asset_id": "PIPE_Reducer",
+      "exit_code": 0,
+      "identical_geometry": true,
+      "identical_connectors": true
+    },
+    {
+      "asset_id": "STAIR_Spiral",
+      "exit_code": 0,
+      "identical_geometry": true,
+      "identical_connectors": true
+    },
+    {
+      "asset_id": "STAIR_Straight_SlopingUnderside",
+      "exit_code": 0,
+      "identical_geometry": true,
+      "identical_connectors": true
+    }
+  ],
+  "passed": true
+}

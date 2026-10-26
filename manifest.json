@@ -1,0 +1,7471 @@
+{
+  "schema_version": 2,
+  "scope": "88_assets_plus_one_stair_variation",
+  "units": "metres",
+  "axes": "Blender Z up; FBX Y up, -Z forward",
+  "modular_grid": "2m architectural bays; 1m service routes; documented fractional profiles and mounts",
+  "snap_tolerance_metres": 0.001,
+  "assets": [
+    {
+      "asset_id": "WALL_Flat_2x2",
+      "inventory_number": 1,
+      "additional_variation": false,
+      "filename": "meshes/WALL_Flat_2x2.fbx",
+      "source": "sources/WALL_Flat_2x2.blend",
+      "bounds": {
+        "min": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "max": [
+          2.0,
+          0.0,
+          2.0
+        ]
+      },
+      "dimensions": [
+        2.0,
+        0.0,
+        2.0
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "connectors": [
+        {
+          "name": "left",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "direction": [
+            -1,
+            0,
+            0
+          ],
+          "profile": "wall_edge_2m"
+        },
+        {
+          "name": "right",
+          "position": [
+            2,
+            0,
+            0
+          ],
+          "direction": [
+            1,
+            0,
+            0
+          ],
+          "profile": "wall_edge_2m"
+        }
+      ],
+      "material_slots": [
+        "MAT_Wall"
+      ],
+      "uv_metres_per_repeat": 2,
+      "checker_pixels_per_metre": 256,
+      "triangles": 2,
+      "vertices": 4,
+      "quads": 1,
+      "ngons": 0,
+      "closed": false,
+      "geometry_sha256": "86b61598c59e33e951a7fa8d5e2ca511e26b89e966f405ca7aef714c6692f246",
+      "approved_pilot": true,
+      "export_status": "Blender_roundtrip_candidate_DarkRide_unverified",
+      "notes": "Approved pilot; original geometry, UVs, connectors and FBX preserved.",
+      "boolean_uv_reprojected_faces": 0,
+      "fbx_sha256": "252b07306363f62515628a4350cedbe4166e685acf827ff28b3af9c87df7f59e",
+      "source_sha256": "d08f88b5087162249ebc8e2e5f944fe5337ad24a21f6527bb46cde3e8adeae09"
+    },
+    {
+      "asset_id": "WALL_Flat_4x2",
+      "inventory_number": 2,
+      "additional_variation": false,
+      "filename": "meshes/WALL_Flat_4x2.fbx",
+      "source": "sources/WALL_Flat_4x2.blend",
+      "bounds": {
+        "min": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "max": [
+          4.0,
+          0.0,
+          2.0
+        ]
+      },
+      "dimensions": [
+        4.0,
+        0.0,
+        2.0
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "connectors": [
+        {
+          "name": "in",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "direction": [
+            -1,
+            0,
+            0
+          ],
+          "profile": "wall_edge_2m",
+          "roll_reference": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "out",
+          "position": [
+            4,
+            0,
+            0
+          ],
+          "direction": [
+            1,
+            0,
+            0
+          ],
+          "profile": "wall_edge_2m",
+          "roll_reference": [
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "material_slots": [
+        "MAT_Wall"
+      ],
+      "uv_metres_per_repeat": 2,
+      "checker_pixels_per_metre": 256,
+      "triangles": 2,
+      "vertices": 4,
+      "quads": 1,
+      "ngons": 0,
+      "closed": false,
+      "geometry_sha256": "7ea71eeb709227907d566657b34a4900264447a53223e7108e61cf9ba2d1b4a4",
+      "approved_pilot": false,
+      "export_status": "Blender_roundtrip_candidate_DarkRide_unverified",
+      "notes": "",
+      "boolean_uv_reprojected_faces": 0,
+      "fbx_sha256": "76e775f6b3fa35ea754e418f853444e28042df77d11ca77ed9bd2dcdab3d69b3",
+      "source_sha256": "0571b0f46e9424c31a8936e1c5268757b3ad7fd70b9aedacfbe8d14e0116ab21"
+    },
+    {
+      "asset_id": "WALL_Thick_2x2",
+      "inventory_number": 3,
+      "additional_variation": false,
+      "filename": "meshes/WALL_Thick_2x2.fbx",
+      "source": "sources/WALL_Thick_2x2.blend",
+      "bounds": {
+        "min": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "max": [
+          2.0,
+          0.20000000298023224,
+          2.0
+        ]
+      },
+      "dimensions": [
+        2.0,
+        0.20000000298023224,
+        2.0
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "connectors": [
+        {
+          "name": "in",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "direction": [
+            -1,
+            0,
+            0
+          ],
+          "profile": "wall_edge_2m",
+          "roll_reference": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "out",
+          "position": [
+            2,
+            0,
+            0
+          ],
+          "direction": [
+            1,
+            0,
+            0
+          ],
+          "profile": "wall_edge_2m",
+          "roll_reference": [
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "material_slots": [
+        "MAT_Wall"
+      ],
+      "uv_metres_per_repeat": 2,
+      "checker_pixels_per_metre": 256,
+      "triangles": 12,
+      "vertices": 8,
+      "quads": 6,
+      "ngons": 0,
+      "closed": true,
+      "geometry_sha256": "38bc541f649a16993111248106619ea3ea2dbe07be96ef69467dc2942faef0aa",
+      "approved_pilot": false,
+      "export_status": "Blender_roundtrip_candidate_DarkRide_unverified",
+      "notes": "",
+      "boolean_uv_reprojected_faces": 0,
+      "fbx_sha256": "4a7caf14d6047cc5b5d8937777d5fbd70213557c9d140312720ad72107ec10bc",
+      "source_sha256": "1ee2771e292522064ea6e6da5708d412951a5e23025985b800f0eaac4ce206fc"
+    },
+    {
+      "asset_id": "WALL_InsideCorner",
+      "inventory_number": 4,
+      "additional_variation": false,
+      "filename": "meshes/WALL_InsideCorner.fbx",
+      "source": "sources/WALL_InsideCorner.blend",
+      "bounds": {
+        "min": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "max": [
+          2.0,
+          2.0,
+          2.0
+        ]
+      },
+      "dimensions": [
+        2.0,
+        2.0,
+        2.0
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "connectors": [
+        {
+          "name": "x_end",
+          "position": [
+            2,
+            0,
+            0
+          ],
+          "direction": [
+            1,
+            0,
+            0
+          ],
+          "profile": "wall_edge_2m",
+          "roll_reference": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "y_end",
+          "position": [
+            0,
+            2,
+            0
+          ],
+          "direction": [
+            0,
+            1,
+            0
+          ],
+          "profile": "wall_edge_2m",
+          "roll_reference": [
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "material_slots": [
+        "MAT_Wall"
+      ],
+      "uv_metres_per_repeat": 2,
+      "checker_pixels_per_metre": 256,
+      "triangles": 28,
+      "vertices": 16,
+      "quads": 14,
+      "ngons": 0,
+      "closed": true,
+      "geometry_sha256": "4a5730c6c56c02a3a94cf9a6f92051aaca3083756aabab70da65dd510dce2f43",
+      "approved_pilot": false,
+      "export_status": "Blender_roundtrip_candidate_DarkRide_unverified",
+      "notes": "",
+      "boolean_uv_reprojected_faces": 2,
+      "fbx_sha256": "c0c0a61b60759bd74cb54ae5ac06658d4712c30ff6b10921b95fee94ebf36e44",
+      "source_sha256": "4a840853ef2f9b6231a157535c3f8cdedd7f414922ed07da43ed7bc3b0962767"
+    },
+    {
+      "asset_id": "WALL_OutsideCorner",
+      "inventory_number": 5,
+      "additional_variation": false,
+      "filename": "meshes/WALL_OutsideCorner.fbx",
+      "source": "sources/WALL_OutsideCorner.blend",
+      "bounds": {
+        "min": [
+          0.0,
+          -2.0,
+          0.0
+        ],
+        "max": [
+          2.0,
+          0.20000000298023224,
+          2.0
+        ]
+      },
+      "dimensions": [
+        2.0,
+        2.2000000029802322,
+        2.0
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "connectors": [
+        {
+          "name": "x_end",
+          "position": [
+            2,
+            0,
+            0
+          ],
+          "direction": [
+            1,
+            0,
+            0
+          ],
+          "profile": "wall_edge_2m",
+          "roll_reference": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "y_end",
+          "position": [
+            0,
+            -2,
+            0
+          ],
+          "direction": [
+            0,
+            -1,
+            0
+          ],
+          "profile": "wall_edge_2m",
+          "roll_reference": [
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "material_slots": [
+        "MAT_Wall"
+      ],
+      "uv_metres_per_repeat": 2,
+      "checker_pixels_per_metre": 256,
+      "triangles": 40,
+      "vertices": 22,
+      "quads": 10,
+      "ngons": 0,
+      "closed": true,
+      "geometry_sha256": "be1c5e3e659c52d7899d23dbf3f82c1db77dd61bee4d76f92a490863ec18dc73",
+      "approved_pilot": false,
+      "export_status": "Blender_roundtrip_candidate_DarkRide_unverified",
+      "notes": "",
+      "boolean_uv_reprojected_faces": 1,
+      "fbx_sha256": "db2ec0fcc8056bd52c41ab289e10da524451ff38b9001c185cd12d4b7860ee0e",
+      "source_sha256": "b599525809c49c45eeda9125bb9a01a97338439cb1c0b35f6327f2f20b793ae7"
+    },
+    {
+      "asset_id": "WALL_RecessedPanel",
+      "inventory_number": 6,
+      "additional_variation": false,
+      "filename": "meshes/WALL_RecessedPanel.fbx",
+      "source": "sources/WALL_RecessedPanel.blend",
+      "bounds": {
+        "min": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "max": [
+          2.0,
+          0.25,
+          2.0
+        ]
+      },
+      "dimensions": [
+        2.0,
+        0.25,
+        2.0
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "connectors": [
+        {
+          "name": "in",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "direction": [
+            -1,
+            0,
+            0
+          ],
+          "profile": "wall_edge_2m",
+          "roll_reference": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "out",
+          "position": [
+            2,
+            0,
+            0
+          ],
+          "direction": [
+            1,
+            0,
+            0
+          ],
+          "profile": "wall_edge_2m",
+          "roll_reference": [
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "material_slots": [
+        "MAT_Wall"
+      ],
+      "uv_metres_per_repeat": 2,
+      "checker_pixels_per_metre": 256,
+      "triangles": 28,
+      "vertices": 16,
+      "quads": 11,
+      "ngons": 0,
+      "closed": true,
+      "geometry_sha256": "696dfb837a8039d788dd5c214ee33d11249d146482825d977952d8915613f457",
+      "approved_pilot": false,
+      "export_status": "Blender_roundtrip_candidate_DarkRide_unverified",
+      "notes": "",
+      "boolean_uv_reprojected_faces": 0,
+      "fbx_sha256": "40fea046c77053e49b394ffa2a353e9dc1c6fa389d3d93b42794dae7e3a3bfbd",
+      "source_sha256": "0014f6e50fcdf78753e52e43e36757a0327afcc2d32842895cbc814edca93fdd"
+    },
+    {
+      "asset_id": "WALL_LowPartition",
+      "inventory_number": 7,
+      "additional_variation": false,
+      "filename": "meshes/WALL_LowPartition.fbx",
+      "source": "sources/WALL_LowPartition.blend",
+      "bounds": {
+        "min": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "max": [
+          2.0,
+          0.20000000298023224,
+          1.0
+        ]
+      },
+      "dimensions": [
+        2.0,
+        0.20000000298023224,
+        1.0
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "connectors": [
+        {
+          "name": "in",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "direction": [
+            -1,
+            0,
+            0
+          ],
+          "profile": "partition_edge_1m",
+          "roll_reference": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "out",
+          "position": [
+            2,
+            0,
+            0
+          ],
+          "direction": [
+            1,
+            0,
+            0
+          ],
+          "profile": "partition_edge_1m",
+          "roll_reference": [
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "material_slots": [
+        "MAT_Wall"
+      ],
+      "uv_metres_per_repeat": 2,
+      "checker_pixels_per_metre": 256,
+      "triangles": 12,
+      "vertices": 8,
+      "quads": 6,
+      "ngons": 0,
+      "closed": true,
+      "geometry_sha256": "ef8e9b0e3e9bf5044c87dfaed379fd5ce695f3abc1d7e0783d34d7a5cd12690e",
+      "approved_pilot": false,
+      "export_status": "Blender_roundtrip_candidate_DarkRide_unverified",
+      "notes": "",
+      "boolean_uv_reprojected_faces": 0,
+      "fbx_sha256": "15713731bee6604aff5d103b480e5b7496f4aba5addba84658721fbf61d8f09a",
+      "source_sha256": "70fd26cbd83d3a424f97a9db4069d98cd05aec3469cdadf7247abe3a663ed5d8"
+    },
+    {
+      "asset_id": "WALL_Curved90",
+      "inventory_number": 8,
+      "additional_variation": false,
+      "filename": "meshes/WALL_Curved90.fbx",
+      "source": "sources/WALL_Curved90.blend",
+      "bounds": {
+        "min": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "max": [
+          2.200000047683716,
+          2.200000047683716,
+          2.0
+        ]
+      },
+      "dimensions": [
+        2.200000047683716,
+        2.200000047683716,
+        2.0
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "connectors": [
+        {
+          "name": "start",
+          "position": [
+            2,
+            0,
+            0
+          ],
+          "direction": [
+            0,
+            -1,
+            0
+          ],
+          "profile": "wall_edge_2m",
+          "roll_reference": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "end",
+          "position": [
+            0,
+            2,
+            0
+          ],
+          "direction": [
+            -1,
+            0,
+            0
+          ],
+          "profile": "wall_edge_2m",
+          "roll_reference": [
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "material_slots": [
+        "MAT_Wall"
+      ],
+      "uv_metres_per_repeat": 2,
+      "checker_pixels_per_metre": 256,
+      "triangles": 100,
+      "vertices": 52,
+      "quads": 50,
+      "ngons": 0,
+      "closed": true,
+      "geometry_sha256": "c11c3470d84573fd055f7934f1b3e4fc7b0df7ddd0cedaf432eb0d07a3bc56fa",
+      "approved_pilot": false,
+      "export_status": "Blender_roundtrip_candidate_DarkRide_unverified",
+      "notes": "",
+      "boolean_uv_reprojected_faces": 0,
+      "fbx_sha256": "dd0e2ba5e63e5db7aecbdd445b1ecfb5c80d63fd5835da1558a35fae82351509",
+      "source_sha256": "7c3959ae19b5235c051db58a208396c937f819f6aedaa08cbcc03055129b1822"
+    },
+    {
+      "asset_id": "FLOOR_Tile_2x2",
+      "inventory_number": 9,
+      "additional_variation": false,
+      "filename": "meshes/FLOOR_Tile_2x2.fbx",
+      "source": "sources/FLOOR_Tile_2x2.blend",
+      "bounds": {
+        "min": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "max": [
+          2.0,
+          2.0,
+          0.0
+        ]
+      },
+      "dimensions": [
+        2.0,
+        2.0,
+        0.0
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "connectors": [
+        {
+          "name": "west",
+          "position": [
+            0,
+            1,
+            0
+          ],
+          "direction": [
+            -1,
+            0,
+            0
+          ],
+          "profile": "floor_edge_2m"
+        },
+        {
+          "name": "east",
+          "position": [
+            2,
+            1,
+            0
+          ],
+          "direction": [
+            1,
+            0,
+            0
+          ],
+          "profile": "floor_edge_2m"
+        },
+        {
+          "name": "south",
+          "position": [
+            1,
+            0,
+            0
+          ],
+          "direction": [
+            0,
+            -1,
+            0
+          ],
+          "profile": "floor_edge_2m"
+        },
+        {
+          "name": "north",
+          "position": [
+            1,
+            2,
+            0
+          ],
+          "direction": [
+            0,
+            1,
+            0
+          ],
+          "profile": "floor_edge_2m"
+        }
+      ],
+      "material_slots": [
+        "MAT_Floor"
+      ],
+      "uv_metres_per_repeat": 2,
+      "checker_pixels_per_metre": 256,
+      "triangles": 2,
+      "vertices": 4,
+      "quads": 1,
+      "ngons": 0,
+      "closed": false,
+      "geometry_sha256": "dec2f85709a2a5b7178b1da74c0168fd4f47b8cbec6844b297ffddfd259d0d4b",
+      "approved_pilot": true,
+      "export_status": "Blender_roundtrip_candidate_DarkRide_unverified",
+      "notes": "Approved pilot; original geometry, UVs, connectors and FBX preserved.",
+      "boolean_uv_reprojected_faces": 0,
+      "fbx_sha256": "2bf48735b90f503f7c072c077683c6398f4bbbf6d2956e6d3b95ed73de0313d1",
+      "source_sha256": "f982b8e6498c1f5393344d02752d49250a694bf89f2e4a86bc47fb5da8714907"
+    },
+    {
+      "asset_id": "FLOOR_Tile_4x4",
+      "inventory_number": 10,
+      "additional_variation": false,
+      "filename": "meshes/FLOOR_Tile_4x4.fbx",
+      "source": "sources/FLOOR_Tile_4x4.blend",
+      "bounds": {
+        "min": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "max": [
+          4.0,
+          4.0,
+          0.0
+        ]
+      },
+      "dimensions": [
+        4.0,
+        4.0,
+        0.0
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "connectors": [
+        {
+          "name": "west",
+          "position": [
+            0,
+            2.0,
+            0
+          ],
+          "direction": [
+            -1,
+            0,
+            0
+          ],
+          "profile": "floor_edge_4m",
+          "roll_reference": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "east",
+          "position": [
+            4,
+            2.0,
+            0
+          ],
+          "direction": [
+            1,
+            0,
+            0
+          ],
+          "profile": "floor_edge_4m",
+          "roll_reference": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "south",
+          "position": [
+            2.0,
+            0,
+            0
+          ],
+          "direction": [
+            0,
+            -1,
+            0
+          ],
+          "profile": "floor_edge_4m",
+          "roll_reference": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "north",
+          "position": [
+            2.0,
+            4,
+            0
+          ],
+          "direction": [
+            0,
+            1,
+            0
+          ],
+          "profile": "floor_edge_4m",
+          "roll_reference": [
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "material_slots": [
+        "MAT_Floor"
+      ],
+      "uv_metres_per_repeat": 2,
+      "checker_pixels_per_metre": 256,
+      "triangles": 2,
+      "vertices": 4,
+      "quads": 1,
+      "ngons": 0,
+      "closed": false,
+      "geometry_sha256": "cd309a0cf4fcb34bb599214943a6a9746be30c2d95fc91ecab180462166fb15d",
+      "approved_pilot": false,
+      "export_status": "Blender_roundtrip_candidate_DarkRide_unverified",
+      "notes": "",
+      "boolean_uv_reprojected_faces": 0,
+      "fbx_sha256": "302898e34051fafcd8c8b5593fcd6d44e7035dc5a0650cf572e3c04ac1ce2a24",
+      "source_sha256": "2c1d1e050dca0ea15c446d720e5370c23e661570f982df84c3217d398c3fc6ec"
+    },
+    {
+      "asset_id": "FLOOR_RaisedPlatform",
+      "inventory_number": 11,
+      "additional_variation": false,
+      "filename": "meshes/FLOOR_RaisedPlatform.fbx",
+      "source": "sources/FLOOR_RaisedPlatform.blend",
+      "bounds": {
+        "min": [
+          0.0,
+          0.0,
+          -0.4000000059604645
+        ],
+        "max": [
+          2.0,
+          2.0,
+          0.0
+        ]
+      },
+      "dimensions": [
+        2.0,
+        2.0,
+        0.4000000059604645
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "connectors": [
+        {
+          "name": "west",
+          "position": [
+            0,
+            1.0,
+            0
+          ],
+          "direction": [
+            -1,
+            0,
+            0
+          ],
+          "profile": "floor_edge_2m",
+          "roll_reference": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "east",
+          "position": [
+            2,
+            1.0,
+            0
+          ],
+          "direction": [
+            1,
+            0,
+            0
+          ],
+          "profile": "floor_edge_2m",
+          "roll_reference": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "south",
+          "position": [
+            1.0,
+            0,
+            0
+          ],
+          "direction": [
+            0,
+            -1,
+            0
+          ],
+          "profile": "floor_edge_2m",
+          "roll_reference": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "north",
+          "position": [
+            1.0,
+            2,
+            0
+          ],
+          "direction": [
+            0,
+            1,
+            0
+          ],
+          "profile": "floor_edge_2m",
+          "roll_reference": [
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "material_slots": [
+        "MAT_Floor"
+      ],
+      "uv_metres_per_repeat": 2,
+      "checker_pixels_per_metre": 256,
+      "triangles": 12,
+      "vertices": 8,
+      "quads": 6,
+      "ngons": 0,
+      "closed": true,
+      "geometry_sha256": "90a093547fe807f19f646159bd8d407c225d77a65f305217a99fd4ef223106a6",
+      "approved_pilot": false,
+      "export_status": "Blender_roundtrip_candidate_DarkRide_unverified",
+      "notes": "",
+      "boolean_uv_reprojected_faces": 0,
+      "fbx_sha256": "edddb64122bf9b4cbf88c96bde3a42e5b357e3793ba4deed880c19584cbcfbac",
+      "source_sha256": "118515cda793e5938de5dee28d1431f9f13a429b42966314ac19b0189873a9ea"
+    },
+    {
+      "asset_id": "FLOOR_Ramp",
+      "inventory_number": 12,
+      "additional_variation": false,
+      "filename": "meshes/FLOOR_Ramp.fbx",
+      "source": "sources/FLOOR_Ramp.blend",
+      "bounds": {
+        "min": [
+          0.0,
+          -1.0,
+          -0.20000000298023224
+        ],
+        "max": [
+          4.0,
+          1.0,
+          1.0
+        ]
+      },
+      "dimensions": [
+        4.0,
+        2.0,
+        1.2000000029802322
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "connectors": [
+        {
+          "name": "in",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "direction": [
+            -1,
+            0,
+            0
+          ],
+          "profile": "walkway_width_2m",
+          "roll_reference": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "out",
+          "position": [
+            4,
+            0,
+            1
+          ],
+          "direction": [
+            1,
+            0,
+            0
+          ],
+          "profile": "walkway_width_2m",
+          "roll_reference": [
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "material_slots": [
+        "MAT_Floor"
+      ],
+      "uv_metres_per_repeat": 2,
+      "checker_pixels_per_metre": 256,
+      "triangles": 12,
+      "vertices": 8,
+      "quads": 6,
+      "ngons": 0,
+      "closed": true,
+      "geometry_sha256": "dad18d3be3f704ee74ff4d50f9059deaedd1d31d0ef78a461119da5a3e98c0e0",
+      "approved_pilot": false,
+      "export_status": "Blender_roundtrip_candidate_DarkRide_unverified",
+      "notes": "",
+      "boolean_uv_reprojected_faces": 0,
+      "fbx_sha256": "46df8efa041035a3b5d213a987591b6b02a026dba3f936f2d40633b3641e2ed3",
+      "source_sha256": "1e74d4d92f5e8a1d75b964307781914a552f853d57abb46c7519b40e999c8ea2"
+    },
+    {
+      "asset_id": "CEILING_Flat_2x2",
+      "inventory_number": 13,
+      "additional_variation": false,
+      "filename": "meshes/CEILING_Flat_2x2.fbx",
+      "source": "sources/CEILING_Flat_2x2.blend",
+      "bounds": {
+        "min": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "max": [
+          2.0,
+          2.0,
+          0.0
+        ]
+      },
+      "dimensions": [
+        2.0,
+        2.0,
+        0.0
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "connectors": [
+        {
+          "name": "west",
+          "position": [
+            0,
+            1.0,
+            0
+          ],
+          "direction": [
+            -1,
+            0,
+            0
+          ],
+          "profile": "floor_edge_2m",
+          "roll_reference": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "east",
+          "position": [
+            2,
+            1.0,
+            0
+          ],
+          "direction": [
+            1,
+            0,
+            0
+          ],
+          "profile": "floor_edge_2m",
+          "roll_reference": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "south",
+          "position": [
+            1.0,
+            0,
+            0
+          ],
+          "direction": [
+            0,
+            -1,
+            0
+          ],
+          "profile": "floor_edge_2m",
+          "roll_reference": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "north",
+          "position": [
+            1.0,
+            2,
+            0
+          ],
+          "direction": [
+            0,
+            1,
+            0
+          ],
+          "profile": "floor_edge_2m",
+          "roll_reference": [
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "material_slots": [
+        "MAT_Ceiling"
+      ],
+      "uv_metres_per_repeat": 2,
+      "checker_pixels_per_metre": 256,
+      "triangles": 2,
+      "vertices": 4,
+      "quads": 1,
+      "ngons": 0,
+      "closed": false,
+      "geometry_sha256": "459aa6ee9f1d373882d1967ee21059d755cbc85b02fb26beec026601ee9913c7",
+      "approved_pilot": false,
+      "export_status": "Blender_roundtrip_candidate_DarkRide_unverified",
+      "notes": "",
+      "boolean_uv_reprojected_faces": 0,
+      "fbx_sha256": "e0bb5e4f453ff3b8d57d20b39fe5bdd77be716289af574c87eab660b26c36c9b",
+      "source_sha256": "ffadd018671ca6d4ab99f2adf734656533dfff8abdd28d67b48b04eefebe3384"
+    },
+    {
+      "asset_id": "CEILING_Grid_2x2",
+      "inventory_number": 14,
+      "additional_variation": false,
+      "filename": "meshes/CEILING_Grid_2x2.fbx",
+      "source": "sources/CEILING_Grid_2x2.blend",
+      "bounds": {
+        "min": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "max": [
+          2.0,
+          2.0,
+          0.11999999731779099
+        ]
+      },
+      "dimensions": [
+        2.0,
+        2.0,
+        0.11999999731779099
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "connectors": [
+        {
+          "name": "west",
+          "position": [
+            0,
+            1.0,
+            0
+          ],
+          "direction": [
+            -1,
+            0,
+            0
+          ],
+          "profile": "floor_edge_2m",
+          "roll_reference": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "east",
+          "position": [
+            2,
+            1.0,
+            0
+          ],
+          "direction": [
+            1,
+            0,
+            0
+          ],
+          "profile": "floor_edge_2m",
+          "roll_reference": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "south",
+          "position": [
+            1.0,
+            0,
+            0
+          ],
+          "direction": [
+            0,
+            -1,
+            0
+          ],
+          "profile": "floor_edge_2m",
+          "roll_reference": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "north",
+          "position": [
+            1.0,
+            2,
+            0
+          ],
+          "direction": [
+            0,
+            1,
+            0
+          ],
+          "profile": "floor_edge_2m",
+          "roll_reference": [
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "material_slots": [
+        "MAT_Ceiling"
+      ],
+      "uv_metres_per_repeat": 2,
+      "checker_pixels_per_metre": 256,
+      "triangles": 76,
+      "vertices": 40,
+      "quads": 26,
+      "ngons": 0,
+      "closed": true,
+      "geometry_sha256": "5b6f6db1ad6920ea15e932e687070a5a0442858c78b79ebb6ba7def5fad721a2",
+      "approved_pilot": false,
+      "export_status": "Blender_roundtrip_candidate_DarkRide_unverified",
+      "notes": "",
+      "boolean_uv_reprojected_faces": 0,
+      "fbx_sha256": "5d0f113aa563840cfdf8582830b68fac0cc239de534d9b4574cf2d2356733a73",
+      "source_sha256": "17f61ed87635ee09990a0f9531e019732e543bbb5c5c0a52a9829b9c26aa197e"
+    },
+    {
+      "asset_id": "CEILING_Vaulted",
+      "inventory_number": 15,
+      "additional_variation": false,
+      "filename": "meshes/CEILING_Vaulted.fbx",
+      "source": "sources/CEILING_Vaulted.blend",
+      "bounds": {
+        "min": [
+          -2.1500000953674316,
+          0.0,
+          0.0
+        ],
+        "max": [
+          2.1500000953674316,
+          2.000000238418579,
+          2.1500003337860107
+        ]
+      },
+      "dimensions": [
+        4.300000190734863,
+        2.000000238418579,
+        2.1500003337860107
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "connectors": [
+        {
+          "name": "front",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "direction": [
+            0,
+            -1,
+            0
+          ],
+          "profile": "vault_span_4m",
+          "roll_reference": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "rear",
+          "position": [
+            0,
+            2,
+            0
+          ],
+          "direction": [
+            0,
+            1,
+            0
+          ],
+          "profile": "vault_span_4m",
+          "roll_reference": [
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "material_slots": [
+        "MAT_Ceiling"
+      ],
+      "uv_metres_per_repeat": 2,
+      "checker_pixels_per_metre": 256,
+      "triangles": 132,
+      "vertices": 68,
+      "quads": 66,
+      "ngons": 0,
+      "closed": true,
+      "geometry_sha256": "02cacf26d7e1a1591d0de3e50b6b2a9794a837add364bc0f5f6a6b376196ec8e",
+      "approved_pilot": false,
+      "export_status": "Blender_roundtrip_candidate_DarkRide_unverified",
+      "notes": "",
+      "boolean_uv_reprojected_faces": 0,
+      "fbx_sha256": "a4f86e26573498117152a054653c486da07705cc7a24dcb71773d525869ecd70",
+      "source_sha256": "1c87c2322a9b10e3f57a6a8867003c7224bd99b3d7e8c168762bdb40a850b5fe"
+    },
+    {
+      "asset_id": "CEILING_Recessed",
+      "inventory_number": 16,
+      "additional_variation": false,
+      "filename": "meshes/CEILING_Recessed.fbx",
+      "source": "sources/CEILING_Recessed.blend",
+      "bounds": {
+        "min": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "max": [
+          2.0,
+          2.0,
+          0.30000001192092896
+        ]
+      },
+      "dimensions": [
+        2.0,
+        2.0,
+        0.30000001192092896
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "connectors": [
+        {
+          "name": "west",
+          "position": [
+            0,
+            1.0,
+            0
+          ],
+          "direction": [
+            -1,
+            0,
+            0
+          ],
+          "profile": "floor_edge_2m",
+          "roll_reference": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "east",
+          "position": [
+            2,
+            1.0,
+            0
+          ],
+          "direction": [
+            1,
+            0,
+            0
+          ],
+          "profile": "floor_edge_2m",
+          "roll_reference": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "south",
+          "position": [
+            1.0,
+            0,
+            0
+          ],
+          "direction": [
+            0,
+            -1,
+            0
+          ],
+          "profile": "floor_edge_2m",
+          "roll_reference": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "north",
+          "position": [
+            1.0,
+            2,
+            0
+          ],
+          "direction": [
+            0,
+            1,
+            0
+          ],
+          "profile": "floor_edge_2m",
+          "roll_reference": [
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "material_slots": [
+        "MAT_Ceiling"
+      ],
+      "uv_metres_per_repeat": 2,
+      "checker_pixels_per_metre": 256,
+      "triangles": 28,
+      "vertices": 16,
+      "quads": 11,
+      "ngons": 0,
+      "closed": true,
+      "geometry_sha256": "02a169c9749aafa91bec3ac8a35b6b3e6fa2b6df0cd2c1b9e9fa2ac420c9262a",
+      "approved_pilot": false,
+      "export_status": "Blender_roundtrip_candidate_DarkRide_unverified",
+      "notes": "",
+      "boolean_uv_reprojected_faces": 0,
+      "fbx_sha256": "9e304c89b6e57517c16dad1252e96029955f63fcb67519406997383cdfcea89d",
+      "source_sha256": "a96721bb80ea61429551f53b15adbf5b0cc183b3f9f2d39ba7fc97c33565f8e2"
+    },
+    {
+      "asset_id": "ARCH_Round",
+      "inventory_number": 17,
+      "additional_variation": false,
+      "filename": "meshes/ARCH_Round.fbx",
+      "source": "sources/ARCH_Round.blend",
+      "bounds": {
+        "min": [
+          -1.2999999523162842,
+          -0.15000000596046448,
+          0.0
+        ],
+        "max": [
+          1.2999999523162842,
+          0.15000000596046448,
+          3.299999952316284
+        ]
+      },
+      "dimensions": [
+        2.5999999046325684,
+        0.30000001192092896,
+        3.299999952316284
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "connectors": [
+        {
+          "name": "left_foot",
+          "position": [
+            -1.15,
+            0,
+            0
+          ],
+          "direction": [
+            0,
+            0,
+            -1
+          ],
+          "profile": "arch_foot_0.3m"
+        },
+        {
+          "name": "right_foot",
+          "position": [
+            1.15,
+            0,
+            0
+          ],
+          "direction": [
+            0,
+            0,
+            -1
+          ],
+          "profile": "arch_foot_0.3m"
+        }
+      ],
+      "material_slots": [
+        "MAT_Concrete"
+      ],
+      "uv_metres_per_repeat": 2,
+      "checker_pixels_per_metre": 256,
+      "triangles": 276,
+      "vertices": 140,
+      "quads": 138,
+      "ngons": 0,
+      "closed": true,
+      "geometry_sha256": "1d282e8c5320b3be8c21760f859e809dd1f6e361c92b2f3572621115d5a724e2",
+      "approved_pilot": true,
+      "export_status": "Blender_roundtrip_candidate_DarkRide_unverified",
+      "notes": "Approved pilot; original geometry, UVs, connectors and FBX preserved.",
+      "boolean_uv_reprojected_faces": 0,
+      "fbx_sha256": "0b2078faf755f0240938bb6497455c0736853461e5f6b934a5b1f7696d1600d5",
+      "source_sha256": "ada14eeede90a3625b4bbebfedcbb9ae75edb4f01bb7cfce9a1c57022e193b2f"
+    },
+    {
+      "asset_id": "ARCH_Point",
+      "inventory_number": 18,
+      "additional_variation": false,
+      "filename": "meshes/ARCH_Point.fbx",
+      "source": "sources/ARCH_Point.blend",
+      "bounds": {
+        "min": [
+          -1.2999999523162842,
+          -0.15000000596046448,
+          0.0
+        ],
+        "max": [
+          1.2999999523162842,
+          0.15000000596046448,
+          4.551666259765625
+        ]
+      },
+      "dimensions": [
+        2.5999999046325684,
+        0.30000001192092896,
+        4.551666259765625
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "connectors": [
+        {
+          "name": "datum",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "direction": [
+            0,
+            0,
+            -1
+          ],
+          "profile": "floor_mount",
+          "roll_reference": [
+            1,
+            0,
+            0
+          ]
+        }
+      ],
+      "material_slots": [
+        "MAT_Concrete"
+      ],
+      "uv_metres_per_repeat": 2,
+      "checker_pixels_per_metre": 256,
+      "triangles": 148,
+      "vertices": 76,
+      "quads": 74,
+      "ngons": 0,
+      "closed": true,
+      "geometry_sha256": "535757a96dd1898a4ca33145e0831eaa13e36f183a4c96765468114da2a2e1c9",
+      "approved_pilot": false,
+      "export_status": "Blender_roundtrip_candidate_DarkRide_unverified",
+      "notes": "True opening; clear spring height 2m.",
+      "boolean_uv_reprojected_faces": 0,
+      "fbx_sha256": "465184a3404dbeb34e65ceadca9a115d22c011ded8fbe474f38d13f3619b5601",
+      "source_sha256": "7d43e3dfec63508192a930e521d71355c4314e38fdc8ae04f56e8893672f6d8a"
+    },
+    {
+      "asset_id": "ARCH_Segmental",
+      "inventory_number": 19,
+      "additional_variation": false,
+      "filename": "meshes/ARCH_Segmental.fbx",
+      "source": "sources/ARCH_Segmental.blend",
+      "bounds": {
+        "min": [
+          -1.2999999523162842,
+          -0.15000000596046448,
+          0.0
+        ],
+        "max": [
+          1.2999999523162842,
+          0.15000000596046448,
+          2.950000047683716
+        ]
+      },
+      "dimensions": [
+        2.5999999046325684,
+        0.30000001192092896,
+        2.950000047683716
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "connectors": [
+        {
+          "name": "datum",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "direction": [
+            0,
+            0,
+            -1
+          ],
+          "profile": "floor_mount",
+          "roll_reference": [
+            1,
+            0,
+            0
+          ]
+        }
+      ],
+      "material_slots": [
+        "MAT_Concrete"
+      ],
+      "uv_metres_per_repeat": 2,
+      "checker_pixels_per_metre": 256,
+      "triangles": 148,
+      "vertices": 76,
+      "quads": 74,
+      "ngons": 0,
+      "closed": true,
+      "geometry_sha256": "6c33ef273f6a7ded67784f5c854de5527eebd5861e0ea7aa0ebfdeb3e1b2fc60",
+      "approved_pilot": false,
+      "export_status": "Blender_roundtrip_candidate_DarkRide_unverified",
+      "notes": "True opening; clear spring height 2m.",
+      "boolean_uv_reprojected_faces": 0,
+      "fbx_sha256": "84d236d2f79b14771269d7682fb5019848e58b844510237d8f8fdb544c344d26",
+      "source_sha256": "31a8615a49545b4fe65807b5c32aa1d773e4622600eb6e0c6d705fcaeadd665b"
+    },
+    {
+      "asset_id": "ARCH_WideSpan",
+      "inventory_number": 20,
+      "additional_variation": false,
+      "filename": "meshes/ARCH_WideSpan.fbx",
+      "source": "sources/ARCH_WideSpan.blend",
+      "bounds": {
+        "min": [
+          -2.299999952316284,
+          -0.15000000596046448,
+          0.0
+        ],
+        "max": [
+          2.299999952316284,
+          0.15000000596046448,
+          4.599999904632568
+        ]
+      },
+      "dimensions": [
+        4.599999904632568,
+        0.30000001192092896,
+        4.599999904632568
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "connectors": [
+        {
+          "name": "datum",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "direction": [
+            0,
+            0,
+            -1
+          ],
+          "profile": "floor_mount",
+          "roll_reference": [
+            1,
+            0,
+            0
+          ]
+        }
+      ],
+      "material_slots": [
+        "MAT_Concrete"
+      ],
+      "uv_metres_per_repeat": 2,
+      "checker_pixels_per_metre": 256,
+      "triangles": 148,
+      "vertices": 76,
+      "quads": 74,
+      "ngons": 0,
+      "closed": true,
+      "geometry_sha256": "4feb669ebe017fb0ad9873727ccabe755efa6f9781efcd61a6b9222de5701d79",
+      "approved_pilot": false,
+      "export_status": "Blender_roundtrip_candidate_DarkRide_unverified",
+      "notes": "True opening; clear spring height 2m.",
+      "boolean_uv_reprojected_faces": 0,
+      "fbx_sha256": "8e40959691eff4fd7a66592f73efd2417ca9784da07093f489fbe1dcea50e698",
+      "source_sha256": "74097d0b087e15e15ef948caa1ff855c003ede134643a1d596e121685933216d"
+    },
+    {
+      "asset_id": "ARCH_Double",
+      "inventory_number": 21,
+      "additional_variation": false,
+      "filename": "meshes/ARCH_Double.fbx",
+      "source": "sources/ARCH_Double.blend",
+      "bounds": {
+        "min": [
+          -2.0999999046325684,
+          -0.15000000596046448,
+          0.0
+        ],
+        "max": [
+          2.0999999046325684,
+          0.15000000596046448,
+          3.200000047683716
+        ]
+      },
+      "dimensions": [
+        4.199999809265137,
+        0.30000001192092896,
+        3.200000047683716
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "connectors": [
+        {
+          "name": "datum",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "direction": [
+            0,
+            0,
+            -1
+          ],
+          "profile": "floor_mount",
+          "roll_reference": [
+            1,
+            0,
+            0
+          ]
+        }
+      ],
+      "material_slots": [
+        "MAT_Concrete"
+      ],
+      "uv_metres_per_repeat": 2,
+      "checker_pixels_per_metre": 256,
+      "triangles": 296,
+      "vertices": 152,
+      "quads": 148,
+      "ngons": 0,
+      "closed": true,
+      "geometry_sha256": "9f7c4bf04899361fa69cbd17cc653b5031e43c851f227f594139b9fd99fed8bd",
+      "approved_pilot": false,
+      "export_status": "Blender_roundtrip_candidate_DarkRide_unverified",
+      "notes": "True opening; clear spring height 2m. Double variant is two closed portals with a deliberate 0.2m central separation.",
+      "boolean_uv_reprojected_faces": 0,
+      "fbx_sha256": "6a5ce30a8ea4cb3b92c6d778df6ce8621b7b5e1a45f26463515dbcf862fa222d",
+      "source_sha256": "3ab7c883d8408c46c6d066e34b4a1175861b7c4b0c08d7e7d884c6165c7430a1"
+    },
+    {
+      "asset_id": "COLUMN_Round",
+      "inventory_number": 22,
+      "additional_variation": false,
+      "filename": "meshes/COLUMN_Round.fbx",
+      "source": "sources/COLUMN_Round.blend",
+      "bounds": {
+        "min": [
+          -0.25,
+          -0.25,
+          0.0
+        ],
+        "max": [
+          0.25,
+          0.25,
+          2.0
+        ]
+      },
+      "dimensions": [
+        0.5,
+        0.5,
+        2.0
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "connectors": [
+        {
+          "name": "bottom",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "direction": [
+            0,
+            0,
+            -1
+          ],
+          "profile": "column_diameter_0.5m"
+        },
+        {
+          "name": "top",
+          "position": [
+            0,
+            0,
+            2
+          ],
+          "direction": [
+            0,
+            0,
+            1
+          ],
+          "profile": "column_diameter_0.5m"
+        }
+      ],
+      "material_slots": [
+        "MAT_Concrete"
+      ],
+      "uv_metres_per_repeat": 2,
+      "checker_pixels_per_metre": 256,
+      "triangles": 124,
+      "vertices": 64,
+      "quads": 32,
+      "ngons": 2,
+      "closed": true,
+      "geometry_sha256": "fec15e8cd261520cd7df2c128f63dade265ac94956fbd6354f12b43e1371e521",
+      "approved_pilot": true,
+      "export_status": "Blender_roundtrip_candidate_DarkRide_unverified",
+      "notes": "Approved pilot; original geometry, UVs, connectors and FBX preserved.",
+      "boolean_uv_reprojected_faces": 0,
+      "fbx_sha256": "4f77b462c4985ed112a7f2dac953b26ca37b7ee232af3b48e8e6bf8b419788a8",
+      "source_sha256": "25a72675949d4f5e37e7334b7ef906e41065a5150696e8c0a9dc4aa875811561"
+    },
+    {
+      "asset_id": "COLUMN_Square",
+      "inventory_number": 23,
+      "additional_variation": false,
+      "filename": "meshes/COLUMN_Square.fbx",
+      "source": "sources/COLUMN_Square.blend",
+      "bounds": {
+        "min": [
+          -0.25,
+          -0.25,
+          0.0
+        ],
+        "max": [
+          0.25,
+          0.25,
+          2.0
+        ]
+      },
+      "dimensions": [
+        0.5,
+        0.5,
+        2.0
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "connectors": [
+        {
+          "name": "base",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "direction": [
+            0,
+            0,
+            -1
+          ],
+          "profile": "column_square_0.5m",
+          "roll_reference": [
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "top",
+          "position": [
+            0,
+            0,
+            2
+          ],
+          "direction": [
+            0,
+            0,
+            1
+          ],
+          "profile": "column_square_0.5m",
+          "roll_reference": [
+            1,
+            0,
+            0
+          ]
+        }
+      ],
+      "material_slots": [
+        "MAT_Concrete"
+      ],
+      "uv_metres_per_repeat": 2,
+      "checker_pixels_per_metre": 256,
+      "triangles": 12,
+      "vertices": 8,
+      "quads": 6,
+      "ngons": 0,
+      "closed": true,
+      "geometry_sha256": "904cb443d5ed32354c4afc35b5c0f6756849a6eaced5effd513ada8639f0d80a",
+      "approved_pilot": false,
+      "export_status": "Blender_roundtrip_candidate_DarkRide_unverified",
+      "notes": "",
+      "boolean_uv_reprojected_faces": 0,
+      "fbx_sha256": "363337b9045cb82889fde885f3b30c32b06d9c9a343c05bcd7fd14b5c36959b9",
+      "source_sha256": "7b2d036b841948f4f6e466610f110784d422206338893851e2b548610f82b1f8"
+    },
+    {
+      "asset_id": "COLUMN_Fluted",
+      "inventory_number": 24,
+      "additional_variation": false,
+      "filename": "meshes/COLUMN_Fluted.fbx",
+      "source": "sources/COLUMN_Fluted.blend",
+      "bounds": {
+        "min": [
+          -0.25,
+          -0.25,
+          0.0
+        ],
+        "max": [
+          0.25,
+          0.25,
+          2.0
+        ]
+      },
+      "dimensions": [
+        0.5,
+        0.5,
+        2.0
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "connectors": [
+        {
+          "name": "base",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "direction": [
+            0,
+            0,
+            -1
+          ],
+          "profile": "column_diameter_0.5m",
+          "roll_reference": [
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "top",
+          "position": [
+            0,
+            0,
+            2
+          ],
+          "direction": [
+            0,
+            0,
+            1
+          ],
+          "profile": "column_diameter_0.5m",
+          "roll_reference": [
+            1,
+            0,
+            0
+          ]
+        }
+      ],
+      "material_slots": [
+        "MAT_Concrete"
+      ],
+      "uv_metres_per_repeat": 2,
+      "checker_pixels_per_metre": 256,
+      "triangles": 124,
+      "vertices": 64,
+      "quads": 32,
+      "ngons": 0,
+      "closed": true,
+      "geometry_sha256": "1a6bec8b5ff9fee8aae04022a9ffce4844959156948fe6fcc00d8aa7a01d21dc",
+      "approved_pilot": false,
+      "export_status": "Blender_roundtrip_candidate_DarkRide_unverified",
+      "notes": "",
+      "boolean_uv_reprojected_faces": 0,
+      "fbx_sha256": "d8e641c6b4750bb29838f1670e94d336f13af3e5b1558d1a930971ed96dd9ecf",
+      "source_sha256": "06c755c6386d24674127ca47290cbc90fcaed3e615c9336de19473b353fb820f"
+    },
+    {
+      "asset_id": "PILASTER_Wall",
+      "inventory_number": 25,
+      "additional_variation": false,
+      "filename": "meshes/PILASTER_Wall.fbx",
+      "source": "sources/PILASTER_Wall.blend",
+      "bounds": {
+        "min": [
+          -0.20000000298023224,
+          0.0,
+          0.0
+        ],
+        "max": [
+          0.20000000298023224,
+          0.15000000596046448,
+          2.0
+        ]
+      },
+      "dimensions": [
+        0.4000000059604645,
+        0.15000000596046448,
+        2.0
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "connectors": [
+        {
+          "name": "mount",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "direction": [
+            0,
+            -1,
+            0
+          ],
+          "profile": "wall_mount",
+          "roll_reference": [
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "material_slots": [
+        "MAT_Concrete"
+      ],
+      "uv_metres_per_repeat": 2,
+      "checker_pixels_per_metre": 256,
+      "triangles": 12,
+      "vertices": 8,
+      "quads": 6,
+      "ngons": 0,
+      "closed": true,
+      "geometry_sha256": "4ac8b9d19c597a740cc6014dd7541f073797f995f52b321bcfbf09de672d8618",
+      "approved_pilot": false,
+      "export_status": "Blender_roundtrip_candidate_DarkRide_unverified",
+      "notes": "",
+      "boolean_uv_reprojected_faces": 0,
+      "fbx_sha256": "0c1c01d95b4e6a9c9ec85faad21d5d54b1f312ff6c0a395528298981e5a5e8b2",
+      "source_sha256": "2f209c477168d73c22aea694999ba122df2fff4712bf6e4dba6bd3997c2c3136"
+    },
+    {
+      "asset_id": "BEAM_Straight",
+      "inventory_number": 26,
+      "additional_variation": false,
+      "filename": "meshes/BEAM_Straight.fbx",
+      "source": "sources/BEAM_Straight.blend",
+      "bounds": {
+        "min": [
+          0.0,
+          -0.15000000596046448,
+          -0.30000001192092896
+        ],
+        "max": [
+          4.0,
+          0.15000000596046448,
+          0.0
+        ]
+      },
+      "dimensions": [
+        4.0,
+        0.30000001192092896,
+        0.30000001192092896
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "connectors": [
+        {
+          "name": "in",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "direction": [
+            -1,
+            0,
+            0
+          ],
+          "profile": "beam_0.3m",
+          "roll_reference": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "out",
+          "position": [
+            4,
+            0,
+            0
+          ],
+          "direction": [
+            1,
+            0,
+            0
+          ],
+          "profile": "beam_0.3m",
+          "roll_reference": [
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "material_slots": [
+        "MAT_Concrete"
+      ],
+      "uv_metres_per_repeat": 2,
+      "checker_pixels_per_metre": 256,
+      "triangles": 12,
+      "vertices": 8,
+      "quads": 6,
+      "ngons": 0,
+      "closed": true,
+      "geometry_sha256": "5e66f595779fd006169b2eac767b0f3220d8d0a6535556c83da740a09795b88d",
+      "approved_pilot": false,
+      "export_status": "Blender_roundtrip_candidate_DarkRide_unverified",
+      "notes": "",
+      "boolean_uv_reprojected_faces": 0,
+      "fbx_sha256": "a27c0b5cf34f3ffa95e77abc24619ec6cd1b00fb22fda7682db35149b514b0a2",
+      "source_sha256": "c87ca49d1806df1fe81ae24a084dacbd564f31e627b9029a4522e2fbe3a279f6"
+    },
+    {
+      "asset_id": "BEAM_Curved",
+      "inventory_number": 27,
+      "additional_variation": false,
+      "filename": "meshes/BEAM_Curved.fbx",
+      "source": "sources/BEAM_Curved.blend",
+      "bounds": {
+        "min": [
+          0.0,
+          0.0,
+          -0.30000001192092896
+        ],
+        "max": [
+          2.299999952316284,
+          2.299999952316284,
+          0.0
+        ]
+      },
+      "dimensions": [
+        2.299999952316284,
+        2.299999952316284,
+        0.30000001192092896
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "connectors": [
+        {
+          "name": "in",
+          "position": [
+            2,
+            0,
+            0
+          ],
+          "direction": [
+            0,
+            -1,
+            0
+          ],
+          "profile": "beam_0.3m",
+          "roll_reference": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "out",
+          "position": [
+            0,
+            2,
+            0
+          ],
+          "direction": [
+            -1,
+            0,
+            0
+          ],
+          "profile": "beam_0.3m",
+          "roll_reference": [
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "material_slots": [
+        "MAT_Concrete"
+      ],
+      "uv_metres_per_repeat": 2,
+      "checker_pixels_per_metre": 256,
+      "triangles": 100,
+      "vertices": 52,
+      "quads": 50,
+      "ngons": 0,
+      "closed": true,
+      "geometry_sha256": "d71610626306793fff756b3c080a8f7c011c2b115f62ed1ae17d1e5aecd0bb23",
+      "approved_pilot": false,
+      "export_status": "Blender_roundtrip_candidate_DarkRide_unverified",
+      "notes": "",
+      "boolean_uv_reprojected_faces": 0,
+      "fbx_sha256": "39906e4aa9b9a3aa58cccf66f91d01106365bdc7a69daf7e83385af0942ba2e8",
+      "source_sha256": "dbf8403221c5f10d098d819820acb3a3b2168b79a923f3a189098a1c26f5aa70"
+    },
+    {
+      "asset_id": "CORNICE_Straight",
+      "inventory_number": 28,
+      "additional_variation": false,
+      "filename": "meshes/CORNICE_Straight.fbx",
+      "source": "sources/CORNICE_Straight.blend",
+      "bounds": {
+        "min": [
+          0.0,
+          -1.0000000116860974e-07,
+          0.0
+        ],
+        "max": [
+          2.0,
+          0.2000001072883606,
+          0.20000000298023224
+        ]
+      },
+      "dimensions": [
+        2.0,
+        0.20000020728836176,
+        0.20000000298023224
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "connectors": [
+        {
+          "name": "in",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "direction": [
+            -1,
+            0,
+            0
+          ],
+          "profile": "cornice_profile",
+          "roll_reference": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "out",
+          "position": [
+            2,
+            0,
+            0
+          ],
+          "direction": [
+            1,
+            0,
+            0
+          ],
+          "profile": "cornice_profile",
+          "roll_reference": [
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "material_slots": [
+        "MAT_Trim"
+      ],
+      "uv_metres_per_repeat": 2,
+      "checker_pixels_per_metre": 256,
+      "triangles": 20,
+      "vertices": 12,
+      "quads": 6,
+      "ngons": 0,
+      "closed": true,
+      "geometry_sha256": "22744401cea61a67f7846047b12775ac7983cf7ca1286a3548ba0455fbd5f93f",
+      "approved_pilot": false,
+      "export_status": "Blender_roundtrip_candidate_DarkRide_unverified",
+      "notes": "",
+      "boolean_uv_reprojected_faces": 0,
+      "fbx_sha256": "bbb08670d54e1eb8507a460864271d72dcd25db9e7855fe80f2c6cf792953e91",
+      "source_sha256": "3be166664d5d8e05c03aa105cf11a1c1c5d2f3b4604af3207c3ee0cd9c72cd40"
+    },
+    {
+      "asset_id": "SKIRTING_Straight",
+      "inventory_number": 29,
+      "additional_variation": false,
+      "filename": "meshes/SKIRTING_Straight.fbx",
+      "source": "sources/SKIRTING_Straight.blend",
+      "bounds": {
+        "min": [
+          0.0,
+          -1.0000000116860974e-07,
+          0.0
+        ],
+        "max": [
+          2.0,
+          0.06000009924173355,
+          0.1599999964237213
+        ]
+      },
+      "dimensions": [
+        2.0,
+        0.06000019924173472,
+        0.1599999964237213
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "connectors": [
+        {
+          "name": "in",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "direction": [
+            -1,
+            0,
+            0
+          ],
+          "profile": "skirting_profile",
+          "roll_reference": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "out",
+          "position": [
+            2,
+            0,
+            0
+          ],
+          "direction": [
+            1,
+            0,
+            0
+          ],
+          "profile": "skirting_profile",
+          "roll_reference": [
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "material_slots": [
+        "MAT_Trim"
+      ],
+      "uv_metres_per_repeat": 2,
+      "checker_pixels_per_metre": 256,
+      "triangles": 16,
+      "vertices": 10,
+      "quads": 5,
+      "ngons": 0,
+      "closed": true,
+      "geometry_sha256": "48e458fdb18adc8acecc97da9e66399625b38b6de588c3e61f367aac6517c79d",
+      "approved_pilot": false,
+      "export_status": "Blender_roundtrip_candidate_DarkRide_unverified",
+      "notes": "",
+      "boolean_uv_reprojected_faces": 0,
+      "fbx_sha256": "251e3faa0e6d32d11d2102984ece52b316b4c463da0be5990b9aec61feaa0f0e",
+      "source_sha256": "e7e22350cfe7f5a7a1f57880dcd50a4d7483c03e6f15c253837c3bafbf1d3374"
+    },
+    {
+      "asset_id": "TRIM_PanelFrame",
+      "inventory_number": 30,
+      "additional_variation": false,
+      "filename": "meshes/TRIM_PanelFrame.fbx",
+      "source": "sources/TRIM_PanelFrame.blend",
+      "bounds": {
+        "min": [
+          0.0,
+          -0.029999999329447746,
+          0.0
+        ],
+        "max": [
+          2.0,
+          0.029999999329447746,
+          2.0
+        ]
+      },
+      "dimensions": [
+        2.0,
+        0.05999999865889549,
+        2.0
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "connectors": [
+        {
+          "name": "mount",
+          "position": [
+            1,
+            0,
+            1
+          ],
+          "direction": [
+            0,
+            1,
+            0
+          ],
+          "profile": "wall_mount",
+          "roll_reference": [
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "material_slots": [
+        "MAT_Trim"
+      ],
+      "uv_metres_per_repeat": 2,
+      "checker_pixels_per_metre": 256,
+      "triangles": 32,
+      "vertices": 16,
+      "quads": 16,
+      "ngons": 0,
+      "closed": true,
+      "geometry_sha256": "002e5b54c69e14f691af97c360331d23cd4857893bd8558edd7461a03370823b",
+      "approved_pilot": false,
+      "export_status": "Blender_roundtrip_candidate_DarkRide_unverified",
+      "notes": "",
+      "boolean_uv_reprojected_faces": 0,
+      "fbx_sha256": "d6dd3bd1b2a1eb78abfe6202620dcaa54d82b94a74b35d4e95cd3503e986f61b",
+      "source_sha256": "0de2758a7347ff0aa2b0b5ebe48eee70485f7576ab37d48378ca01a56c9a1451"
+    },
+    {
+      "asset_id": "DOORWAY_Standard",
+      "inventory_number": 31,
+      "additional_variation": false,
+      "filename": "meshes/DOORWAY_Standard.fbx",
+      "source": "sources/DOORWAY_Standard.blend",
+      "bounds": {
+        "min": [
+          0.0,
+          -0.10000000149011612,
+          0.0
+        ],
+        "max": [
+          2.0,
+          0.10000000149011612,
+          2.4000000953674316
+        ]
+      },
+      "dimensions": [
+        2.0,
+        0.20000000298023224,
+        2.4000000953674316
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "connectors": [
+        {
+          "name": "in",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "direction": [
+            -1,
+            0,
+            0
+          ],
+          "profile": "wall_edge_2m",
+          "roll_reference": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "out",
+          "position": [
+            2,
+            0,
+            0
+          ],
+          "direction": [
+            1,
+            0,
+            0
+          ],
+          "profile": "wall_edge_2m",
+          "roll_reference": [
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "material_slots": [
+        "MAT_Wall"
+      ],
+      "uv_metres_per_repeat": 2,
+      "checker_pixels_per_metre": 256,
+      "triangles": 28,
+      "vertices": 16,
+      "quads": 14,
+      "ngons": 0,
+      "closed": true,
+      "geometry_sha256": "bc6d62657f29fc5a2035ec9f12401d6e7b5c96a4768162b258e1e0deb3d16d14",
+      "approved_pilot": false,
+      "export_status": "Blender_roundtrip_candidate_DarkRide_unverified",
+      "notes": "Clear aperture 1.2m wide x 2m tall; lintel height 2.4m.",
+      "boolean_uv_reprojected_faces": 0,
+      "fbx_sha256": "0ed58019ee2196816c8d0a340bed9019d073bf066317d732f984db2fdb0204f9",
+      "source_sha256": "a0e92ea7e0c46981627ece363c3603f303c8e18ffd01d4c2ec62c1f134b305b9"
+    },
+    {
+      "asset_id": "DOORWAY_Wide",
+      "inventory_number": 32,
+      "additional_variation": false,
+      "filename": "meshes/DOORWAY_Wide.fbx",
+      "source": "sources/DOORWAY_Wide.blend",
+      "bounds": {
+        "min": [
+          0.0,
+          -0.10000000149011612,
+          0.0
+        ],
+        "max": [
+          4.0,
+          0.10000000149011612,
+          2.4000000953674316
+        ]
+      },
+      "dimensions": [
+        4.0,
+        0.20000000298023224,
+        2.4000000953674316
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "connectors": [
+        {
+          "name": "in",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "direction": [
+            -1,
+            0,
+            0
+          ],
+          "profile": "wall_edge_2m",
+          "roll_reference": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "out",
+          "position": [
+            4,
+            0,
+            0
+          ],
+          "direction": [
+            1,
+            0,
+            0
+          ],
+          "profile": "wall_edge_2m",
+          "roll_reference": [
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "material_slots": [
+        "MAT_Wall"
+      ],
+      "uv_metres_per_repeat": 2,
+      "checker_pixels_per_metre": 256,
+      "triangles": 28,
+      "vertices": 16,
+      "quads": 14,
+      "ngons": 0,
+      "closed": true,
+      "geometry_sha256": "cc978578683c490123ed5fb8465fe3bbff30a3b53dd14b67344509998310e819",
+      "approved_pilot": false,
+      "export_status": "Blender_roundtrip_candidate_DarkRide_unverified",
+      "notes": "Clear aperture 2.4m wide x 2m tall; lintel height 2.4m.",
+      "boolean_uv_reprojected_faces": 0,
+      "fbx_sha256": "ab7e8d494ccd11b1ae9c7f9110ce9485585638ee1879b9d70fa419461976e7cf",
+      "source_sha256": "cdfa4aa44b26e6714f4413b77ec26ed4efd743c48d9aa895564283b37c638283"
+    },
+    {
+      "asset_id": "DOORWAY_Arched",
+      "inventory_number": 33,
+      "additional_variation": false,
+      "filename": "meshes/DOORWAY_Arched.fbx",
+      "source": "sources/DOORWAY_Arched.blend",
+      "bounds": {
+        "min": [
+          0.0,
+          -0.10000000149011612,
+          0.0
+        ],
+        "max": [
+          2.0,
+          0.10000000149011612,
+          3.0
+        ]
+      },
+      "dimensions": [
+        2.0,
+        0.20000000298023224,
+        3.0
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "connectors": [
+        {
+          "name": "in",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "direction": [
+            -1,
+            0,
+            0
+          ],
+          "profile": "wall_edge_2m",
+          "roll_reference": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "out",
+          "position": [
+            2,
+            0,
+            0
+          ],
+          "direction": [
+            1,
+            0,
+            0
+          ],
+          "profile": "wall_edge_2m",
+          "roll_reference": [
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "material_slots": [
+        "MAT_Concrete"
+      ],
+      "uv_metres_per_repeat": 2,
+      "checker_pixels_per_metre": 256,
+      "triangles": 148,
+      "vertices": 76,
+      "quads": 74,
+      "ngons": 0,
+      "closed": true,
+      "geometry_sha256": "3ba09189d91ecb81c367466eac9526214f7bdf460950358eca9240e938048621",
+      "approved_pilot": false,
+      "export_status": "Blender_roundtrip_candidate_DarkRide_unverified",
+      "notes": "",
+      "boolean_uv_reprojected_faces": 0,
+      "fbx_sha256": "91fde389b3544cbcf266a9e336203bcb36d544229bc44a0ad1e52010831ea34c",
+      "source_sha256": "605478c9a9ac377f4087dc355ba080faf3ff6d4837f937988ca9f72c0d9d4c65"
+    },
+    {
+      "asset_id": "DOOR_Leaf_Plain",
+      "inventory_number": 34,
+      "additional_variation": false,
+      "filename": "meshes/DOOR_Leaf_Plain.fbx",
+      "source": "sources/DOOR_Leaf_Plain.blend",
+      "bounds": {
+        "min": [
+          0.0,
+          -0.02500000037252903,
+          0.0
+        ],
+        "max": [
+          1.2000000476837158,
+          0.02500000037252903,
+          2.0
+        ]
+      },
+      "dimensions": [
+        1.2000000476837158,
+        0.05000000074505806,
+        2.0
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "connectors": [
+        {
+          "name": "hinge",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "direction": [
+            0,
+            0,
+            1
+          ],
+          "profile": "door_hinge_2m",
+          "roll_reference": [
+            1,
+            0,
+            0
+          ]
+        }
+      ],
+      "material_slots": [
+        "MAT_Trim"
+      ],
+      "uv_metres_per_repeat": 2,
+      "checker_pixels_per_metre": 256,
+      "triangles": 12,
+      "vertices": 8,
+      "quads": 6,
+      "ngons": 0,
+      "closed": true,
+      "geometry_sha256": "bca3f0ab83035e90dff0450892d368fdf51633cfe021e88da234b534edff145a",
+      "approved_pilot": false,
+      "export_status": "Blender_roundtrip_candidate_DarkRide_unverified",
+      "notes": "",
+      "boolean_uv_reprojected_faces": 0,
+      "fbx_sha256": "e2f16a9b69037368859deb73a19173126e17136b348a1f982cff8b7437aeb44c",
+      "source_sha256": "a427a62b6b0e55807c8d180adb758094258dd5c299771922d5e2768cdfa3296a"
+    },
+    {
+      "asset_id": "DOOR_Leaf_Industrial",
+      "inventory_number": 35,
+      "additional_variation": false,
+      "filename": "meshes/DOOR_Leaf_Industrial.fbx",
+      "source": "sources/DOOR_Leaf_Industrial.blend",
+      "bounds": {
+        "min": [
+          0.0,
+          -0.03999999910593033,
+          0.0
+        ],
+        "max": [
+          1.2000000476837158,
+          0.03999999910593033,
+          2.0
+        ]
+      },
+      "dimensions": [
+        1.2000000476837158,
+        0.07999999821186066,
+        2.0
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "connectors": [
+        {
+          "name": "hinge",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "direction": [
+            0,
+            0,
+            1
+          ],
+          "profile": "door_hinge_2m",
+          "roll_reference": [
+            1,
+            0,
+            0
+          ]
+        }
+      ],
+      "material_slots": [
+        "MAT_Metal"
+      ],
+      "uv_metres_per_repeat": 2,
+      "checker_pixels_per_metre": 256,
+      "triangles": 60,
+      "vertices": 32,
+      "quads": 23,
+      "ngons": 0,
+      "closed": true,
+      "geometry_sha256": "ce8fb6f1319de7268bbfcda1c9404ed216fd3ac7795ffafb3a6a4506614e6996",
+      "approved_pilot": false,
+      "export_status": "Blender_roundtrip_candidate_DarkRide_unverified",
+      "notes": "",
+      "boolean_uv_reprojected_faces": 0,
+      "fbx_sha256": "e38d41b0a177dc7a41c1672f3f6026d98f2cf65a86309ee976ab6212a120a962",
+      "source_sha256": "05fa3fa7809f17c97c0fbaf615b587eac22bc3e57e63b5c80f6e852f8b5252b7"
+    },
+    {
+      "asset_id": "DOOR_Frame",
+      "inventory_number": 36,
+      "additional_variation": false,
+      "filename": "meshes/DOOR_Frame.fbx",
+      "source": "sources/DOOR_Frame.blend",
+      "bounds": {
+        "min": [
+          0.0,
+          -0.07500000298023224,
+          0.0
+        ],
+        "max": [
+          1.399999976158142,
+          0.07500000298023224,
+          2.0999999046325684
+        ]
+      },
+      "dimensions": [
+        1.399999976158142,
+        0.15000000596046448,
+        2.0999999046325684
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "connectors": [
+        {
+          "name": "opening_center",
+          "position": [
+            0.7,
+            0,
+            0
+          ],
+          "direction": [
+            0,
+            -1,
+            0
+          ],
+          "profile": "door_width_1.2m",
+          "roll_reference": [
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "material_slots": [
+        "MAT_Trim"
+      ],
+      "uv_metres_per_repeat": 2,
+      "checker_pixels_per_metre": 256,
+      "triangles": 28,
+      "vertices": 16,
+      "quads": 14,
+      "ngons": 0,
+      "closed": true,
+      "geometry_sha256": "3a4819ce504cac747f9d5b7f15f64989707971955369d80dccd1e3206e0a1217",
+      "approved_pilot": false,
+      "export_status": "Blender_roundtrip_candidate_DarkRide_unverified",
+      "notes": "",
+      "boolean_uv_reprojected_faces": 0,
+      "fbx_sha256": "76980365860611f8a8b9df7a17b3ee0d771c5d47a673aae530d37fb67af83334",
+      "source_sha256": "0bebcdec015caf8b99840717d2eebeb1891eac43a1b64b7b4ef6fa8993fc5592"
+    },
+    {
+      "asset_id": "DOOR_DoubleLeaf",
+      "inventory_number": 37,
+      "additional_variation": false,
+      "filename": "meshes/DOOR_DoubleLeaf.fbx",
+      "source": "sources/DOOR_DoubleLeaf.blend",
+      "bounds": {
+        "min": [
+          0.0,
+          -0.029999999329447746,
+          0.0
+        ],
+        "max": [
+          2.4000000953674316,
+          0.029999999329447746,
+          2.0
+        ]
+      },
+      "dimensions": [
+        2.4000000953674316,
+        0.05999999865889549,
+        2.0
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "connectors": [
+        {
+          "name": "left_hinge",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "direction": [
+            0,
+            0,
+            1
+          ],
+          "profile": "door_hinge_2m",
+          "roll_reference": [
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "right_hinge",
+          "position": [
+            2.4,
+            0,
+            0
+          ],
+          "direction": [
+            0,
+            0,
+            1
+          ],
+          "profile": "door_hinge_2m",
+          "roll_reference": [
+            1,
+            0,
+            0
+          ]
+        }
+      ],
+      "material_slots": [
+        "MAT_Trim"
+      ],
+      "uv_metres_per_repeat": 2,
+      "checker_pixels_per_metre": 256,
+      "triangles": 24,
+      "vertices": 16,
+      "quads": 12,
+      "ngons": 0,
+      "closed": true,
+      "geometry_sha256": "a65acd4575ee8c5892a0bd4f8b4e3fa2561b87d59b5a893274b01d6e9c49b4da",
+      "approved_pilot": false,
+      "export_status": "Blender_roundtrip_candidate_DarkRide_unverified",
+      "notes": "Static two-leaf assembly with 10mm seam; runtime hinge motion not supplied.",
+      "boolean_uv_reprojected_faces": 0,
+      "fbx_sha256": "553f16d3fe8b9eb3143b960674f80ca4cf41d07223af24a8c794062ac0576def",
+      "source_sha256": "717794fd96adb52de012e69874aab452a26d590819521f1a86b666f67921ba0e"
+    },
+    {
+      "asset_id": "WINDOW_Rectangular",
+      "inventory_number": 38,
+      "additional_variation": false,
+      "filename": "meshes/WINDOW_Rectangular.fbx",
+      "source": "sources/WINDOW_Rectangular.blend",
+      "bounds": {
+        "min": [
+          -1.0,
+          -0.07500000298023224,
+          0.0
+        ],
+        "max": [
+          1.0,
+          0.07500000298023224,
+          1.2000000476837158
+        ]
+      },
+      "dimensions": [
+        2.0,
+        0.15000000596046448,
+        1.2000000476837158
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "connectors": [
+        {
+          "name": "sill_center",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "direction": [
+            0,
+            0,
+            -1
+          ],
+          "profile": "window_mount",
+          "roll_reference": [
+            1,
+            0,
+            0
+          ]
+        }
+      ],
+      "material_slots": [
+        "MAT_Trim",
+        "MAT_Glass"
+      ],
+      "uv_metres_per_repeat": 2,
+      "checker_pixels_per_metre": 256,
+      "triangles": 44,
+      "vertices": 24,
+      "quads": 22,
+      "ngons": 0,
+      "closed": true,
+      "geometry_sha256": "abd66ac8feed06ba9726c3a8f3f75174d5625e051627586c15b7bc05820e63b1",
+      "approved_pilot": false,
+      "export_status": "Blender_roundtrip_candidate_DarkRide_unverified",
+      "notes": "Checker diagnostic is opaque even in MAT_Glass; transparency must be configured/tested separately.",
+      "boolean_uv_reprojected_faces": 0,
+      "fbx_sha256": "d27bf3780f1f4e13397c515f4a6916d0b7674d74b3b3ea418bf0848e7435e05a",
+      "source_sha256": "c7f02993ac653a82362fbee99a41b61e3ce02056ba33821ed437b28422653e47"
+    },
+    {
+      "asset_id": "WINDOW_Tall",
+      "inventory_number": 39,
+      "additional_variation": false,
+      "filename": "meshes/WINDOW_Tall.fbx",
+      "source": "sources/WINDOW_Tall.blend",
+      "bounds": {
+        "min": [
+          -0.5,
+          -0.07500000298023224,
+          0.0
+        ],
+        "max": [
+          0.5,
+          0.07500000298023224,
+          2.0
+        ]
+      },
+      "dimensions": [
+        1.0,
+        0.15000000596046448,
+        2.0
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "connectors": [
+        {
+          "name": "sill_center",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "direction": [
+            0,
+            0,
+            -1
+          ],
+          "profile": "window_mount",
+          "roll_reference": [
+            1,
+            0,
+            0
+          ]
+        }
+      ],
+      "material_slots": [
+        "MAT_Trim",
+        "MAT_Glass"
+      ],
+      "uv_metres_per_repeat": 2,
+      "checker_pixels_per_metre": 256,
+      "triangles": 44,
+      "vertices": 24,
+      "quads": 22,
+      "ngons": 0,
+      "closed": true,
+      "geometry_sha256": "ecf9655ed2af0513f3e8b414db12fe6e5da8633cc83f393b1f6e1af233cb8c20",
+      "approved_pilot": false,
+      "export_status": "Blender_roundtrip_candidate_DarkRide_unverified",
+      "notes": "Checker diagnostic is opaque even in MAT_Glass; transparency must be configured/tested separately.",
+      "boolean_uv_reprojected_faces": 0,
+      "fbx_sha256": "12f7de463a81d9cccdb7f83cb9cdd77ef926007c1cb1f46b1062c0c049ba7c7a",
+      "source_sha256": "7fde642f942be637bddef0aee0bf711d3983138befda0ee789edddafb30cbea1"
+    },
+    {
+      "asset_id": "WINDOW_Arched",
+      "inventory_number": 40,
+      "additional_variation": false,
+      "filename": "meshes/WINDOW_Arched.fbx",
+      "source": "sources/WINDOW_Arched.blend",
+      "bounds": {
+        "min": [
+          -1.0,
+          -0.07500000298023224,
+          0.0
+        ],
+        "max": [
+          1.0,
+          0.07500000298023224,
+          2.0
+        ]
+      },
+      "dimensions": [
+        2.0,
+        0.15000000596046448,
+        2.0
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "connectors": [
+        {
+          "name": "sill_center",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "direction": [
+            0,
+            0,
+            -1
+          ],
+          "profile": "window_mount",
+          "roll_reference": [
+            1,
+            0,
+            0
+          ]
+        }
+      ],
+      "material_slots": [
+        "MAT_Trim"
+      ],
+      "uv_metres_per_repeat": 2,
+      "checker_pixels_per_metre": 256,
+      "triangles": 120,
+      "vertices": 60,
+      "quads": 60,
+      "ngons": 0,
+      "closed": true,
+      "geometry_sha256": "beb4a242cad20c6be20ab9632305b2f83accfda5edf3804659d2bbfe0f15d425",
+      "approved_pilot": false,
+      "export_status": "Blender_roundtrip_candidate_DarkRide_unverified",
+      "notes": "",
+      "boolean_uv_reprojected_faces": 0,
+      "fbx_sha256": "de7baa7e871d5720de12d1c73ded79e3aa4e7f54a67704b02c91bf4e92ba2a00",
+      "source_sha256": "36b57f84802bbcbe109422091c70a39350f85f31388a576f059302d2d7110413"
+    },
+    {
+      "asset_id": "WINDOW_InteriorObservation",
+      "inventory_number": 41,
+      "additional_variation": false,
+      "filename": "meshes/WINDOW_InteriorObservation.fbx",
+      "source": "sources/WINDOW_InteriorObservation.blend",
+      "bounds": {
+        "min": [
+          -2.0,
+          -0.07500000298023224,
+          0.0
+        ],
+        "max": [
+          2.0,
+          0.07500000298023224,
+          1.2000000476837158
+        ]
+      },
+      "dimensions": [
+        4.0,
+        0.15000000596046448,
+        1.2000000476837158
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "connectors": [
+        {
+          "name": "sill_center",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "direction": [
+            0,
+            0,
+            -1
+          ],
+          "profile": "window_mount",
+          "roll_reference": [
+            1,
+            0,
+            0
+          ]
+        }
+      ],
+      "material_slots": [
+        "MAT_Trim",
+        "MAT_Glass"
+      ],
+      "uv_metres_per_repeat": 2,
+      "checker_pixels_per_metre": 256,
+      "triangles": 44,
+      "vertices": 24,
+      "quads": 22,
+      "ngons": 0,
+      "closed": true,
+      "geometry_sha256": "5f85cbc97cd0b0c6e8213f0761a001be6cad8468d83c1d9d8499f10468b6fa60",
+      "approved_pilot": false,
+      "export_status": "Blender_roundtrip_candidate_DarkRide_unverified",
+      "notes": "Checker diagnostic is opaque even in MAT_Glass; transparency must be configured/tested separately.",
+      "boolean_uv_reprojected_faces": 0,
+      "fbx_sha256": "ec5f79d0bd46ebfb518da6a712564cc6806eba7917c0f52da57412c8ead3dbcb",
+      "source_sha256": "aa15b5f67590561cc64424c62d5f08d7998c118c20748b6fc422dc205e86dc10"
+    },
+    {
+      "asset_id": "WINDOW_FrameAndSill",
+      "inventory_number": 42,
+      "additional_variation": false,
+      "filename": "meshes/WINDOW_FrameAndSill.fbx",
+      "source": "sources/WINDOW_FrameAndSill.blend",
+      "bounds": {
+        "min": [
+          -1.100000023841858,
+          -0.30000001192092896,
+          -0.10000000149011612
+        ],
+        "max": [
+          1.100000023841858,
+          0.15000000596046448,
+          1.2000000476837158
+        ]
+      },
+      "dimensions": [
+        2.200000047683716,
+        0.45000001788139343,
+        1.300000049173832
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "connectors": [
+        {
+          "name": "sill_center",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "direction": [
+            0,
+            0,
+            -1
+          ],
+          "profile": "window_mount",
+          "roll_reference": [
+            1,
+            0,
+            0
+          ]
+        }
+      ],
+      "material_slots": [
+        "MAT_Trim"
+      ],
+      "uv_metres_per_repeat": 2,
+      "checker_pixels_per_metre": 256,
+      "triangles": 56,
+      "vertices": 28,
+      "quads": 16,
+      "ngons": 0,
+      "closed": true,
+      "geometry_sha256": "2c80d6996518fa5b3efa2ed45c85549961311d5833321c3adf6e22981871e102",
+      "approved_pilot": false,
+      "export_status": "Blender_roundtrip_candidate_DarkRide_unverified",
+      "notes": "Checker diagnostic is opaque even in MAT_Glass; transparency must be configured/tested separately.",
+      "boolean_uv_reprojected_faces": 0,
+      "fbx_sha256": "439f8d1e844b74aedadd435a7c2c479923448c08ad701e7293d891764e4f72db",
+      "source_sha256": "3685a69b0a870b3e484c55fb17716fd127f737bf07ba0255944b696ea3f377e1"
+    },
+    {
+      "asset_id": "PIPE_Straight_1m",
+      "inventory_number": 43,
+      "additional_variation": false,
+      "filename": "meshes/PIPE_Straight_1m.fbx",
+      "source": "sources/PIPE_Straight_1m.blend",
+      "bounds": {
+        "min": [
+          0.0,
+          -0.10000000149011612,
+          -0.10000000149011612
+        ],
+        "max": [
+          1.0,
+          0.10000000149011612,
+          0.10000000149011612
+        ]
+      },
+      "dimensions": [
+        1.0,
+        0.20000000298023224,
+        0.20000000298023224
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "connectors": [
+        {
+          "name": "in",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "direction": [
+            -1,
+            0,
+            0
+          ],
+          "profile": "pipe_od_0.2_id_0.16",
+          "roll_reference": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "out",
+          "position": [
+            1,
+            0,
+            0
+          ],
+          "direction": [
+            1,
+            0,
+            0
+          ],
+          "profile": "pipe_od_0.2_id_0.16",
+          "roll_reference": [
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "material_slots": [
+        "MAT_Metal"
+      ],
+      "uv_metres_per_repeat": 2,
+      "checker_pixels_per_metre": 256,
+      "triangles": 256,
+      "vertices": 128,
+      "quads": 128,
+      "ngons": 0,
+      "closed": true,
+      "geometry_sha256": "0cc4be905538d20809c9de669061241b75bd5fc38bbce238389de02458bba8a3",
+      "approved_pilot": false,
+      "export_status": "Blender_roundtrip_candidate_DarkRide_unverified",
+      "notes": "",
+      "boolean_uv_reprojected_faces": 0,
+      "fbx_sha256": "d8f0599dc4fdb03b374f75ea94c2251affe7857449ef9af493beb435875205b1",
+      "source_sha256": "0564421f32ff3c700960e474abc7d09032064b01a9291e2ce3c1e165f0c0070a"
+    },
+    {
+      "asset_id": "PIPE_Straight_2m",
+      "inventory_number": 44,
+      "additional_variation": false,
+      "filename": "meshes/PIPE_Straight_2m.fbx",
+      "source": "sources/PIPE_Straight_2m.blend",
+      "bounds": {
+        "min": [
+          0.0,
+          -0.10000000149011612,
+          -0.10000000149011612
+        ],
+        "max": [
+          2.0,
+          0.10000000149011612,
+          0.10000000149011612
+        ]
+      },
+      "dimensions": [
+        2.0,
+        0.20000000298023224,
+        0.20000000298023224
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "connectors": [
+        {
+          "name": "in",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "direction": [
+            -1,
+            0,
+            0
+          ],
+          "profile": "pipe_od_0.2_id_0.16"
+        },
+        {
+          "name": "out",
+          "position": [
+            2,
+            0,
+            0
+          ],
+          "direction": [
+            1,
+            0,
+            0
+          ],
+          "profile": "pipe_od_0.2_id_0.16"
+        }
+      ],
+      "material_slots": [
+        "MAT_Metal"
+      ],
+      "uv_metres_per_repeat": 2,
+      "checker_pixels_per_metre": 256,
+      "triangles": 256,
+      "vertices": 128,
+      "quads": 128,
+      "ngons": 0,
+      "closed": true,
+      "geometry_sha256": "5f7eebadb61b112eb509804d47addfcaa455d770233933cc95cdd5473f81ae05",
+      "approved_pilot": true,
+      "export_status": "Blender_roundtrip_candidate_DarkRide_unverified",
+      "notes": "Approved pilot; original geometry, UVs, connectors and FBX preserved.",
+      "boolean_uv_reprojected_faces": 0,
+      "fbx_sha256": "84bc569b4b341c17d089b09a5018656d2e33a8e7d4e8ada8edda02c739961b2f",
+      "source_sha256": "3d7a549ed6bd55d5a461a32c44a9b921c6abc81aa6d10f42126ea69b9e0f478f"
+    },
+    {
+      "asset_id": "PIPE_Straight_4m",
+      "inventory_number": 45,
+      "additional_variation": false,
+      "filename": "meshes/PIPE_Straight_4m.fbx",
+      "source": "sources/PIPE_Straight_4m.blend",
+      "bounds": {
+        "min": [
+          0.0,
+          -0.10000000149011612,
+          -0.10000000149011612
+        ],
+        "max": [
+          4.0,
+          0.10000000149011612,
+          0.10000000149011612
+        ]
+      },
+      "dimensions": [
+        4.0,
+        0.20000000298023224,
+        0.20000000298023224
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "connectors": [
+        {
+          "name": "in",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "direction": [
+            -1,
+            0,
+            0
+          ],
+          "profile": "pipe_od_0.2_id_0.16",
+          "roll_reference": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "out",
+          "position": [
+            4,
+            0,
+            0
+          ],
+          "direction": [
+            1,
+            0,
+            0
+          ],
+          "profile": "pipe_od_0.2_id_0.16",
+          "roll_reference": [
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "material_slots": [
+        "MAT_Metal"
+      ],
+      "uv_metres_per_repeat": 2,
+      "checker_pixels_per_metre": 256,
+      "triangles": 256,
+      "vertices": 128,
+      "quads": 128,
+      "ngons": 0,
+      "closed": true,
+      "geometry_sha256": "a736f3bb3f92226a67109e719f60cfcd476733f68a0959998151983dd7f7077a",
+      "approved_pilot": false,
+      "export_status": "Blender_roundtrip_candidate_DarkRide_unverified",
+      "notes": "",
+      "boolean_uv_reprojected_faces": 0,
+      "fbx_sha256": "f38ed3e1f806341c345171e174161f59b9a944b2587d93d020fe7e033eac6a41",
+      "source_sha256": "80a0b91e00620e96c05febd4ca0c0c68fe6780a6b335ae2922c5dd6ce4371e58"
+    },
+    {
+      "asset_id": "PIPE_Elbow45",
+      "inventory_number": 46,
+      "additional_variation": false,
+      "filename": "meshes/PIPE_Elbow45.fbx",
+      "source": "sources/PIPE_Elbow45.blend",
+      "bounds": {
+        "min": [
+          0.0,
+          -0.10000000149011612,
+          -0.10000000149011612
+        ],
+        "max": [
+          2.0707106590270996,
+          1.0707106590270996,
+          0.10000000149011612
+        ]
+      },
+      "dimensions": [
+        2.0707106590270996,
+        1.1707106605172157,
+        0.20000000298023224
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "connectors": [
+        {
+          "name": "in",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "direction": [
+            -1,
+            0,
+            0
+          ],
+          "profile": "pipe_od_0.2_id_0.16",
+          "roll_reference": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "out",
+          "position": [
+            2,
+            1,
+            0
+          ],
+          "direction": [
+            0.7071067811865476,
+            0.7071067811865476,
+            0
+          ],
+          "profile": "pipe_od_0.2_id_0.16",
+          "roll_reference": [
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "material_slots": [
+        "MAT_Metal"
+      ],
+      "uv_metres_per_repeat": 2,
+      "checker_pixels_per_metre": 256,
+      "triangles": 1152,
+      "vertices": 576,
+      "quads": 576,
+      "ngons": 0,
+      "closed": true,
+      "geometry_sha256": "f2f024590456d4762d656416a0c0ff0908ee1dcbab664a73414c3429ca8562e4",
+      "approved_pilot": false,
+      "export_status": "Blender_roundtrip_candidate_DarkRide_unverified",
+      "notes": "Lead/tail straights put outlet on (2m,1m) grid; outlet tangent 45 degrees.",
+      "boolean_uv_reprojected_faces": 0,
+      "fbx_sha256": "405468741bbb32b7f732d13177d8b29aed585625754297936657d2736f1c324e",
+      "source_sha256": "250ba573f34e62b3bf5d566906be2cb798336f8ab5fc257232d8ed38a0543055"
+    },
+    {
+      "asset_id": "PIPE_Elbow90",
+      "inventory_number": 47,
+      "additional_variation": false,
+      "filename": "meshes/PIPE_Elbow90.fbx",
+      "source": "sources/PIPE_Elbow90.blend",
+      "bounds": {
+        "min": [
+          0.0,
+          -0.10000000149011612,
+          -0.10000000149011612
+        ],
+        "max": [
+          1.100000023841858,
+          1.0,
+          0.10000000149011612
+        ]
+      },
+      "dimensions": [
+        1.100000023841858,
+        1.1000000014901161,
+        0.20000000298023224
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "connectors": [
+        {
+          "name": "in",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "direction": [
+            -1,
+            0,
+            0
+          ],
+          "profile": "pipe_od_0.2_id_0.16"
+        },
+        {
+          "name": "out",
+          "position": [
+            1,
+            1,
+            0
+          ],
+          "direction": [
+            0,
+            1,
+            0
+          ],
+          "profile": "pipe_od_0.2_id_0.16"
+        }
+      ],
+      "material_slots": [
+        "MAT_Metal"
+      ],
+      "uv_metres_per_repeat": 2,
+      "checker_pixels_per_metre": 256,
+      "triangles": 3200,
+      "vertices": 1600,
+      "quads": 1600,
+      "ngons": 0,
+      "closed": true,
+      "geometry_sha256": "1f0e2ec670083a954280d54acaf580b41ff7263a6d34aabe5254288ba5047f1a",
+      "approved_pilot": true,
+      "export_status": "Blender_roundtrip_candidate_DarkRide_unverified",
+      "notes": "Approved pilot; original geometry, UVs, connectors and FBX preserved.",
+      "boolean_uv_reprojected_faces": 0,
+      "fbx_sha256": "f79a7363a3f2c74c79984b211b027a4a6fcaa80ed392bc6cd4dcb34c0f308b24",
+      "source_sha256": "be9debcb1ba1de29aa20c96b6522f8da761d7145fdc5f476e2f311116127b8d5"
+    },
+    {
+      "asset_id": "PIPE_Tee",
+      "inventory_number": 48,
+      "additional_variation": false,
+      "filename": "meshes/PIPE_Tee.fbx",
+      "source": "sources/PIPE_Tee.blend",
+      "bounds": {
+        "min": [
+          -1.0,
+          -0.10000000149011612,
+          -0.10000000149011612
+        ],
+        "max": [
+          1.0,
+          1.0,
+          0.10000000149011612
+        ]
+      },
+      "dimensions": [
+        2.0,
+        1.1000000014901161,
+        0.20000000298023224
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "connectors": [
+        {
+          "name": "west",
+          "position": [
+            -1,
+            0,
+            0
+          ],
+          "direction": [
+            -1,
+            0,
+            0
+          ],
+          "profile": "pipe_od_0.2_id_0.16",
+          "roll_reference": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "east",
+          "position": [
+            1,
+            0,
+            0
+          ],
+          "direction": [
+            1,
+            0,
+            0
+          ],
+          "profile": "pipe_od_0.2_id_0.16",
+          "roll_reference": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "north",
+          "position": [
+            0,
+            1,
+            0
+          ],
+          "direction": [
+            0,
+            1,
+            0
+          ],
+          "profile": "pipe_od_0.2_id_0.16",
+          "roll_reference": [
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "material_slots": [
+        "MAT_Metal"
+      ],
+      "uv_metres_per_repeat": 2,
+      "checker_pixels_per_metre": 256,
+      "triangles": 516,
+      "vertices": 256,
+      "quads": 156,
+      "ngons": 0,
+      "closed": true,
+      "geometry_sha256": "f4203f5fdefa79a660f61ec4154447af6ea26b8d2aaea93f7c281ea8a525d25c",
+      "approved_pilot": false,
+      "export_status": "Blender_roundtrip_candidate_DarkRide_unverified",
+      "notes": "",
+      "boolean_uv_reprojected_faces": 1,
+      "fbx_sha256": "c862ea978f55976b90b9327261a95e4f4627e5b82211354216e9214b142ac7d8",
+      "source_sha256": "ce57d683d0512ea40a16cd75f1206fc22f40acfcbfedf6ef3b81047078f6ed99"
+    },
+    {
+      "asset_id": "PIPE_Cross",
+      "inventory_number": 49,
+      "additional_variation": false,
+      "filename": "meshes/PIPE_Cross.fbx",
+      "source": "sources/PIPE_Cross.blend",
+      "bounds": {
+        "min": [
+          -1.0,
+          -1.0,
+          -0.10000000149011612
+        ],
+        "max": [
+          1.0,
+          1.0,
+          0.10000000149011612
+        ]
+      },
+      "dimensions": [
+        2.0,
+        2.0,
+        0.20000000298023224
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "connectors": [
+        {
+          "name": "west",
+          "position": [
+            -1,
+            0,
+            0
+          ],
+          "direction": [
+            -1,
+            0,
+            0
+          ],
+          "profile": "pipe_od_0.2_id_0.16",
+          "roll_reference": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "east",
+          "position": [
+            1,
+            0,
+            0
+          ],
+          "direction": [
+            1,
+            0,
+            0
+          ],
+          "profile": "pipe_od_0.2_id_0.16",
+          "roll_reference": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "north",
+          "position": [
+            0,
+            1,
+            0
+          ],
+          "direction": [
+            0,
+            1,
+            0
+          ],
+          "profile": "pipe_od_0.2_id_0.16",
+          "roll_reference": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "south",
+          "position": [
+            0,
+            -1,
+            0
+          ],
+          "direction": [
+            0,
+            -1,
+            0
+          ],
+          "profile": "pipe_od_0.2_id_0.16",
+          "roll_reference": [
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "material_slots": [
+        "MAT_Metal"
+      ],
+      "uv_metres_per_repeat": 2,
+      "checker_pixels_per_metre": 256,
+      "triangles": 768,
+      "vertices": 380,
+      "quads": 256,
+      "ngons": 0,
+      "closed": true,
+      "geometry_sha256": "9a35297b05f1547dd9cf86c1c3dc37c59657753735bb8dd918db65a15b0e47e8",
+      "approved_pilot": false,
+      "export_status": "Blender_roundtrip_candidate_DarkRide_unverified",
+      "notes": "",
+      "boolean_uv_reprojected_faces": 0,
+      "fbx_sha256": "343e6e41e19f871ed768641b4569f1d956eff9326f11909642008ffd5f508ec1",
+      "source_sha256": "7e9aa27134822da4ad73aa67a067fca102a473aaa54926d2fa703a5273d783f1"
+    },
+    {
+      "asset_id": "PIPE_Reducer",
+      "inventory_number": 50,
+      "additional_variation": false,
+      "filename": "meshes/PIPE_Reducer.fbx",
+      "source": "sources/PIPE_Reducer.blend",
+      "bounds": {
+        "min": [
+          0.0,
+          -0.10000000149011612,
+          -0.10000000149011612
+        ],
+        "max": [
+          1.0,
+          0.10000000149011612,
+          0.10000000149011612
+        ]
+      },
+      "dimensions": [
+        1.0,
+        0.20000000298023224,
+        0.20000000298023224
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "connectors": [
+        {
+          "name": "in",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "direction": [
+            -1,
+            0,
+            0
+          ],
+          "profile": "pipe_od_0.2_id_0.16",
+          "roll_reference": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "out",
+          "position": [
+            1,
+            0,
+            0
+          ],
+          "direction": [
+            1,
+            0,
+            0
+          ],
+          "profile": "pipe_od_0.1_id_0.08",
+          "roll_reference": [
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "material_slots": [
+        "MAT_Metal"
+      ],
+      "uv_metres_per_repeat": 2,
+      "checker_pixels_per_metre": 256,
+      "triangles": 256,
+      "vertices": 128,
+      "quads": 128,
+      "ngons": 0,
+      "closed": true,
+      "geometry_sha256": "6b0b4c0e4071d2dc041053d5b91642a0d9b4e2661061933e46fa317b1be65ae3",
+      "approved_pilot": false,
+      "export_status": "Blender_roundtrip_candidate_DarkRide_unverified",
+      "notes": "Developed conical-sector UVs with one circumference seam; exact facet lengths and matching 32-sided end profiles.",
+      "boolean_uv_reprojected_faces": 0,
+      "fbx_sha256": "1e364a272ba21656dfcdc904a9724bf2c18cf4a1317644525f0f7fd81fc0da24",
+      "source_sha256": "02d149f6f4d3d3d8a266d2ae58b82059917552dde90b124aaa23b4dda16709d0"
+    },
+    {
+      "asset_id": "PIPE_Flange",
+      "inventory_number": 51,
+      "additional_variation": false,
+      "filename": "meshes/PIPE_Flange.fbx",
+      "source": "sources/PIPE_Flange.blend",
+      "bounds": {
+        "min": [
+          0.0,
+          -0.20000000298023224,
+          -0.20000000298023224
+        ],
+        "max": [
+          0.10000000149011612,
+          0.20000000298023224,
+          0.20000000298023224
+        ]
+      },
+      "dimensions": [
+        0.10000000149011612,
+        0.4000000059604645,
+        0.4000000059604645
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "connectors": [
+        {
+          "name": "in",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "direction": [
+            -1,
+            0,
+            0
+          ],
+          "profile": "pipe_od_0.2_id_0.16",
+          "roll_reference": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "out",
+          "position": [
+            0.1,
+            0,
+            0
+          ],
+          "direction": [
+            1,
+            0,
+            0
+          ],
+          "profile": "pipe_od_0.2_id_0.16",
+          "roll_reference": [
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "material_slots": [
+        "MAT_Metal"
+      ],
+      "uv_metres_per_repeat": 2,
+      "checker_pixels_per_metre": 256,
+      "triangles": 256,
+      "vertices": 128,
+      "quads": 128,
+      "ngons": 0,
+      "closed": true,
+      "geometry_sha256": "5c28583d1c4148489377620b878b48154f58e62fd81fa0098b41c724c6b40a47",
+      "approved_pilot": false,
+      "export_status": "Blender_roundtrip_candidate_DarkRide_unverified",
+      "notes": "",
+      "boolean_uv_reprojected_faces": 0,
+      "fbx_sha256": "7d2dcae7f1ead32426f2e494551a3817e0e6714f9d26bc76da5af5f690f3088c",
+      "source_sha256": "dd465fca3440ff3cd8c2e2f4eeda20609bff37755ad87baa29ff1e125446783e"
+    },
+    {
+      "asset_id": "PIPE_EndCap",
+      "inventory_number": 52,
+      "additional_variation": false,
+      "filename": "meshes/PIPE_EndCap.fbx",
+      "source": "sources/PIPE_EndCap.blend",
+      "bounds": {
+        "min": [
+          0.0,
+          -0.10000000149011612,
+          -0.10000000149011612
+        ],
+        "max": [
+          0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612
+        ]
+      },
+      "dimensions": [
+        0.10000000149011612,
+        0.20000000298023224,
+        0.20000000298023224
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "connectors": [
+        {
+          "name": "in",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "direction": [
+            -1,
+            0,
+            0
+          ],
+          "profile": "pipe_od_0.2_id_0.16",
+          "roll_reference": [
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "material_slots": [
+        "MAT_Metal"
+      ],
+      "uv_metres_per_repeat": 2,
+      "checker_pixels_per_metre": 256,
+      "triangles": 124,
+      "vertices": 64,
+      "quads": 32,
+      "ngons": 0,
+      "closed": true,
+      "geometry_sha256": "6b2629747f0d526da91b679abb4d6e05ada765bb50ff8b7639ef24ba7fc634af",
+      "approved_pilot": false,
+      "export_status": "Blender_roundtrip_candidate_DarkRide_unverified",
+      "notes": "",
+      "boolean_uv_reprojected_faces": 0,
+      "fbx_sha256": "2b5aae359ef743b39971384c5706b7f5f7d19f3d4cc5cd90933d2c639374aa93",
+      "source_sha256": "61974be5fa3f6af92b60dbbb5ec9a4a216da149746bf8d5c911cb898f1821168"
+    },
+    {
+      "asset_id": "PIPE_ValveWheel",
+      "inventory_number": 53,
+      "additional_variation": false,
+      "filename": "meshes/PIPE_ValveWheel.fbx",
+      "source": "sources/PIPE_ValveWheel.blend",
+      "bounds": {
+        "min": [
+          0.0,
+          -0.30000001192092896,
+          -0.30000001192092896
+        ],
+        "max": [
+          0.05000000074505806,
+          0.30000001192092896,
+          0.30000001192092896
+        ]
+      },
+      "dimensions": [
+        0.05000000074505806,
+        0.6000000238418579,
+        0.6000000238418579
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "connectors": [
+        {
+          "name": "spindle",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "direction": [
+            -1,
+            0,
+            0
+          ],
+          "profile": "valve_spindle",
+          "roll_reference": [
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "material_slots": [
+        "MAT_Metal"
+      ],
+      "uv_metres_per_repeat": 2,
+      "checker_pixels_per_metre": 256,
+      "triangles": 404,
+      "vertices": 196,
+      "quads": 136,
+      "ngons": 0,
+      "closed": true,
+      "geometry_sha256": "635ad08a251ff4c12cd2b60f04280ca43c7fe9cdf25911f333bcdf91112abcd3",
+      "approved_pilot": false,
+      "export_status": "Blender_roundtrip_candidate_DarkRide_unverified",
+      "notes": "",
+      "boolean_uv_reprojected_faces": 0,
+      "fbx_sha256": "89ac1f0ade4bbe40bda26b1a5378691457d2411465b667acb8c5e8b368ee2850",
+      "source_sha256": "80216c55f1a9deeda1bd80e895aaa8127f9eb7a57303d2b5973663ae5c4b3a79"
+    },
+    {
+      "asset_id": "PIPE_ValveBody",
+      "inventory_number": 54,
+      "additional_variation": false,
+      "filename": "meshes/PIPE_ValveBody.fbx",
+      "source": "sources/PIPE_ValveBody.blend",
+      "bounds": {
+        "min": [
+          0.0,
+          -0.20000000298023224,
+          -0.20000000298023224
+        ],
+        "max": [
+          1.0,
+          0.4099999964237213,
+          0.20000000298023224
+        ]
+      },
+      "dimensions": [
+        1.0,
+        0.6099999994039536,
+        0.4000000059604645
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "connectors": [
+        {
+          "name": "in",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "direction": [
+            -1,
+            0,
+            0
+          ],
+          "profile": "pipe_od_0.2_id_0.16",
+          "roll_reference": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "out",
+          "position": [
+            1,
+            0,
+            0
+          ],
+          "direction": [
+            1,
+            0,
+            0
+          ],
+          "profile": "pipe_od_0.2_id_0.16",
+          "roll_reference": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "spindle",
+          "position": [
+            0.5,
+            0.41,
+            0
+          ],
+          "direction": [
+            0,
+            1,
+            0
+          ],
+          "profile": "valve_spindle",
+          "roll_reference": [
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "material_slots": [
+        "MAT_Metal"
+      ],
+      "uv_metres_per_repeat": 2,
+      "checker_pixels_per_metre": 256,
+      "triangles": 648,
+      "vertices": 324,
+      "quads": 152,
+      "ngons": 0,
+      "closed": true,
+      "geometry_sha256": "83200f253088901e1a8f6246a907f8a65bf8056cc28a85772d1b6adb529d816f",
+      "approved_pilot": false,
+      "export_status": "Blender_roundtrip_candidate_DarkRide_unverified",
+      "notes": "",
+      "boolean_uv_reprojected_faces": 0,
+      "fbx_sha256": "76f1060c9c50b31b70f22e73732bc92515fef14bb28331e01088f18721f14129",
+      "source_sha256": "c1e0ba603a76dfb71c413a3f541b24c5a7203f024336a9ed2c57a16be712f13f"
+    },
+    {
+      "asset_id": "PIPE_Bracket",
+      "inventory_number": 55,
+      "additional_variation": false,
+      "filename": "meshes/PIPE_Bracket.fbx",
+      "source": "sources/PIPE_Bracket.blend",
+      "bounds": {
+        "min": [
+          -0.019999999552965164,
+          -0.20000000298023224,
+          -0.14000000059604645
+        ],
+        "max": [
+          0.11999999731779099,
+          0.20000000298023224,
+          0.14000000059604645
+        ]
+      },
+      "dimensions": [
+        0.13999999687075615,
+        0.4000000059604645,
+        0.2800000011920929
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "connectors": [
+        {
+          "name": "mount",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "direction": [
+            0,
+            0,
+            -1
+          ],
+          "profile": "service_mount",
+          "roll_reference": [
+            1,
+            0,
+            0
+          ]
+        }
+      ],
+      "material_slots": [
+        "MAT_Metal"
+      ],
+      "uv_metres_per_repeat": 2,
+      "checker_pixels_per_metre": 256,
+      "triangles": 92,
+      "vertices": 48,
+      "quads": 40,
+      "ngons": 0,
+      "closed": true,
+      "geometry_sha256": "fc6656962e8152c96f8936927555afe705725db180941e948de187dd018be6d5",
+      "approved_pilot": false,
+      "export_status": "Blender_roundtrip_candidate_DarkRide_unverified",
+      "notes": "",
+      "boolean_uv_reprojected_faces": 0,
+      "fbx_sha256": "40cd7dbb98bd84c52bdfbb4329ed59c9244d480eb9b0cc2f026b823d438926e9",
+      "source_sha256": "856299ce264e14034dd2b388fb898ecb66d196b383f104c43052f6f3947bb132"
+    },
+    {
+      "asset_id": "PIPE_Ubend",
+      "inventory_number": 56,
+      "additional_variation": false,
+      "filename": "meshes/PIPE_Ubend.fbx",
+      "source": "sources/PIPE_Ubend.blend",
+      "bounds": {
+        "min": [
+          0.0,
+          -0.10000000149011612,
+          -0.10000000149011612
+        ],
+        "max": [
+          1.100000023841858,
+          2.0999999046325684,
+          0.10000000149011612
+        ]
+      },
+      "dimensions": [
+        1.100000023841858,
+        2.1999999061226845,
+        0.20000000298023224
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "connectors": [
+        {
+          "name": "in",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "direction": [
+            -1,
+            0,
+            0
+          ],
+          "profile": "pipe_od_0.2_id_0.16",
+          "roll_reference": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "out",
+          "position": [
+            0,
+            2,
+            0
+          ],
+          "direction": [
+            -1,
+            0,
+            0
+          ],
+          "profile": "pipe_od_0.2_id_0.16",
+          "roll_reference": [
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "material_slots": [
+        "MAT_Metal"
+      ],
+      "uv_metres_per_repeat": 2,
+      "checker_pixels_per_metre": 256,
+      "triangles": 3200,
+      "vertices": 1600,
+      "quads": 1600,
+      "ngons": 0,
+      "closed": true,
+      "geometry_sha256": "dca862f6eb4e1dce921b368c5d6a707d8e54c25d8f1d5cda0e02695bdc159b00",
+      "approved_pilot": false,
+      "export_status": "Blender_roundtrip_candidate_DarkRide_unverified",
+      "notes": "",
+      "boolean_uv_reprojected_faces": 0,
+      "fbx_sha256": "e9c88a7f842b598175463f19c75d22fcf3e7b0267f2e2085353e5db13034f90c",
+      "source_sha256": "fa9106f54d7ba37b645b3231e14be1fcef2a2ddf72385aa3937270fe9b5e15ae"
+    },
+    {
+      "asset_id": "PIPE_Riser",
+      "inventory_number": 57,
+      "additional_variation": false,
+      "filename": "meshes/PIPE_Riser.fbx",
+      "source": "sources/PIPE_Riser.blend",
+      "bounds": {
+        "min": [
+          -0.10000009834766388,
+          -0.10000000149011612,
+          0.0
+        ],
+        "max": [
+          0.10000000149011612,
+          0.10000000149011612,
+          2.0
+        ]
+      },
+      "dimensions": [
+        0.20000009983778,
+        0.20000000298023224,
+        2.0
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "connectors": [
+        {
+          "name": "bottom",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "direction": [
+            0,
+            0,
+            -1
+          ],
+          "profile": "pipe_od_0.2_id_0.16",
+          "roll_reference": [
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "top",
+          "position": [
+            0,
+            0,
+            2
+          ],
+          "direction": [
+            0,
+            0,
+            1
+          ],
+          "profile": "pipe_od_0.2_id_0.16",
+          "roll_reference": [
+            1,
+            0,
+            0
+          ]
+        }
+      ],
+      "material_slots": [
+        "MAT_Metal"
+      ],
+      "uv_metres_per_repeat": 2,
+      "checker_pixels_per_metre": 256,
+      "triangles": 256,
+      "vertices": 128,
+      "quads": 128,
+      "ngons": 0,
+      "closed": true,
+      "geometry_sha256": "54d87d74487379d8d0ea48a0ded9b831ce1320452ac90e8b3597b67ff8ae3b06",
+      "approved_pilot": false,
+      "export_status": "Blender_roundtrip_candidate_DarkRide_unverified",
+      "notes": "",
+      "boolean_uv_reprojected_faces": 0,
+      "fbx_sha256": "bbc9e8c3f37de56cac553a7587928980644578d5359b7012b0e84c2cd90d1ec8",
+      "source_sha256": "70674cc354f5f54a9629c31c938fb58e1bfaf93e7368794ad07a9aa27151353d"
+    },
+    {
+      "asset_id": "PIPE_Manifold",
+      "inventory_number": 58,
+      "additional_variation": false,
+      "filename": "meshes/PIPE_Manifold.fbx",
+      "source": "sources/PIPE_Manifold.blend",
+      "bounds": {
+        "min": [
+          0.0,
+          -0.10000000149011612,
+          -0.10000000149011612
+        ],
+        "max": [
+          4.0,
+          1.0,
+          0.10000000149011612
+        ]
+      },
+      "dimensions": [
+        4.0,
+        1.1000000014901161,
+        0.20000000298023224
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "connectors": [
+        {
+          "name": "in",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "direction": [
+            -1,
+            0,
+            0
+          ],
+          "profile": "pipe_od_0.2_id_0.16",
+          "roll_reference": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "out",
+          "position": [
+            4,
+            0,
+            0
+          ],
+          "direction": [
+            1,
+            0,
+            0
+          ],
+          "profile": "pipe_od_0.2_id_0.16",
+          "roll_reference": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "branch_1",
+          "position": [
+            1,
+            1,
+            0
+          ],
+          "direction": [
+            0,
+            1,
+            0
+          ],
+          "profile": "pipe_od_0.2_id_0.16",
+          "roll_reference": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "branch_2",
+          "position": [
+            2,
+            1,
+            0
+          ],
+          "direction": [
+            0,
+            1,
+            0
+          ],
+          "profile": "pipe_od_0.2_id_0.16",
+          "roll_reference": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "branch_3",
+          "position": [
+            3,
+            1,
+            0
+          ],
+          "direction": [
+            0,
+            1,
+            0
+          ],
+          "profile": "pipe_od_0.2_id_0.16",
+          "roll_reference": [
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "material_slots": [
+        "MAT_Metal"
+      ],
+      "uv_metres_per_repeat": 2,
+      "checker_pixels_per_metre": 256,
+      "triangles": 1036,
+      "vertices": 512,
+      "quads": 348,
+      "ngons": 0,
+      "closed": true,
+      "geometry_sha256": "c3ac56bcbdbddc3cf6afef64620b396e56263055f66bca6c4ac0c11544915508",
+      "approved_pilot": false,
+      "export_status": "Blender_roundtrip_candidate_DarkRide_unverified",
+      "notes": "",
+      "boolean_uv_reprojected_faces": 3,
+      "fbx_sha256": "3a9003c9eac3b391e920bcee269e91681765406717efba40c351a338cb4f8458",
+      "source_sha256": "e20d7820f21cdee2728729e394b59d24d5765dcdc8860aa11fc8e1d67941043b"
+    },
+    {
+      "asset_id": "DUCT_Square_1m",
+      "inventory_number": 59,
+      "additional_variation": false,
+      "filename": "meshes/DUCT_Square_1m.fbx",
+      "source": "sources/DUCT_Square_1m.blend",
+      "bounds": {
+        "min": [
+          0.0,
+          -0.25,
+          -0.25
+        ],
+        "max": [
+          1.0,
+          0.25,
+          0.25
+        ]
+      },
+      "dimensions": [
+        1.0,
+        0.5,
+        0.5
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "connectors": [
+        {
+          "name": "in",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "direction": [
+            -1,
+            0,
+            0
+          ],
+          "profile": "duct_square_0.5m",
+          "roll_reference": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "out",
+          "position": [
+            1,
+            0,
+            0
+          ],
+          "direction": [
+            1,
+            0,
+            0
+          ],
+          "profile": "duct_square_0.5m",
+          "roll_reference": [
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "material_slots": [
+        "MAT_Metal"
+      ],
+      "uv_metres_per_repeat": 2,
+      "checker_pixels_per_metre": 256,
+      "triangles": 32,
+      "vertices": 16,
+      "quads": 16,
+      "ngons": 0,
+      "closed": true,
+      "geometry_sha256": "d4c0ee39e48581e293224c2cdca879bdd2d5d6d956cc41f22ec9376d09c6fada",
+      "approved_pilot": false,
+      "export_status": "Blender_roundtrip_candidate_DarkRide_unverified",
+      "notes": "",
+      "boolean_uv_reprojected_faces": 0,
+      "fbx_sha256": "f6f7016209dcc535df4de29555502953fa9f0bf132a5ef6e4e3e0d70c9e4ddcc",
+      "source_sha256": "7593c7d1572c4fc8b9828a00b279b17787435948fe7f4843e44b6d37f37a753f"
+    },
+    {
+      "asset_id": "DUCT_Square_2m",
+      "inventory_number": 60,
+      "additional_variation": false,
+      "filename": "meshes/DUCT_Square_2m.fbx",
+      "source": "sources/DUCT_Square_2m.blend",
+      "bounds": {
+        "min": [
+          0.0,
+          -0.25,
+          -0.25
+        ],
+        "max": [
+          2.0,
+          0.25,
+          0.25
+        ]
+      },
+      "dimensions": [
+        2.0,
+        0.5,
+        0.5
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "connectors": [
+        {
+          "name": "in",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "direction": [
+            -1,
+            0,
+            0
+          ],
+          "profile": "duct_square_0.5m",
+          "roll_reference": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "out",
+          "position": [
+            2,
+            0,
+            0
+          ],
+          "direction": [
+            1,
+            0,
+            0
+          ],
+          "profile": "duct_square_0.5m",
+          "roll_reference": [
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "material_slots": [
+        "MAT_Metal"
+      ],
+      "uv_metres_per_repeat": 2,
+      "checker_pixels_per_metre": 256,
+      "triangles": 32,
+      "vertices": 16,
+      "quads": 16,
+      "ngons": 0,
+      "closed": true,
+      "geometry_sha256": "bb49f02084bce4bab46ced4f46cc08d98bd7e44feb25dc9bf1e8210552782d0e",
+      "approved_pilot": false,
+      "export_status": "Blender_roundtrip_candidate_DarkRide_unverified",
+      "notes": "",
+      "boolean_uv_reprojected_faces": 0,
+      "fbx_sha256": "cfcee7d05fcd40844517abb27058d1a8e7fddd781f0310efa49a621ead6544fb",
+      "source_sha256": "4a6d7b74abd6481bb446818ecbdb164c10ade9abaa31f510822d252e7e8c5dc3"
+    },
+    {
+      "asset_id": "DUCT_Elbow90",
+      "inventory_number": 61,
+      "additional_variation": false,
+      "filename": "meshes/DUCT_Elbow90.fbx",
+      "source": "sources/DUCT_Elbow90.blend",
+      "bounds": {
+        "min": [
+          0.0,
+          -0.25,
+          -0.25
+        ],
+        "max": [
+          1.25,
+          1.0,
+          0.25
+        ]
+      },
+      "dimensions": [
+        1.25,
+        1.25,
+        0.5
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "connectors": [
+        {
+          "name": "in",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "direction": [
+            -1,
+            0,
+            0
+          ],
+          "profile": "duct_square_0.5m",
+          "roll_reference": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "out",
+          "position": [
+            1,
+            1,
+            0
+          ],
+          "direction": [
+            0,
+            1,
+            0
+          ],
+          "profile": "duct_square_0.5m",
+          "roll_reference": [
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "material_slots": [
+        "MAT_Metal"
+      ],
+      "uv_metres_per_repeat": 2,
+      "checker_pixels_per_metre": 256,
+      "triangles": 208,
+      "vertices": 104,
+      "quads": 104,
+      "ngons": 0,
+      "closed": true,
+      "geometry_sha256": "883c8c865bf77d8af1c94718578ef47bf8e8bfaba7c89ab17289e84bbd5a5efd",
+      "approved_pilot": false,
+      "export_status": "Blender_roundtrip_candidate_DarkRide_unverified",
+      "notes": "",
+      "boolean_uv_reprojected_faces": 0,
+      "fbx_sha256": "c35fda6cca942a3e205e71e5463fd3f046918642875d23898337affb5502f314",
+      "source_sha256": "541cf6a5944efe3acf24b6d2a2a3fc39d94d119de0c2797255b210d05fc3bd16"
+    },
+    {
+      "asset_id": "DUCT_Tee",
+      "inventory_number": 62,
+      "additional_variation": false,
+      "filename": "meshes/DUCT_Tee.fbx",
+      "source": "sources/DUCT_Tee.blend",
+      "bounds": {
+        "min": [
+          -1.0,
+          -0.25,
+          -0.25
+        ],
+        "max": [
+          1.0,
+          1.0,
+          0.25
+        ]
+      },
+      "dimensions": [
+        2.0,
+        1.25,
+        0.5
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "connectors": [
+        {
+          "name": "west",
+          "position": [
+            -1,
+            0,
+            0
+          ],
+          "direction": [
+            -1,
+            0,
+            0
+          ],
+          "profile": "duct_square_0.5m",
+          "roll_reference": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "east",
+          "position": [
+            1,
+            0,
+            0
+          ],
+          "direction": [
+            1,
+            0,
+            0
+          ],
+          "profile": "duct_square_0.5m",
+          "roll_reference": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "north",
+          "position": [
+            0,
+            1,
+            0
+          ],
+          "direction": [
+            0,
+            1,
+            0
+          ],
+          "profile": "duct_square_0.5m",
+          "roll_reference": [
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "material_slots": [
+        "MAT_Metal"
+      ],
+      "uv_metres_per_repeat": 2,
+      "checker_pixels_per_metre": 256,
+      "triangles": 88,
+      "vertices": 42,
+      "quads": 19,
+      "ngons": 0,
+      "closed": true,
+      "geometry_sha256": "4cf003a3fb2c67dfe0e1c2de855c8c789bdbc52368bed2359b4d147fc3819890",
+      "approved_pilot": false,
+      "export_status": "Blender_roundtrip_candidate_DarkRide_unverified",
+      "notes": "",
+      "boolean_uv_reprojected_faces": 2,
+      "fbx_sha256": "15eff11c6ef843afac634cd44fa7e700da7ce0c622d6cd989d59e51b7c31d715",
+      "source_sha256": "d4834d57d29c681d1242580e6996cb910201e7655e406e0e9cf3d2f23aa57f3e"
+    },
+    {
+      "asset_id": "DUCT_Reducer",
+      "inventory_number": 63,
+      "additional_variation": false,
+      "filename": "meshes/DUCT_Reducer.fbx",
+      "source": "sources/DUCT_Reducer.blend",
+      "bounds": {
+        "min": [
+          0.0,
+          -0.25,
+          -0.25
+        ],
+        "max": [
+          1.0,
+          0.25,
+          0.25
+        ]
+      },
+      "dimensions": [
+        1.0,
+        0.5,
+        0.5
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "connectors": [
+        {
+          "name": "in",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "direction": [
+            -1,
+            0,
+            0
+          ],
+          "profile": "duct_square_0.5m",
+          "roll_reference": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "out",
+          "position": [
+            1,
+            0,
+            0
+          ],
+          "direction": [
+            1,
+            0,
+            0
+          ],
+          "profile": "duct_square_0.3m",
+          "roll_reference": [
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "material_slots": [
+        "MAT_Metal"
+      ],
+      "uv_metres_per_repeat": 2,
+      "checker_pixels_per_metre": 256,
+      "triangles": 32,
+      "vertices": 16,
+      "quads": 16,
+      "ngons": 0,
+      "closed": true,
+      "geometry_sha256": "fb0d36b626e0c6c0c178ab382d27c0c7eb924c5c3b1f906f454a7e26e989f9b4",
+      "approved_pilot": false,
+      "export_status": "Blender_roundtrip_candidate_DarkRide_unverified",
+      "notes": "",
+      "boolean_uv_reprojected_faces": 0,
+      "fbx_sha256": "a864977abe0780dee96360407c3cdfda9537415d4a818ae2296e0b72bd15760f",
+      "source_sha256": "ad51d5340bbfea39cff084ad684f5c3326faf9574f1c6ffb823324b1ab8f1e5c"
+    },
+    {
+      "asset_id": "DUCT_EndCap",
+      "inventory_number": 64,
+      "additional_variation": false,
+      "filename": "meshes/DUCT_EndCap.fbx",
+      "source": "sources/DUCT_EndCap.blend",
+      "bounds": {
+        "min": [
+          0.0,
+          -0.25,
+          -0.25
+        ],
+        "max": [
+          0.05000000074505806,
+          0.25,
+          0.25
+        ]
+      },
+      "dimensions": [
+        0.05000000074505806,
+        0.5,
+        0.5
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "connectors": [
+        {
+          "name": "in",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "direction": [
+            -1,
+            0,
+            0
+          ],
+          "profile": "duct_square_0.5m",
+          "roll_reference": [
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "material_slots": [
+        "MAT_Metal"
+      ],
+      "uv_metres_per_repeat": 2,
+      "checker_pixels_per_metre": 256,
+      "triangles": 12,
+      "vertices": 8,
+      "quads": 6,
+      "ngons": 0,
+      "closed": true,
+      "geometry_sha256": "633670861bfbf8609171fbceab91d17fcad554abfbbfd12f2837ae21683c237e",
+      "approved_pilot": false,
+      "export_status": "Blender_roundtrip_candidate_DarkRide_unverified",
+      "notes": "",
+      "boolean_uv_reprojected_faces": 0,
+      "fbx_sha256": "b70fae271f79cffc0ede484c60df806a05133bab92147f0f39801afc36c35a01",
+      "source_sha256": "781e529af5e9c2c719d954935b48df69afd1da3764d753d0df925cac641d0071"
+    },
+    {
+      "asset_id": "VENT_WallGrille",
+      "inventory_number": 65,
+      "additional_variation": false,
+      "filename": "meshes/VENT_WallGrille.fbx",
+      "source": "sources/VENT_WallGrille.blend",
+      "bounds": {
+        "min": [
+          -0.5,
+          -0.03999999910593033,
+          0.0
+        ],
+        "max": [
+          0.5,
+          0.03999999910593033,
+          1.0
+        ]
+      },
+      "dimensions": [
+        1.0,
+        0.07999999821186066,
+        1.0
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "connectors": [
+        {
+          "name": "mount",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "direction": [
+            0,
+            -1,
+            0
+          ],
+          "profile": "vent_1m",
+          "roll_reference": [
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "material_slots": [
+        "MAT_Metal"
+      ],
+      "uv_metres_per_repeat": 2,
+      "checker_pixels_per_metre": 256,
+      "triangles": 216,
+      "vertices": 90,
+      "quads": 67,
+      "ngons": 0,
+      "closed": true,
+      "geometry_sha256": "cd7ad872f1a1b069a04d924f7cfef6f04e86f3a23935363e1d30646a2ee3546c",
+      "approved_pilot": false,
+      "export_status": "Blender_roundtrip_candidate_DarkRide_unverified",
+      "notes": "",
+      "boolean_uv_reprojected_faces": 0,
+      "fbx_sha256": "3415c0cf84a9ca39962f183542e9cd979cbb8b4d7aa971be2cd1899c629348ce",
+      "source_sha256": "ee0eb72731cce3f440eadf5c3734de2de0729295f5ca3d2c12f2a7e005e923c8"
+    },
+    {
+      "asset_id": "VENT_CeilingGrille",
+      "inventory_number": 66,
+      "additional_variation": false,
+      "filename": "meshes/VENT_CeilingGrille.fbx",
+      "source": "sources/VENT_CeilingGrille.blend",
+      "bounds": {
+        "min": [
+          -0.5,
+          -1.0,
+          -0.03999999910593033
+        ],
+        "max": [
+          0.5,
+          -0.0,
+          0.04000009968876839
+        ]
+      },
+      "dimensions": [
+        1.0,
+        1.0,
+        0.08000009879469872
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "connectors": [
+        {
+          "name": "mount",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "direction": [
+            0,
+            0,
+            1
+          ],
+          "profile": "vent_1m",
+          "roll_reference": [
+            1,
+            0,
+            0
+          ]
+        }
+      ],
+      "material_slots": [
+        "MAT_Metal"
+      ],
+      "uv_metres_per_repeat": 2,
+      "checker_pixels_per_metre": 256,
+      "triangles": 216,
+      "vertices": 90,
+      "quads": 71,
+      "ngons": 0,
+      "closed": true,
+      "geometry_sha256": "28c28d9eccd2ad8b102e78b86271cb7f0e06d42d941b3d88492f35170f057a55",
+      "approved_pilot": false,
+      "export_status": "Blender_roundtrip_candidate_DarkRide_unverified",
+      "notes": "",
+      "boolean_uv_reprojected_faces": 5,
+      "fbx_sha256": "8cbf9ad449387851b2b9d151fc7cef4e1fc0a90b35f518529624431511b3f9a2",
+      "source_sha256": "1aa20216672bef9eda415c650eaf3152304e8f4f9f43a6db69ee7f69f4c697d3"
+    },
+    {
+      "asset_id": "VENT_FanHousing",
+      "inventory_number": 67,
+      "additional_variation": false,
+      "filename": "meshes/VENT_FanHousing.fbx",
+      "source": "sources/VENT_FanHousing.blend",
+      "bounds": {
+        "min": [
+          0.0,
+          -0.5,
+          -0.5
+        ],
+        "max": [
+          0.30000001192092896,
+          0.5,
+          0.5
+        ]
+      },
+      "dimensions": [
+        0.30000001192092896,
+        1.0,
+        1.0
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "connectors": [
+        {
+          "name": "in",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "direction": [
+            -1,
+            0,
+            0
+          ],
+          "profile": "fan_diameter_1m",
+          "roll_reference": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "out",
+          "position": [
+            0.3,
+            0,
+            0
+          ],
+          "direction": [
+            1,
+            0,
+            0
+          ],
+          "profile": "fan_diameter_1m",
+          "roll_reference": [
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "material_slots": [
+        "MAT_Metal"
+      ],
+      "uv_metres_per_repeat": 2,
+      "checker_pixels_per_metre": 256,
+      "triangles": 480,
+      "vertices": 242,
+      "quads": 149,
+      "ngons": 0,
+      "closed": true,
+      "geometry_sha256": "90157b64f911bd174e7b01f23a3398bc608943e312c90ae7009413d38eec22b4",
+      "approved_pilot": false,
+      "export_status": "Blender_roundtrip_candidate_DarkRide_unverified",
+      "notes": "Static fan blades; moving component and motor not included.",
+      "boolean_uv_reprojected_faces": 0,
+      "fbx_sha256": "4a537be18177791045a865496593e83d53f642fee3d23e96adf72b233606e45e",
+      "source_sha256": "b6ef78e8544f0be1eee02362859d882f4e64fb36944f50629820d7ec6ad1748f"
+    },
+    {
+      "asset_id": "DUCT_Hanger",
+      "inventory_number": 68,
+      "additional_variation": false,
+      "filename": "meshes/DUCT_Hanger.fbx",
+      "source": "sources/DUCT_Hanger.blend",
+      "bounds": {
+        "min": [
+          -0.05000000074505806,
+          -0.3499999940395355,
+          -0.05000000074505806
+        ],
+        "max": [
+          0.05000000074505806,
+          0.3499999940395355,
+          1.0
+        ]
+      },
+      "dimensions": [
+        0.10000000149011612,
+        0.699999988079071,
+        1.050000000745058
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "connectors": [
+        {
+          "name": "ceiling_left",
+          "position": [
+            0,
+            -0.325,
+            1
+          ],
+          "direction": [
+            0,
+            0,
+            1
+          ],
+          "profile": "service_mount",
+          "roll_reference": [
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "ceiling_right",
+          "position": [
+            0,
+            0.325,
+            1
+          ],
+          "direction": [
+            0,
+            0,
+            1
+          ],
+          "profile": "service_mount",
+          "roll_reference": [
+            1,
+            0,
+            0
+          ]
+        }
+      ],
+      "material_slots": [
+        "MAT_Metal"
+      ],
+      "uv_metres_per_repeat": 2,
+      "checker_pixels_per_metre": 256,
+      "triangles": 52,
+      "vertices": 28,
+      "quads": 15,
+      "ngons": 0,
+      "closed": true,
+      "geometry_sha256": "86e9a477631af9951b8a80494f9e2d7e90dff7ca8c3adc0f8d34ed28a3ccfa9b",
+      "approved_pilot": false,
+      "export_status": "Blender_roundtrip_candidate_DarkRide_unverified",
+      "notes": "",
+      "boolean_uv_reprojected_faces": 0,
+      "fbx_sha256": "79ea1356ca8257769ad3573e55abdba5577dccff40383be79bf41b9ddff4c887",
+      "source_sha256": "4b94ffc558e16eb86c62c52fc4e92f7f9bb2febdec9700b4fa4262c34b0627ac"
+    },
+    {
+      "asset_id": "STAIR_Straight",
+      "inventory_number": 69,
+      "additional_variation": false,
+      "filename": "meshes/STAIR_Straight.fbx",
+      "source": "sources/STAIR_Straight.blend",
+      "bounds": {
+        "min": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "max": [
+          4.0,
+          1.0,
+          2.0
+        ]
+      },
+      "dimensions": [
+        4.0,
+        2.0,
+        2.0
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "connectors": [
+        {
+          "name": "bottom",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "direction": [
+            -1,
+            0,
+            0
+          ],
+          "profile": "walkway_width_2m"
+        },
+        {
+          "name": "top",
+          "position": [
+            4,
+            0,
+            2
+          ],
+          "direction": [
+            1,
+            0,
+            0
+          ],
+          "profile": "walkway_width_2m"
+        }
+      ],
+      "material_slots": [
+        "MAT_Concrete"
+      ],
+      "uv_metres_per_repeat": 2,
+      "checker_pixels_per_metre": 256,
+      "triangles": 120,
+      "vertices": 62,
+      "quads": 31,
+      "ngons": 0,
+      "closed": true,
+      "geometry_sha256": "49447749ff32ba459d02f795a937289c4ad8ddd1a21b2e27756b598302e5335b",
+      "approved_pilot": true,
+      "export_status": "Blender_roundtrip_candidate_DarkRide_unverified",
+      "notes": "Approved pilot; original geometry, UVs, connectors and FBX preserved.",
+      "boolean_uv_reprojected_faces": 0,
+      "fbx_sha256": "974af6e5cf2427b2182e7a4318d68a76fea39000e4b640030dc14ce365adec15",
+      "source_sha256": "521f95b5dab70e9f6c4dc3b3b84208483975af7e84a235d460b19546204bbece"
+    },
+    {
+      "asset_id": "STAIR_Switchback",
+      "inventory_number": 70,
+      "additional_variation": false,
+      "filename": "meshes/STAIR_Switchback.fbx",
+      "source": "sources/STAIR_Switchback.blend",
+      "bounds": {
+        "min": [
+          0.0,
+          -1.0,
+          -0.20000000298023224
+        ],
+        "max": [
+          4.0,
+          4.0,
+          2.0
+        ]
+      },
+      "dimensions": [
+        4.0,
+        5.0,
+        2.2000000029802322
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "connectors": [
+        {
+          "name": "bottom",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "direction": [
+            -1,
+            0,
+            0
+          ],
+          "profile": "walkway_width_2m",
+          "roll_reference": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "top",
+          "position": [
+            0,
+            3,
+            2
+          ],
+          "direction": [
+            -1,
+            0,
+            0
+          ],
+          "profile": "walkway_width_2m",
+          "roll_reference": [
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "material_slots": [
+        "MAT_Concrete",
+        "MAT_Floor"
+      ],
+      "uv_metres_per_repeat": 2,
+      "checker_pixels_per_metre": 256,
+      "triangles": 148,
+      "vertices": 76,
+      "quads": 64,
+      "ngons": 0,
+      "closed": true,
+      "geometry_sha256": "fa08d4fd2481a7ae48e54839c935bfb40305dc243b6049a6d26dcf7d6903d02a",
+      "approved_pilot": false,
+      "export_status": "Blender_roundtrip_candidate_DarkRide_unverified",
+      "notes": "Two 2m-wide flights separated by 1m void; 5m-wide turning landing, 2m total rise. Welded boundary with internal end caps omitted.",
+      "boolean_uv_reprojected_faces": 0,
+      "fbx_sha256": "ec1e38d0238fd000b2dfbd43f701c6efb8d665982209f1b6544fd92262c11a2c",
+      "source_sha256": "10f41cda899779edd444e5f513774da71d69071f9fcebdf912f22c9921cf061a"
+    },
+    {
+      "asset_id": "STAIR_Spiral",
+      "inventory_number": 71,
+      "additional_variation": false,
+      "filename": "meshes/STAIR_Spiral.fbx",
+      "source": "sources/STAIR_Spiral.blend",
+      "bounds": {
+        "min": [
+          -2.0,
+          -2.0,
+          -0.20000000298023224
+        ],
+        "max": [
+          2.0,
+          2.0,
+          4.0
+        ]
+      },
+      "dimensions": [
+        4.0,
+        4.0,
+        4.200000002980232
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "connectors": [
+        {
+          "name": "bottom",
+          "position": [
+            1.25,
+            0,
+            0
+          ],
+          "direction": [
+            0,
+            -1,
+            0
+          ],
+          "profile": "spiral_walkway_1.5m",
+          "roll_reference": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "top",
+          "position": [
+            1.25,
+            0,
+            4
+          ],
+          "direction": [
+            0,
+            1,
+            0
+          ],
+          "profile": "spiral_walkway_1.5m",
+          "roll_reference": [
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "material_slots": [
+        "MAT_Concrete",
+        "MAT_Floor"
+      ],
+      "uv_metres_per_repeat": 2,
+      "checker_pixels_per_metre": 256,
+      "triangles": 244,
+      "vertices": 124,
+      "quads": 82,
+      "ngons": 0,
+      "closed": true,
+      "geometry_sha256": "c2cb510928e227be5218ed83c99b7cb0b71101d27098a991fcf4cdb6545638b2",
+      "approved_pilot": false,
+      "export_status": "Blender_roundtrip_candidate_DarkRide_unverified",
+      "notes": "Closed stepped helical slab, 20 radial treads, 0.2m rise, full turn, 2m radius, 4m storey rise. Structural support and collision require review; no central post.",
+      "boolean_uv_reprojected_faces": 0,
+      "fbx_sha256": "36fe2d9719d82bd94f3585093dbcd61c8959c8757f210e23887c2a12c640b6e5",
+      "source_sha256": "c2d167bb36cc08980efa34d6cb73be6e5b67516efe3ae08a424ea9fe940b3805"
+    },
+    {
+      "asset_id": "STAIR_Landing",
+      "inventory_number": 72,
+      "additional_variation": false,
+      "filename": "meshes/STAIR_Landing.fbx",
+      "source": "sources/STAIR_Landing.blend",
+      "bounds": {
+        "min": [
+          0.0,
+          -1.0,
+          -0.20000000298023224
+        ],
+        "max": [
+          2.0,
+          1.0,
+          0.0
+        ]
+      },
+      "dimensions": [
+        2.0,
+        2.0,
+        0.20000000298023224
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "connectors": [
+        {
+          "name": "in",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "direction": [
+            -1,
+            0,
+            0
+          ],
+          "profile": "walkway_width_2m",
+          "roll_reference": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "out",
+          "position": [
+            2,
+            0,
+            0
+          ],
+          "direction": [
+            1,
+            0,
+            0
+          ],
+          "profile": "walkway_width_2m",
+          "roll_reference": [
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "material_slots": [
+        "MAT_Floor"
+      ],
+      "uv_metres_per_repeat": 2,
+      "checker_pixels_per_metre": 256,
+      "triangles": 12,
+      "vertices": 8,
+      "quads": 6,
+      "ngons": 0,
+      "closed": true,
+      "geometry_sha256": "657451d188f03a52b90b96f1213a3577dfb24d6bc08fd2e9aaff1d6308c1c230",
+      "approved_pilot": false,
+      "export_status": "Blender_roundtrip_candidate_DarkRide_unverified",
+      "notes": "",
+      "boolean_uv_reprojected_faces": 0,
+      "fbx_sha256": "5e442a0d68705de91c87fdba9ad90aca296444dbf807b686e10e7e4e52a343c7",
+      "source_sha256": "88cac5b9dcc9ff58dc49b69aee1f5c74f45d4efc86950c474544fb6cafec5a29"
+    },
+    {
+      "asset_id": "STAIR_Railing",
+      "inventory_number": 73,
+      "additional_variation": false,
+      "filename": "meshes/STAIR_Railing.fbx",
+      "source": "sources/STAIR_Railing.blend",
+      "bounds": {
+        "min": [
+          0.0,
+          -0.03999999910593033,
+          0.0
+        ],
+        "max": [
+          4.0,
+          0.03999999910593033,
+          3.0
+        ]
+      },
+      "dimensions": [
+        4.0,
+        0.07999999821186066,
+        3.0
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "connectors": [
+        {
+          "name": "in",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "direction": [
+            -1,
+            0,
+            0
+          ],
+          "profile": "railing_1m",
+          "roll_reference": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "out",
+          "position": [
+            4,
+            0,
+            2
+          ],
+          "direction": [
+            1,
+            0,
+            0
+          ],
+          "profile": "railing_1m",
+          "roll_reference": [
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "material_slots": [
+        "MAT_Metal"
+      ],
+      "uv_metres_per_repeat": 2,
+      "checker_pixels_per_metre": 256,
+      "triangles": 212,
+      "vertices": 100,
+      "quads": 106,
+      "ngons": 0,
+      "closed": true,
+      "geometry_sha256": "7608bb8ba442a3c5c6150ad11286330f9a612422857afc9e27d1b6200eabd4ff",
+      "approved_pilot": false,
+      "export_status": "Blender_roundtrip_candidate_DarkRide_unverified",
+      "notes": "",
+      "boolean_uv_reprojected_faces": 0,
+      "fbx_sha256": "c425d5914f846f0335ae48a12b689293c66eb7e58744ca16f43c473338a236c8",
+      "source_sha256": "c91e0ea666d5d64c1fe2422a570faae1dc7ec1f74ca56734a6ae71e97a3ba226"
+    },
+    {
+      "asset_id": "BRIDGE_Flat_4m",
+      "inventory_number": 74,
+      "additional_variation": false,
+      "filename": "meshes/BRIDGE_Flat_4m.fbx",
+      "source": "sources/BRIDGE_Flat_4m.blend",
+      "bounds": {
+        "min": [
+          0.0,
+          -1.0,
+          -0.20000000298023224
+        ],
+        "max": [
+          4.0,
+          1.0,
+          0.0
+        ]
+      },
+      "dimensions": [
+        4.0,
+        2.0,
+        0.20000000298023224
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "connectors": [
+        {
+          "name": "start",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "direction": [
+            -1,
+            0,
+            0
+          ],
+          "profile": "walkway_width_2m"
+        },
+        {
+          "name": "end",
+          "position": [
+            4,
+            0,
+            0
+          ],
+          "direction": [
+            1,
+            0,
+            0
+          ],
+          "profile": "walkway_width_2m"
+        }
+      ],
+      "material_slots": [
+        "MAT_Floor"
+      ],
+      "uv_metres_per_repeat": 2,
+      "checker_pixels_per_metre": 256,
+      "triangles": 12,
+      "vertices": 8,
+      "quads": 6,
+      "ngons": 0,
+      "closed": true,
+      "geometry_sha256": "3a76d8939184f4c04f60ed0a6d98e3a9cacb908982381d61575ed5d0217a3b76",
+      "approved_pilot": true,
+      "export_status": "Blender_roundtrip_candidate_DarkRide_unverified",
+      "notes": "Approved pilot; original geometry, UVs, connectors and FBX preserved.",
+      "boolean_uv_reprojected_faces": 0,
+      "fbx_sha256": "28718e5810af2685cb38b2610bba4eed9f9729b480b979f22099153b9391d402",
+      "source_sha256": "bf7493e4ce8a079b6aab7983e5b740e29ad7c3fc464ef933568f1d41025346ff"
+    },
+    {
+      "asset_id": "BRIDGE_Arched",
+      "inventory_number": 75,
+      "additional_variation": false,
+      "filename": "meshes/BRIDGE_Arched.fbx",
+      "source": "sources/BRIDGE_Arched.blend",
+      "bounds": {
+        "min": [
+          0.0,
+          -1.0,
+          -0.20000000298023224
+        ],
+        "max": [
+          4.0,
+          1.0,
+          0.5
+        ]
+      },
+      "dimensions": [
+        4.0,
+        2.0,
+        0.7000000029802322
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "connectors": [
+        {
+          "name": "in",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "direction": [
+            -1,
+            0,
+            0
+          ],
+          "profile": "walkway_width_2m",
+          "roll_reference": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "out",
+          "position": [
+            4,
+            0,
+            0
+          ],
+          "direction": [
+            1,
+            0,
+            0
+          ],
+          "profile": "walkway_width_2m",
+          "roll_reference": [
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "material_slots": [
+        "MAT_Floor"
+      ],
+      "uv_metres_per_repeat": 2,
+      "checker_pixels_per_metre": 256,
+      "triangles": 68,
+      "vertices": 36,
+      "quads": 18,
+      "ngons": 0,
+      "closed": true,
+      "geometry_sha256": "94bf44cf39cbde0b412bd0cf5e4c142541534327652a823769ac3be358f609c4",
+      "approved_pilot": false,
+      "export_status": "Blender_roundtrip_candidate_DarkRide_unverified",
+      "notes": "Shallow 0.5m crown, 4m span, 0.2m deck; ends at zero deck height.",
+      "boolean_uv_reprojected_faces": 0,
+      "fbx_sha256": "f5229875117371772cf1a33f59dadc37d0437b4e272e848dca30e0619faad499",
+      "source_sha256": "5778e01dc26c8794ca828be677e738db980594caf1995dcafadb8f93443827fe"
+    },
+    {
+      "asset_id": "BRIDGE_Catwalk",
+      "inventory_number": 76,
+      "additional_variation": false,
+      "filename": "meshes/BRIDGE_Catwalk.fbx",
+      "source": "sources/BRIDGE_Catwalk.blend",
+      "bounds": {
+        "min": [
+          0.0,
+          -1.0,
+          -0.20000000298023224
+        ],
+        "max": [
+          4.0,
+          1.0,
+          1.0
+        ]
+      },
+      "dimensions": [
+        4.0,
+        2.0,
+        1.2000000029802322
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "connectors": [
+        {
+          "name": "in",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "direction": [
+            -1,
+            0,
+            0
+          ],
+          "profile": "walkway_width_2m",
+          "roll_reference": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "out",
+          "position": [
+            4,
+            0,
+            0
+          ],
+          "direction": [
+            1,
+            0,
+            0
+          ],
+          "profile": "walkway_width_2m",
+          "roll_reference": [
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "material_slots": [
+        "MAT_Floor",
+        "MAT_Metal"
+      ],
+      "uv_metres_per_repeat": 2,
+      "checker_pixels_per_metre": 256,
+      "triangles": 468,
+      "vertices": 204,
+      "quads": 203,
+      "ngons": 0,
+      "closed": true,
+      "geometry_sha256": "03472bbbfa4f6dcbad4e5434692b228a10564df60ac8c4122444641f72ac0183",
+      "approved_pilot": false,
+      "export_status": "Blender_roundtrip_candidate_DarkRide_unverified",
+      "notes": "",
+      "boolean_uv_reprojected_faces": 0,
+      "fbx_sha256": "714cc81877afdff03c9b787e05a6d224777de71739b7ee6c50413deffdbc84a7",
+      "source_sha256": "dbc60874c084e73214c43ffa356abcaccb4e27416be665d57817a749cde2ded2"
+    },
+    {
+      "asset_id": "ELEVATOR_ShaftSegment",
+      "inventory_number": 77,
+      "additional_variation": false,
+      "filename": "meshes/ELEVATOR_ShaftSegment.fbx",
+      "source": "sources/ELEVATOR_ShaftSegment.blend",
+      "bounds": {
+        "min": [
+          -2.0,
+          -2.0,
+          0.0
+        ],
+        "max": [
+          2.0,
+          2.0,
+          4.0
+        ]
+      },
+      "dimensions": [
+        4.0,
+        4.0,
+        4.0
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "connectors": [
+        {
+          "name": "bottom",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "direction": [
+            0,
+            0,
+            -1
+          ],
+          "profile": "shaft_4m",
+          "roll_reference": [
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "top",
+          "position": [
+            0,
+            0,
+            4
+          ],
+          "direction": [
+            0,
+            0,
+            1
+          ],
+          "profile": "shaft_4m",
+          "roll_reference": [
+            1,
+            0,
+            0
+          ]
+        }
+      ],
+      "material_slots": [
+        "MAT_Concrete"
+      ],
+      "uv_metres_per_repeat": 2,
+      "checker_pixels_per_metre": 256,
+      "triangles": 48,
+      "vertices": 24,
+      "quads": 10,
+      "ngons": 0,
+      "closed": true,
+      "geometry_sha256": "b98bc4605e2d867afdbfac3d2963c8e9eab7cf4a4d03aff5462168175917996f",
+      "approved_pilot": false,
+      "export_status": "Blender_roundtrip_candidate_DarkRide_unverified",
+      "notes": "",
+      "boolean_uv_reprojected_faces": 0,
+      "fbx_sha256": "7cdca3f455118661a7206e79d4470a40688e70a5892ceb39b5766019d997947e",
+      "source_sha256": "10967c954ced2f21b05baf6d22d019d9c0922efbd937c19b43022127e0fbc41e"
+    },
+    {
+      "asset_id": "ELEVATOR_CabShell",
+      "inventory_number": 78,
+      "additional_variation": false,
+      "filename": "meshes/ELEVATOR_CabShell.fbx",
+      "source": "sources/ELEVATOR_CabShell.blend",
+      "bounds": {
+        "min": [
+          -1.0,
+          -1.0,
+          0.0
+        ],
+        "max": [
+          1.0,
+          1.0,
+          2.4000000953674316
+        ]
+      },
+      "dimensions": [
+        2.0,
+        2.0,
+        2.4000000953674316
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "connectors": [
+        {
+          "name": "floor",
+          "position": [
+            0,
+            0,
+            0.1
+          ],
+          "direction": [
+            0,
+            0,
+            -1
+          ],
+          "profile": "elevator_cab",
+          "roll_reference": [
+            1,
+            0,
+            0
+          ]
+        }
+      ],
+      "material_slots": [
+        "MAT_Metal"
+      ],
+      "uv_metres_per_repeat": 2,
+      "checker_pixels_per_metre": 256,
+      "triangles": 48,
+      "vertices": 26,
+      "quads": 15,
+      "ngons": 0,
+      "closed": true,
+      "geometry_sha256": "8b4137797b071e8438a8b743be36a5f6b7fa98ff05ffb53dab454ca450ca65cb",
+      "approved_pilot": false,
+      "export_status": "Blender_roundtrip_candidate_DarkRide_unverified",
+      "notes": "Static shell, open doorway, no elevator motion or door controller.",
+      "boolean_uv_reprojected_faces": 0,
+      "fbx_sha256": "1bfe11cda93dc103a270a4b40e9ac12108ee4c0e13cb7e4c04614b565ad5a457",
+      "source_sha256": "7cb99b6f768b8ba4972d0c64730fd7d9547d7e4f480fd0a31e832de6acf57783"
+    },
+    {
+      "asset_id": "LIGHT_FluorescentHousing",
+      "inventory_number": 79,
+      "additional_variation": false,
+      "filename": "meshes/LIGHT_FluorescentHousing.fbx",
+      "source": "sources/LIGHT_FluorescentHousing.blend",
+      "bounds": {
+        "min": [
+          0.0,
+          -0.15000000596046448,
+          0.0
+        ],
+        "max": [
+          2.0,
+          0.15000000596046448,
+          0.11999999731779099
+        ]
+      },
+      "dimensions": [
+        2.0,
+        0.30000001192092896,
+        0.11999999731779099
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "connectors": [
+        {
+          "name": "mount",
+          "position": [
+            1,
+            0,
+            0.12
+          ],
+          "direction": [
+            0,
+            0,
+            1
+          ],
+          "profile": "ceiling_mount",
+          "roll_reference": [
+            1,
+            0,
+            0
+          ]
+        }
+      ],
+      "material_slots": [
+        "MAT_Metal",
+        "MAT_Emissive"
+      ],
+      "uv_metres_per_repeat": 2,
+      "checker_pixels_per_metre": 256,
+      "triangles": 40,
+      "vertices": 24,
+      "quads": 17,
+      "ngons": 0,
+      "closed": true,
+      "geometry_sha256": "67b2df118481c39fd198000d2d79b9483f24e86c31be814bfa4eed12a4fdb625",
+      "approved_pilot": false,
+      "export_status": "Blender_roundtrip_candidate_DarkRide_unverified",
+      "notes": "",
+      "boolean_uv_reprojected_faces": 0,
+      "fbx_sha256": "9f3d81d5de40dfcbdf3633e27c270cbd5e618841aa050dabc808ec06891b8c51",
+      "source_sha256": "46c5bcdf55784b868f2d9258dc573bb16b8ebe988a503f6331fee5ee1be06664"
+    },
+    {
+      "asset_id": "LIGHT_RecessedPanel",
+      "inventory_number": 80,
+      "additional_variation": false,
+      "filename": "meshes/LIGHT_RecessedPanel.fbx",
+      "source": "sources/LIGHT_RecessedPanel.blend",
+      "bounds": {
+        "min": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "max": [
+          1.0,
+          1.0,
+          0.10000000149011612
+        ]
+      },
+      "dimensions": [
+        1.0,
+        1.0,
+        0.10000000149011612
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "connectors": [
+        {
+          "name": "mount",
+          "position": [
+            0.5,
+            0.5,
+            0.1
+          ],
+          "direction": [
+            0,
+            0,
+            1
+          ],
+          "profile": "ceiling_mount",
+          "roll_reference": [
+            1,
+            0,
+            0
+          ]
+        }
+      ],
+      "material_slots": [
+        "MAT_Metal",
+        "MAT_Emissive"
+      ],
+      "uv_metres_per_repeat": 2,
+      "checker_pixels_per_metre": 256,
+      "triangles": 40,
+      "vertices": 24,
+      "quads": 17,
+      "ngons": 0,
+      "closed": true,
+      "geometry_sha256": "94c6fd619806f64ab90101d2c53542b963984521d0480240019ec7450ebd3435",
+      "approved_pilot": false,
+      "export_status": "Blender_roundtrip_candidate_DarkRide_unverified",
+      "notes": "",
+      "boolean_uv_reprojected_faces": 0,
+      "fbx_sha256": "beecce408f9ed024b3e2433c905844541cdf62fef1a06e142482d48dccba1b56",
+      "source_sha256": "ffadae3a5f572d2814b0a859a48a59912454944df04a7ac2bca69406f99e4ef6"
+    },
+    {
+      "asset_id": "LIGHT_WallSconce",
+      "inventory_number": 81,
+      "additional_variation": false,
+      "filename": "meshes/LIGHT_WallSconce.fbx",
+      "source": "sources/LIGHT_WallSconce.blend",
+      "bounds": {
+        "min": [
+          -0.15000000596046448,
+          -0.1599999964237213,
+          0.0
+        ],
+        "max": [
+          0.15000000596046448,
+          0.05000000074505806,
+          0.5
+        ]
+      },
+      "dimensions": [
+        0.30000001192092896,
+        0.20999999716877937,
+        0.5
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "connectors": [
+        {
+          "name": "mount",
+          "position": [
+            0,
+            0.05,
+            0.25
+          ],
+          "direction": [
+            0,
+            1,
+            0
+          ],
+          "profile": "wall_mount",
+          "roll_reference": [
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "material_slots": [
+        "MAT_Metal",
+        "MAT_Emissive"
+      ],
+      "uv_metres_per_repeat": 2,
+      "checker_pixels_per_metre": 256,
+      "triangles": 24,
+      "vertices": 16,
+      "quads": 12,
+      "ngons": 0,
+      "closed": true,
+      "geometry_sha256": "70c9aba5100839e4b17dcb817b22172509b91af14163cd1633a516d0149c0613",
+      "approved_pilot": false,
+      "export_status": "Blender_roundtrip_candidate_DarkRide_unverified",
+      "notes": "",
+      "boolean_uv_reprojected_faces": 0,
+      "fbx_sha256": "7988c184469977ae59ae23b6be7247bbb812106df15041a278bce85777b8554b",
+      "source_sha256": "c073f83ad32303ba480e603126315d7ca5853845da200386337d7d2f72f83a17"
+    },
+    {
+      "asset_id": "LIGHT_IndustrialCage",
+      "inventory_number": 82,
+      "additional_variation": false,
+      "filename": "meshes/LIGHT_IndustrialCage.fbx",
+      "source": "sources/LIGHT_IndustrialCage.blend",
+      "bounds": {
+        "min": [
+          -0.25,
+          -0.25,
+          0.0
+        ],
+        "max": [
+          0.25,
+          0.25,
+          0.6000000238418579
+        ]
+      },
+      "dimensions": [
+        0.5,
+        0.5,
+        0.6000000238418579
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "connectors": [
+        {
+          "name": "mount",
+          "position": [
+            0,
+            0,
+            0.6
+          ],
+          "direction": [
+            0,
+            0,
+            1
+          ],
+          "profile": "ceiling_mount",
+          "roll_reference": [
+            1,
+            0,
+            0
+          ]
+        }
+      ],
+      "material_slots": [
+        "MAT_Metal",
+        "MAT_Emissive"
+      ],
+      "uv_metres_per_repeat": 2,
+      "checker_pixels_per_metre": 256,
+      "triangles": 544,
+      "vertices": 262,
+      "quads": 113,
+      "ngons": 0,
+      "closed": true,
+      "geometry_sha256": "dd0d1654be888e9c5d7578fb86f9b3ac9de3f383ace1bd564b88608d5fb5dbce",
+      "approved_pilot": false,
+      "export_status": "Blender_roundtrip_candidate_DarkRide_unverified",
+      "notes": "",
+      "boolean_uv_reprojected_faces": 0,
+      "fbx_sha256": "b075b7d5208948ba3a83717bb7fbe4844c0e2c22ee28590876c1b7c15656e9dc",
+      "source_sha256": "297cd6a4afb1f40878ef36fd6509eab29bd41df044c28985bf2f7366a742fc1d"
+    },
+    {
+      "asset_id": "LIGHT_ExitSignHousing",
+      "inventory_number": 83,
+      "additional_variation": false,
+      "filename": "meshes/LIGHT_ExitSignHousing.fbx",
+      "source": "sources/LIGHT_ExitSignHousing.blend",
+      "bounds": {
+        "min": [
+          -0.5,
+          -0.05000000074505806,
+          0.0
+        ],
+        "max": [
+          0.5,
+          0.05000000074505806,
+          0.4000000059604645
+        ]
+      },
+      "dimensions": [
+        1.0,
+        0.10000000149011612,
+        0.4000000059604645
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "connectors": [
+        {
+          "name": "mount",
+          "position": [
+            0,
+            0,
+            0.4
+          ],
+          "direction": [
+            0,
+            0,
+            1
+          ],
+          "profile": "ceiling_mount",
+          "roll_reference": [
+            1,
+            0,
+            0
+          ]
+        }
+      ],
+      "material_slots": [
+        "MAT_Metal",
+        "MAT_Emissive"
+      ],
+      "uv_metres_per_repeat": 2,
+      "checker_pixels_per_metre": 256,
+      "triangles": 44,
+      "vertices": 24,
+      "quads": 22,
+      "ngons": 0,
+      "closed": true,
+      "geometry_sha256": "63f8a55e290a947eaf814630fcb98208c973723a52e821de3ccff7115636e3d1",
+      "approved_pilot": false,
+      "export_status": "Blender_roundtrip_candidate_DarkRide_unverified",
+      "notes": "Blank sign housing. Lettering and emissive/runtime behavior intentionally separate.",
+      "boolean_uv_reprojected_faces": 0,
+      "fbx_sha256": "fefa8551ad3a68288dc891f2db3cbdec7d138c8f650cbca86e16e4b25126b9c0",
+      "source_sha256": "803b5132b92f8c0a7e8eaa35e5715813ea0eacc493978ad19316c4f3233d8c39"
+    },
+    {
+      "asset_id": "DETAIL_CableTray",
+      "inventory_number": 84,
+      "additional_variation": false,
+      "filename": "meshes/DETAIL_CableTray.fbx",
+      "source": "sources/DETAIL_CableTray.blend",
+      "bounds": {
+        "min": [
+          0.0,
+          -0.25,
+          0.0
+        ],
+        "max": [
+          2.0,
+          0.25,
+          0.15000000596046448
+        ]
+      },
+      "dimensions": [
+        2.0,
+        0.5,
+        0.15000000596046448
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "connectors": [
+        {
+          "name": "in",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "direction": [
+            -1,
+            0,
+            0
+          ],
+          "profile": "tray_width_0.5m",
+          "roll_reference": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "out",
+          "position": [
+            2,
+            0,
+            0
+          ],
+          "direction": [
+            1,
+            0,
+            0
+          ],
+          "profile": "tray_width_0.5m",
+          "roll_reference": [
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "material_slots": [
+        "MAT_Metal"
+      ],
+      "uv_metres_per_repeat": 2,
+      "checker_pixels_per_metre": 256,
+      "triangles": 62,
+      "vertices": 33,
+      "quads": 14,
+      "ngons": 0,
+      "closed": true,
+      "geometry_sha256": "d1dd1836a7f3947a3948be49a2e98a4343f1030cc2766fe4fbc0bda20a3182df",
+      "approved_pilot": false,
+      "export_status": "Blender_roundtrip_candidate_DarkRide_unverified",
+      "notes": "",
+      "boolean_uv_reprojected_faces": 1,
+      "fbx_sha256": "9a408acce58bdd026d7778ba3c9fcb142d52c3eb60116603e90902a200061515",
+      "source_sha256": "e7086b846e2dd915b835b4a547f6f9c1ab108ce6a74667cd2e3b38facdf8f24f"
+    },
+    {
+      "asset_id": "DETAIL_WallConduit",
+      "inventory_number": 85,
+      "additional_variation": false,
+      "filename": "meshes/DETAIL_WallConduit.fbx",
+      "source": "sources/DETAIL_WallConduit.blend",
+      "bounds": {
+        "min": [
+          0.0,
+          -0.02500000037252903,
+          -0.02500000037252903
+        ],
+        "max": [
+          2.0,
+          0.02500000037252903,
+          0.02500000037252903
+        ]
+      },
+      "dimensions": [
+        2.0,
+        0.05000000074505806,
+        0.05000000074505806
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "connectors": [
+        {
+          "name": "in",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "direction": [
+            -1,
+            0,
+            0
+          ],
+          "profile": "conduit_od_0.05m",
+          "roll_reference": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "out",
+          "position": [
+            2,
+            0,
+            0
+          ],
+          "direction": [
+            1,
+            0,
+            0
+          ],
+          "profile": "conduit_od_0.05m",
+          "roll_reference": [
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "material_slots": [
+        "MAT_Metal"
+      ],
+      "uv_metres_per_repeat": 2,
+      "checker_pixels_per_metre": 256,
+      "triangles": 64,
+      "vertices": 32,
+      "quads": 32,
+      "ngons": 0,
+      "closed": true,
+      "geometry_sha256": "911e45ee6b3ce0b4e87330005b9c2597cd2f86f37bd751fa670e565b25a085a3",
+      "approved_pilot": false,
+      "export_status": "Blender_roundtrip_candidate_DarkRide_unverified",
+      "notes": "",
+      "boolean_uv_reprojected_faces": 0,
+      "fbx_sha256": "99282d08488a72f2892c5798f51ebc326df4a06e30ad27f8f18332b683b792e6",
+      "source_sha256": "95e862431a6788e6b009be5fab635855b149fd91a23a75a91a9379bac1a79c57"
+    },
+    {
+      "asset_id": "DETAIL_ServiceHatch",
+      "inventory_number": 86,
+      "additional_variation": false,
+      "filename": "meshes/DETAIL_ServiceHatch.fbx",
+      "source": "sources/DETAIL_ServiceHatch.blend",
+      "bounds": {
+        "min": [
+          -0.5,
+          -0.03999999910593033,
+          0.0
+        ],
+        "max": [
+          0.5,
+          0.03999999910593033,
+          1.0
+        ]
+      },
+      "dimensions": [
+        1.0,
+        0.07999999821186066,
+        1.0
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "connectors": [
+        {
+          "name": "mount",
+          "position": [
+            0,
+            0,
+            0.5
+          ],
+          "direction": [
+            0,
+            1,
+            0
+          ],
+          "profile": "wall_mount",
+          "roll_reference": [
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "material_slots": [
+        "MAT_Metal"
+      ],
+      "uv_metres_per_repeat": 2,
+      "checker_pixels_per_metre": 256,
+      "triangles": 44,
+      "vertices": 24,
+      "quads": 22,
+      "ngons": 0,
+      "closed": true,
+      "geometry_sha256": "3ff43c76b7d89f12b32f484fa3420a9f53189dd3f182d6a72e8cc8f918a99f8a",
+      "approved_pilot": false,
+      "export_status": "Blender_roundtrip_candidate_DarkRide_unverified",
+      "notes": "",
+      "boolean_uv_reprojected_faces": 0,
+      "fbx_sha256": "c1c6c6614c354ad9830ba8ae8d41964cdb48728151961447f4ff9e9c1fbce685",
+      "source_sha256": "1fba1a8baf478fc36a854678f67a68a26673818f7f291ad2d9a705c39928d708"
+    },
+    {
+      "asset_id": "DETAIL_BalconyRail",
+      "inventory_number": 87,
+      "additional_variation": false,
+      "filename": "meshes/DETAIL_BalconyRail.fbx",
+      "source": "sources/DETAIL_BalconyRail.blend",
+      "bounds": {
+        "min": [
+          0.0,
+          -0.03999999910593033,
+          0.0
+        ],
+        "max": [
+          2.0,
+          0.03999999910593033,
+          1.100000023841858
+        ]
+      },
+      "dimensions": [
+        2.0,
+        0.07999999821186066,
+        1.100000023841858
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "connectors": [
+        {
+          "name": "in",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "direction": [
+            -1,
+            0,
+            0
+          ],
+          "profile": "railing_1.1m",
+          "roll_reference": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "out",
+          "position": [
+            2,
+            0,
+            0
+          ],
+          "direction": [
+            1,
+            0,
+            0
+          ],
+          "profile": "railing_1.1m",
+          "roll_reference": [
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "material_slots": [
+        "MAT_Metal"
+      ],
+      "uv_metres_per_repeat": 2,
+      "checker_pixels_per_metre": 256,
+      "triangles": 124,
+      "vertices": 60,
+      "quads": 62,
+      "ngons": 0,
+      "closed": true,
+      "geometry_sha256": "41d9e015c3884ee2c3e739fdbdc654657ac28e3a1ac91bc9dd1e1ba16baffcec",
+      "approved_pilot": false,
+      "export_status": "Blender_roundtrip_candidate_DarkRide_unverified",
+      "notes": "",
+      "boolean_uv_reprojected_faces": 0,
+      "fbx_sha256": "8ea11da5f7d0b75578ce976cf064eb669e016fc5b4b0fd8ecf2361e18007bb14",
+      "source_sha256": "cd0783a610da64949725c21c5a0f71d11fa5742729dec0e3b794f818a9778005"
+    },
+    {
+      "asset_id": "DETAIL_ColumnBase",
+      "inventory_number": 88,
+      "additional_variation": false,
+      "filename": "meshes/DETAIL_ColumnBase.fbx",
+      "source": "sources/DETAIL_ColumnBase.blend",
+      "bounds": {
+        "min": [
+          -0.4000000059604645,
+          -0.4000000059604645,
+          0.0
+        ],
+        "max": [
+          0.4000000059604645,
+          0.4000000059604645,
+          0.2800000011920929
+        ]
+      },
+      "dimensions": [
+        0.800000011920929,
+        0.800000011920929,
+        0.2800000011920929
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "connectors": [
+        {
+          "name": "bottom",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "direction": [
+            0,
+            0,
+            -1
+          ],
+          "profile": "floor_mount",
+          "roll_reference": [
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "top",
+          "position": [
+            0,
+            0,
+            0.28
+          ],
+          "direction": [
+            0,
+            0,
+            1
+          ],
+          "profile": "column_diameter_0.5m",
+          "roll_reference": [
+            1,
+            0,
+            0
+          ]
+        }
+      ],
+      "material_slots": [
+        "MAT_Concrete"
+      ],
+      "uv_metres_per_repeat": 2,
+      "checker_pixels_per_metre": 256,
+      "triangles": 76,
+      "vertices": 40,
+      "quads": 21,
+      "ngons": 0,
+      "closed": true,
+      "geometry_sha256": "ac713a1b3824dc1e220ca7c6003e6518cb6ba3fe24eff471fa3da8a8acc0a8cd",
+      "approved_pilot": false,
+      "export_status": "Blender_roundtrip_candidate_DarkRide_unverified",
+      "notes": "",
+      "boolean_uv_reprojected_faces": 5,
+      "fbx_sha256": "70ea15689845cf85b0852d65ab14c5101f163df6dd95a69dba9bf5c1691e13f0",
+      "source_sha256": "9ac64af566f4444c1445b78dce60fb00b4c8dab45356ea665b14fac899599999"
+    },
+    {
+      "asset_id": "STAIR_Straight_SlopingUnderside",
+      "inventory_number": null,
+      "additional_variation": true,
+      "filename": "meshes/STAIR_Straight_SlopingUnderside.fbx",
+      "source": "sources/STAIR_Straight_SlopingUnderside.blend",
+      "bounds": {
+        "min": [
+          0.0,
+          -1.0,
+          -0.20000000298023224
+        ],
+        "max": [
+          4.0,
+          1.0,
+          2.0
+        ]
+      },
+      "dimensions": [
+        4.0,
+        2.0,
+        2.2000000029802322
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "connectors": [
+        {
+          "name": "bottom",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "direction": [
+            -1,
+            0,
+            0
+          ],
+          "profile": "walkway_width_2m",
+          "roll_reference": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "name": "top",
+          "position": [
+            4,
+            0,
+            2
+          ],
+          "direction": [
+            1,
+            0,
+            0
+          ],
+          "profile": "walkway_width_2m",
+          "roll_reference": [
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "material_slots": [
+        "MAT_Concrete",
+        "MAT_Floor"
+      ],
+      "uv_metres_per_repeat": 2,
+      "checker_pixels_per_metre": 256,
+      "triangles": 124,
+      "vertices": 64,
+      "quads": 52,
+      "ngons": 0,
+      "closed": true,
+      "geometry_sha256": "40b92fd7cf00ccf1f192b41dc6cc957b70b8629ab0fcc02e24acd4a3e55f9334",
+      "approved_pilot": false,
+      "export_status": "Blender_roundtrip_candidate_DarkRide_unverified",
+      "notes": "Same tread geometry/approach datums as approved straight stair. Closed underside z=0.5*x-0.2; 0.2m vertical waist at each tread nose. Bottom extends 0.2m below approach datum.",
+      "boolean_uv_reprojected_faces": 0,
+      "fbx_sha256": "758e3f62b147649ed4c9dc1c51e52dd278cd9440c3650971538f4a755314443e",
+      "source_sha256": "c8ef21c1a5d99e393dc241b86ebb3bf14223750c2bc1834dc4bbbd4f38ab9191"
+    }
+  ],
+  "delivery": {
+    "status": "offline_validated_ready_for_visual_review_and_isolated_viewer_testing",
+    "asset_count": 89,
+    "base_inventory_count": 88,
+    "additional_variations": 1,
+    "master_scene": "blender/crazy88_master.blend",
+    "contact_sheet": "previews/contact_sheet.png",
+    "evidence": [
+      "reports/validation.json",
+      "reports/standalone_sources.json",
+      "reports/regeneration.json",
+      "reports/focused_geometry.json",
+      "reports/pilot_regression/reports/validation.json"
+    ],
+    "darkride_viewer": "unverified",
+    "collision": "not_certified",
+    "attachment_grid_metres": 0.005
+  }
+}
